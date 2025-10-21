@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <GameConditionDef>
+    <defName>UV_ShipOffset</defName>
+    <conditionClass>VoidUniverse.GameCondition_ShipOffset</conditionClass>
+    <label>ship offset</label>
+    <description>affect the maximum flight distance of the Gravship</description>
+  </GameConditionDef>
+
+  <GameConditionDef>
+    <defName>UV_UnnaturalDarkness</defName>
+    <conditionClass>VoidUniverse.GameCondition_UnnaturalDarkness</conditionClass>
+    <label>unnatural darkness</label>
+    <description>The world is blanketed by a layer of unnatural darkness. From the inky blackness, one can hear the inhuman groaning of deadly creatures. Stay in the light.</description>
+    <weatherDef>UnnaturalDarkness_Stage1</weatherDef>
+    <preventNeutralVisitors>true</preventNeutralVisitors>
+    <preventIncidents>true</preventIncidents>
+    <canBePermanent>true</canBePermanent>
+    <displayOnUI>false</displayOnUI>    <!--  Displayed by weather instead -->
+    <natural>false</natural>
+    <allowUnderground>false</allowUnderground>
+    <preventShuttleLaunch>true</preventShuttleLaunch>
+    <canAffectAllPlanetLayers>true</canAffectAllPlanetLayers>
+  </GameConditionDef>
+
+
+</Defs>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: entity anatomy table -->
+  <UV_ResearchBenchButcher.label>实体解剖台</UV_ResearchBenchButcher.label>
+  <!-- EN: A research bench equipped with dissection tools and waste disposal systems. Used to dissect entity corpses to deepen the understanding of anomalous lifeforms and gain Anomaly research points. Rotted or desiccated corpses cannot be dissected. -->
+  <UV_ResearchBenchButcher.description>一种配有解刨工具和废料处理系统的研究台。用于解剖实体的尸体以加深对异常生物的了解，获取异象研究点数。腐烂或风化的尸体不能被解剖</UV_ResearchBenchButcher.description>
+  
+</LanguageData>

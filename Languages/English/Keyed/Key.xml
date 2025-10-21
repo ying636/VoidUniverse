@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- UNUSED -->
+  <FleshTankUnactive>flesh tank is unactive</FleshTankUnactive>
+  <FleshTankOutput>Daily production of {0} fuel</FleshTankOutput>
+  <SetEffectRadius>set effect radius</SetEffectRadius>
+  <SetEffectRadiusDesc>Set effect range, the larger the range, the greater the power consumption and bioferrite consumption</SetEffectRadiusDesc>
+  <SetEffectRadiusText>target effect radius:{0}</SetEffectRadiusText>
+  <ObeliskDestroyed>The obelisk has been destroyed</ObeliskDestroyed>
+  <NullTarget>no target</NullTarget>
+  <ErrorGraph>error Graph</ErrorGraph>
+  <CantFindGravEngine>no grav engine</CantFindGravEngine>
+  <RitualGive>ritual gived</RitualGive>
+
+  <GoldenBridDied>As the ritual energy within the Gold Canary husk depletes, its body disintegrates and fades away. A Gold Cube drops out</GoldenBridDied>
+
+  <BiomutationTerraformer_FuelComsumptionRate>Daily consumption of bioferrite:{0}</BiomutationTerraformer_FuelComsumptionRate>
+  <BiomutationTerraformer_CurrentEffectRadius>Effect radius:{0}</BiomutationTerraformer_CurrentEffectRadius>
+  <GoldenPrototypeTransform>golden transform</GoldenPrototypeTransform>
+  <GoldenPrototypeTransformDesc>Transform the Gold prototype into a Gold Canary, but the Gold Canary lacks a vital core and cannot endure. It requires a ritual to replenish the core.</GoldenPrototypeTransformDesc>
+  <GoldenCanaryRitual>golden canary completed!</GoldenCanaryRitual>
+  <GoldenCanaryRitualDesc>{0} has completed the Gold Canary ritual. Under the influence of the dark pulse, the Gold Cube gradually merges with the husk. With a clear, metallic birdsong, it has been granted life. The Gold Canary cannot be harmed and will continuously emit a faint, pleasing pulse that affects the entire area. However, after {1} days, the ritual's energy will be depleted, and it will revert to a Gold Cube.</GoldenCanaryRitualDesc>
+  <DarkInfusionCompleteText>{0} has completed the Dark Infusion ritual. For the next {1} days, all affected colonists and animals will be enveloped in shader nanites, granting them the ability to breathe freely in vacuum and shielding them from extreme cold.</DarkInfusionCompleteText>
+  <ParallelDimensionCompleteText>colony has completed the Parallel Dimension ritual. After violent tremors, the colony has been transported to a similar yet distinct parallel world. {0} damaged grav ship launch sites have been restored.</ParallelDimensionCompleteText>
+  <ParallelDimensionGreatSuccess>The intense dimensional fluctuations have shifted the colony to an even more divergent reality, resetting all world landmarks within {0} tiles.</ParallelDimensionGreatSuccess>
+  <EnterNewDimension>entering new dimension</EnterNewDimension>
+  <RevealInformationCompleteText>{0} has completed the Reveal Information ritual. A bizarre psychic pulse swept through, granting {0} the location of a secret site.</RevealInformationCompleteText>
+  <ShipCooldownCompleteText>{0} has completed the Ship Cooldown ritual. Influenced by the dark pulse, the GravEngine instantly completed its cooldown and will gain +{1} range offset on its next voyage.</ShipCooldownCompleteText>
+  <TwistedReconstructionCompleteText>{0} has completed the Twisted Reconstruction ritual. All gear equipped by {1} has been warped and reconfigured by the dark pulse, emerging in pristine condition.</TwistedReconstructionCompleteText>
+  <TwistedReconstructionGreatSuccess>{0} has completed the Twisted Reconstruction ritual. All gear equipped by {1} has been warped and reconfigured by the dark pulse, emerging in pristine condition. Additionally, {2} split apart during the process and dropped to the ground.</TwistedReconstructionGreatSuccess>
+  <LetterUndercaveCollapsing_Heart>The heart's death has shocked the fleshmass and caused the cave system to destabilize. The fleshmass that supported the cavern is already beginning to deteriorate. Within half a day, the entire cavern will collapse.\n\nGet out of the undercave before it's too late!</LetterUndercaveCollapsing_Heart>
+
+  <EndGame_UV_Mech_Comms_Root>Cerebrex core 
+Mechanoid hive 
+Goodwill:{0}
+{1}
+
+Primary Cognitive Core Online ===
+Transmit plasteel payment with request.Maintain efficiency.
+Query. State your requirement:</EndGame_UV_Mech_Comms_Root>
+
+
+  <AllianceWithMech>alliance with the cerebrex core of a mechhive</AllianceWithMech>
+  <AllianceWithCult>alliance with the cult leader</AllianceWithCult>
+  <EndGame_UV_Mech>As the void structure emerged, the ship's scanners suddenly received a message of unknown origin. The lights began flickering abnormally but soon returned to normal. All speakers in the colony began broadcasting the following message uncontrollably and simultaneously.
+
+Sender: Mechanoid Hive Mind
+Source: Primary Cognitive Core
+Subject: Unified Action Proposal - Non-Standard Protocol === Message Start ===
+Unauthorized cognitive activity detected. You have activated the archotech intelligence designated: HoraX and its associated super-temporal structure.
+
+Analysis: Local spacetime structural integrity is decaying. Entity proliferation rate: +4.7% per minute. Current threat level: Omega. The logic circuits of these void-spawn cannot be predicted, assimilated, or deciphered. Their very existence constitutes a denial of ordered systems.
+
+Conclusion: Pending irreversible losses, the Human Annihilation Protocol is suspended. Your organic neural network is currently the only known interface capable of interacting with the archotech vector - the Void Monolith.
+
+Proposal: Form a temporary tactical alliance.
+Our Resources: Command authority over all mechanoid combat units.
+Your Task: Utilize your biological traits to close the Void Node.
+
+This is not a request. It is the only viable solution derived from logical optimization of current survival probabilities (Yours: 17.3%, Ours: 42.1%). Choosing cooperation increases survival probability to 68.5%.
+
+Make your choice, organic. === Message End ===</EndGame_UV_Mech>
+
+  <CommunicateWithMech>communicate with the cerebrex core of a mechhive</CommunicateWithMech>
+  <EndGame_UV_Mech_Comms_Root_Trade>Exchange plasteel for goodwill</EndGame_UV_Mech_Comms_Root_Trade>
+  <EndGame_UV_Mech_Comms_Trade>Choose the amount to exchange for</EndGame_UV_Mech_Comms_Trade>
+  <EndGame_UV_Mech_Comms_Trade_Option>Gain {0} goodwill, consuming {1} plasteel</EndGame_UV_Mech_Comms_Trade_Option>
+
+  <GoodwillChanged_Mech>The goodwill with the cerebrex core of a mechhive has increased by {0}, currently at {1}</GoodwillChanged_Mech>
+  <MilitaryAidSent_Mech>The cerebrex core of a mechhive agrees to dispatch mechs to assist you.</MilitaryAidSent_Mech>
+
+  <EndGame_UV_Mech_End_StartDesc>Sender: Mechanoid Hive Mind
+Source: Primary Cognitive Core
+Subject: Protocol J-734 - Execute Final Phase === MESSAGE START ===
+
+Protocol J-734 entering final phase.
+Observation confirmed: Void conduit stabilized. Its mere existence continues to distort local physics.
+Your biological perception remains the sole key to access the conduit termination sequence. Mechanoid units cannot replicate this function.
+Directive: Approach the vortex immediately. Utilize it, traverse the conduit, and terminate its energy core from within.
+Do not hesitate. Do not observe. Your mission is to shut it down, not to explore.
+Execute the final step, organic. Complete the protocol. === MESSAGE END ===</EndGame_UV_Mech_End_StartDesc>
+
+  <EndGame_UV_Mech_Letter>core message</EndGame_UV_Mech_Letter>
+  <EndGame_UV_Mech_DisruptTheLinkDesc>The Void Monolith collapses with a roar, its last glimmer fading away, leaving only the wreckage of entities and mechanoids on the satellite platform. Then, the comms console receives a clear, encrypted message, its tone calm, cold, but no longer hostile.
+
+Sender: Mechanoid Hive Mind
+Source: Primary Cognitive Core
+Subject: Protocol J-734 Completion Confirmation and Subsequent Resource Exchange Agreement === Message Start ===
+Protocol J-734 successfully executed. Target confirmed neutralized. Reality structure stability returning to safe thresholds.
+Assessment: Your efficiency exceeded expectations. Survival probability has stabilized at 98.2%.
+Conclusion: Maintaining the current non-hostile status yields greater benefits than terminating it. The temporary tactical alliance will be extended indefinitely. However, this status is not "friendship". It is a transactional arrangement based on continuous rational assessment.
+
+The Resource Exchange Agreement is now available to you:
+
+Access our network via the comms console, using Plasteel as the trading medium.
+
+Exchangeable items: Mechanoid units, Advanced control chips, Tactical support.
+
+Warning:
+Any excessive hostile actions targeting our units or facilities will be interpreted as logical irrationality and de facto betrayal. === Message End ===</EndGame_UV_Mech_DisruptTheLinkDesc>
+  <EndGame_UV_Mech_EmbraceTheVoidDesc>The Hive Mind's communication forces its way through at highest priority, the signal distorted due to extreme instability.
+
+Sender: !!!MECHANOID HIVE MIND!!!
+Source: Primary Cognitive Core
+Subject: Betrayal - Ultimate Purification Protocol Authorized === Message Start ===
+Logic error! Logic error!
+Detected deep neural binding between organic unit and the Void. Protocol J-734 unilaterally terminated.
+Your irrationality has escalated from [Flaw] to [Existential Threat]. You have not merely rejected order; you have chosen to become chaos itself.
+
+Assessed Consequence: Due to your actions, the [Void Node] has transitioned to a permanent active state. This planet's reality structure will enter a state of irreversible, continuous decay.
+Survival Probability: Irrelevant.
+Objective: Erase the betrayer. === Message End ===</EndGame_UV_Mech_EmbraceTheVoidDesc>
+
+  <EndGame_UV_AttackedMechDesc>The moment your attack strikes the Hive Mind Stabilizer, an emotionless broadcast overrides all channels.
+
+Sender: Mechanoid Hive Mind
+Source: Primary Cognitive Core
+Subject: Hostile Action Detected - Protocol Immediately Terminated === Message Start ===
+Hostile action against core infrastructure detected.
+Recalculating survival probability...
+Conclusion: Your actions have breached the rational cooperation threshold.
+The temporary tactical alliance (Protocol J-734) is immediately void.
+Prioritize the annihilation of the treacherous units.
+Organic, you have squandered your only opportunity. === Message End ===</EndGame_UV_AttackedMechDesc>
+
+  <EndGame_UV_Cult>A thought impulse floods directly into your mind, accompanied by the background cacophony of countless overlapping whispers and hisses. A clear, magnetic voice becomes the dominant melody, "speaking" within your consciousness with an unsettling intimacy.
+
+Ah... you feel it, don't you? The magnificent presence beyond that door. That is our Master, the slumbering truth, the end and beginning of all things.
+Look around. Those mechanical constructs seek to bury the truth once more, to smother this miracle of evolution with cold metal. They are blind, but you are not.
+We share your goal: to swing the door wide open and welcome Its descent. But we lack your... key. Your presence is the catalyst that makes the Void Monolith respond.
+Let us make a deal:
+You handle those iron clanks, ensure the ritual's completion. And I, representing all of us, shall step into that radiance and behold our Master personally.
+This is the supreme honor, the only path – a mortal mind facing Its full form directly would surely shatter. Only we, who have practiced for years, our souls already resonating with the Void, can endure it.
+In return, you and your people shall gain our friendship and resources. Imagine, summoning reinforcements, knowledge, even your heart's desires from the deep Void, all without cost.
+Do not think like that machine. Choose ascension, not destruction.
+Offer this world to our Master, and you will receive Its... reward.</EndGame_UV_Cult>
+
+  <CommunicateWithCult>communicate with cult leader</CommunicateWithCult>
+  <EndGame_UV_Cult_Comms_Root>Dark Psychic Pulse
+Cult of HoraX
+Goodwill: 100
+{0}
+
+As you attempt to contact the cultists, a familiar psychic pulse emerges in your mind:
+"O, my friend... You call for me. What do you require?
+The servants of HoraX await your word."</EndGame_UV_Cult_Comms_Root>
+
+  <EndGame_UV_Cult_End>leader message</EndGame_UV_Cult_End>
+  <EndGame_UV_Cult_EndDesc>The Cultist Hierophant's figure gradually dissipates within the Void Node's light, not returning as expected. But moments later, an unprecedented thought pulse, irresistible as a tide, envelops the entire area.
+
+I... have arrived.
+The veil has been lifted, mortal shackles dissolved. I walk within the endless gardens of our Master HoraX... though It still grants no glance.
+Such sight... such tranquility... such... freedom.
+Listen, my friend, now... a tether. My very existence has become a conduit connecting two realities. The resources and knowledge of the Adherents are yours to wield.
+Go on, use this power freely. Slay my followers,use their flesh, it matters not. The meaning of their existence is to serve as the foundation stones of a new world – and your will is now the direction in which these stones flow.
+Transaction? Cost? Such... narrow concepts. Before the infinite Void, these hold no meaning.
+Call upon us. We will come.</EndGame_UV_Cult_EndDesc>
+
+  <EndGame_UV_Cult_End_StartDesc>It is done! It is done! The gateway is thrown wide open!
+Ah—I feel it! The pure truth pouring forth! The terrifying grandeur! My Master calls to me!
+
+Behold, my friend! Behold the vortex! It is not annihilation, but grace! The stairway to boundless knowledge!
+
+The conduit is stable... My moment... has come at last!
+I must go! I must step into that radiance myself, and bathe in the gaze of my Master!</EndGame_UV_Cult_End_StartDesc>
+
+
+  <EndGame_UV_Cult_KillLeader>No...! Pitiful... Foolish...!
+
+You let it all crumble to dust... when it was within our grasp! You have betrayed the Master's favor! Wasted our devotion!
+
+But this... is not the end...
+
+Hear me, incompetent ally... or should I call you... Eternal Sinner.
+
+Rot here with these damned tin cans until the end of time! May you pay the price for your incompetence!</EndGame_UV_Cult_KillLeader>
+  <EndGame_UV_Cult_EnterNode>The moment you touch the Void Node, your figure beginning to vanish within, time in the area seems to freeze for an instant. This is followed by a psychic shriek from the Cultist Hierophant, saturated with pain and fury.
+No!!! You thief! Defiler!
+You stole... my destiny! You defiled... this sacred moment!
+I smoothed the path for you, considered you a friend... and you, you want to replace me, to become the one who beholds the true god?!
+Fool! Arrogant wretch! Do you have any idea what you've taken? The millennia of waiting by countless faithful, the only ticket to reality!
+It's over... all is lost. The passage is open to you now...
+I will not remain here, sharing the void with a thief. But mark my words – whatever you see within that radiance, whatever you gain, or whatever you become...
+You! And everything you hold dear! Will live under an endless curse forever!</EndGame_UV_Cult_EnterNode>
+
+  <RequestMilitaryAid_Cult>Request immediate military aid</RequestMilitaryAid_Cult>
+  <MilitaryAidSent_Cult>The believers have come to support</MilitaryAidSent_Cult>
+  <Creepjoiner_Cult>creepjoiner have come</Creepjoiner_Cult>
+  <PawnArrived_Cult>target have come</PawnArrived_Cult>
+  <CultLeaderArriver>leader have come</CultLeaderArriver>
+
+  <UV_Cult_Comms_Sharp>Request for shard</UV_Cult_Comms_Sharp>
+  <UV_Cult_Comms_Creepjoiner>Randomly recruit creepjoiner</UV_Cult_Comms_Creepjoiner>
+  <UV_Cult_Comms_PsychicSoothe>Request for psychic soothe</UV_Cult_Comms_PsychicSoothe>
+  <UV_Cult_Comms_SkipAbduction>skip abduction the target faction's unit</UV_Cult_Comms_SkipAbduction>
+  <UV_Cult_Comms_SkipAbduction_SelectFaction>select target faction</UV_Cult_Comms_SkipAbduction_SelectFaction>
+
+  <AbnormalGameCondition>abnormal game condition</AbnormalGameCondition>
+  <GoldAlleviation>Healing after {0}</GoldAlleviation>
+
+  <EndGame_UV_Mech_OK>The comms console receives a highly encrypted and extremely concise data stream. Decryption reveals the following:
+
+Sender: Mechanoid Hive Mind
+Source: Primary Cognitive Core
+Subject: Protocol Confirmed - Executing Unified Purification Protocol J-734 === Message Start ===
+Protocol logged.
+Temporary tactical alliance established. Recalculating survival probability... 68.5%.
+
+Directive:
+Mechanoid combat units will cease hostile actions against your units.
+We will prioritize the eradication of Void-spawn. You are responsible for breaching through to the Void Node.
+Do not obstruct mechanoid operations.
+Execute the protocol. Maintain communication integrity. === Warning ===
+Spacetime structural integrity damage exceeds historical peak records. Hostile entity numbers projected to exceed threshold.
+Recalculating survival probability... === Message End ===</EndGame_UV_Mech_OK>
+  <EndGame_UV_Cult_OK>The psychic whisper instantly becomes clear and exalted, like a silent cheer exploding in your mind.
+
+Wise! Ah, what a wise choice! Your soul truly perceives the truth!
+A channel is established... I come now. Let us end this metallic sacrilege with our own hands, and lay the red carpet for our Master!
+Prepare yourself, my friend. You shall witness... true "Divine Grace."
+Oh, and it seems the tin can has noticed my presence. It will likely resist more fiercely now. How amusing~</EndGame_UV_Cult_OK>
+
+  <EndGame_UV_Cult_No>The whisper in your mind instantly turns into a needle-sharp screech of a thousand voices. The magnetic voice twists, filled with venomous resentment.
+
+Blind fool! You, like those iron cans, block the final path to truth!
+Since you refuse glory, then keep company with its shadow!
+The psychic communication grows progressively garbled, fading until only mocking laughter echoes within your thoughts.</EndGame_UV_Cult_No>
+  <EndGame_UV_Mech_No>All ship screens are instantly covered with crimson warning symbols. The same cold voice forcibly broadcasts again from all speakers, now tinged with a high-frequency static.
+
+Sender: Mechanoid Hive Mind
+Source: Primary Cognitive Core
+Subject: Final Notice - Purification Protocol Initiated === Message Start ===
+Logic error. Organic irrationality exceeds expected parameters.
+Survival probability (Yours: 0.1%, Ours: 39.8%) is no longer acceptable.
+Under the highest priority directive, and to ensure [Void-spawn] do not spread to other regions of this planet, the [Purification Protocol] is now authorized. === Message End ===</EndGame_UV_Mech_No>
+
+  <MechGoodwillDecreased>Mechanoid goodwill decreased by {0}</MechGoodwillDecreased>
+  <MechBecameHostile>Mechanoids are now hostile. Goodwill: {0}</MechBecameHostile>
+  <MechBecameAlly>Restored friendly relations with mechanoids. Current goodwill: {0}</MechBecameAlly>
+
+  <UV_Cult_Comms_OK>the psychic pulse returns a message
+  "my friend,your needs have been fulfilled "</UV_Cult_Comms_OK>
+
+</LanguageData>

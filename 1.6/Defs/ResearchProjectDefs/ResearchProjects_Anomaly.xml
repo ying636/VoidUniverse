@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchProjectDef>
+    <defName>UV_Project_EntityAnatomyTable</defName>
+    <label>entity anatomy table</label>
+    <description>Unlocks build a research bench for dissecting entity corpses to gain Anomaly research points. Yields no leather, meat, or filth.</description>
+    <tab>UV_Anomaly</tab>
+    <knowledgeCost>5</knowledgeCost>
+    <knowledgeCategory>Basic</knowledgeCategory>
+    <researchViewX>1</researchViewX>
+    <researchViewY>1</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->Entity Autopsy</li>
+        <li>subject_story-> Performed systematic biological dissection on a non-carbon-based extraterrestrial lifeform</li>
+        <li>subject_story-> Worked at a clandestine research institute dedicated to classifying unknown biological entities</li>
+        <li>subject_story-> Discovered and documented numerous abnormal organ functions from Void creatures</li>
+        <li>subject_story-> Caused partial reassembly of a dissected entity specimen on the operating table due to operational error, triggering a containment breach</li>
+        <li>subject_gerund-> Dissecting entities to study their biological characteristics</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>UV_Project_FleshSealing</defName>
+    <label>flesh sealing</label>
+    <description>Perform a psychic ritual that seal the fleshmass nucleus within a specialized vessel that automatically purges newly formed warped flesh and converts it into stored chemfuel. Compatible with grav ship fuel systems.</description>
+    <tab>UV_Anomaly</tab>
+    <knowledgeCost>30</knowledgeCost>
+    <knowledgeCategory>Advanced</knowledgeCategory>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>4.00</researchViewY>
+    <prerequisites>
+      <li>AdvancedPsychicRituals</li>
+      <li>BioferriteShaping</li>
+    </prerequisites>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->Flesh Preservation</li>
+        <li>subject_story-> Developed technology to preserve biological tissue permanently in stasis fields</li>
+        <li>subject_story-> Managed a gene bank storing rare alien biological specimens</li>
+        <li>subject_story-> Accidentally activated a preserved predator embryo causing severe consequences</li>
+        <li>subject_gerund-> Containing living flesh in stasis capsules</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>UV_Project_DistortedTerraformer</defName>
+    <label>distorted terraformer</label>
+    <description>Unlocks build a Biometal-powered Terraformer that generates breathable safe zones in space and significantly raises the region's minimum temperature.</description>
+    <tab>UV_Anomaly</tab>
+    <knowledgeCost>60</knowledgeCost>
+    <knowledgeCategory>Advanced</knowledgeCategory>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>4.00</researchViewY>
+    <prerequisites>
+      <li>BioferriteGenerator</li>
+    </prerequisites>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->Supernatural Terraforming</li>
+        <li>subject_story-> Led eco-dome construction on a planet enveloped by lethal atmosphere</li>
+        <li>subject_story-> Researched using native microbiota to rapidly purify toxic environments</li>
+        <li>subject_story-> Accidentally turned a desert into a permanent fluorescent swamp due to failed weather control experiment</li>
+        <li>subject_gerund-> Reshaping local climate by channeling telluric energies</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>UV_Project_VoidFieldExtender</defName>
+    <label>void field extender</label>
+    <description>Unlocks build a field extender that uses shaders to replace the gravcore.</description>
+    <tab>UV_Anomaly</tab>
+    <knowledgeCost>30</knowledgeCost>
+    <knowledgeCategory>Basic</knowledgeCategory>
+    <researchViewX>3</researchViewX>
+    <researchViewY>1</researchViewY>
+    <prerequisites>
+      <li>BasicGravtech</li>
+      <li>BioferriteExtraction</li>
+    </prerequisites>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->Void Field Extender</li>
+        <li>subject_story-> Participated in experimental projects using Void energy to stabilize local spacetime structures</li>
+        <li>subject_story-> Maintained a remote matter transmission array based on grav engine principles</li>
+        <li>subject_story-> Researched methods to expand internal volume of enclosed spaces through gravitational field distortion</li>
+        <li>subject_story-> Briefly "stretched" a forest area into another dimension during prototype testing</li>
+        <li>subject_gerund-> Calibrating field effect parameters of Void Field Extenders</li>
+        <li>subject_gerund-> Deploying Void Field Extenders to increase grav ship payload capacity</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>UV_Project_VoidThruster</defName>
+    <label>void thruster</label>
+    <description>Construct a Dark Arcane-powered spacecraft thruster that significantly reduces fuel consumption.</description>
+    <tab>UV_Anomaly</tab>
+    <knowledgeCost>30</knowledgeCost>
+    <knowledgeCategory>Basic</knowledgeCategory>
+    <researchViewX>4</researchViewX>
+    <researchViewY>1</researchViewY>
+    <prerequisites>
+      <li>BioferriteShaping</li>
+    </prerequisites>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->Void Thruster</li>
+        <li>subject_story-> Tested experimental engines generating thrust by tearing spacetime</li>
+        <li>subject_story-> Reverse-engineered FTL technology from crashed alien spacecraft wreckage</li>
+        <li>subject_story-> Briefly stranded a ship and its crew in timeless Void during jump test</li>
+        <li>subject_gerund-> Installing Void Thrusters on grav ships</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>UV_Project_GoldCanary</defName>
+    <label>gold canary</label>
+    <description>Using a Golden Cube, create an invulnerable legendary creature that provides a mood boost to the entire area.</description>
+    <tab>UV_Anomaly</tab>
+    <knowledgeCost>30</knowledgeCost>
+    <knowledgeCategory>Advanced</knowledgeCategory>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>2.60</researchViewY>
+    <prerequisites>
+      <li>BioferriteShaping</li>
+    </prerequisites>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->Immortal Gold Canary</li>
+        <li>subject_story-> Researched legendary golden mechanical lifeforms capable of rebirth from flames</li>
+        <li>subject_story-> Restored an eternal guardian device left by ancient civilization</li>
+        <li>subject_story-> Witnessed Gold Canary healing radiation wounds across entire area with its glow</li>
+        <li>subject_gerund-> Seeking eternal blessings from the Gold Canary</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>UV_Project_ShipCooldown</defName>
+    <label>ship cooldown</label>
+    <description>Performs a psychic ritual that rapidly cools the grav ship's engine and increases the maximum range of its next voyage</description>
+    <tab>UV_Anomaly</tab>
+    <knowledgeCost>30</knowledgeCost>
+    <knowledgeCategory>Basic</knowledgeCategory>
+    <researchViewX>5.00</researchViewX>
+    <researchViewY>1.00</researchViewY>
+    <prerequisites>
+      <li>AdvancedPsychicRituals</li>
+    </prerequisites>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->Gravship Cooling Ritual</li>
+        <li>subject_story-> Studied ancient chanting methods said to channel heat into the Void through sonic waves</li>
+        <li>subject_story-> Discovered ritual patterns for "cooling" metals in a lost manuscript</li>
+        <li>subject_story-> Witnessed an old technician calm an overheating engine through chants and complex gestures</li>
+        <li>subject_story-> A ritual failure caused a ship engine to become permanently locked due to over-cooling</li>
+        <li>subject_gerund-> Presiding over starship cooling rituals</li>
+        <li>subject_gerund-> Chilling critical components by chanting cooling hymns</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>UV_Project_RevealInformation</defName>
+    <label>reveal information</label>
+    <description>Performs a psychic ritual to extract valuable information from the Void, revealing a quest location</description>
+    <tab>UV_Anomaly</tab>
+    <knowledgeCost>30</knowledgeCost>
+    <knowledgeCategory>Basic</knowledgeCategory>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>1.00</researchViewY>
+    <prerequisites>
+      <li>AdvancedPsychicRituals</li>
+    </prerequisites>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->Void Message</li>
+        <li>subject_story-> Deciphered non-Euclidean geometric signals from deep Void</li>
+        <li>subject_story-> Served as communications officer monitoring deep space anomalous radiation signals</li>
+        <li>subject_story-> Received warning message from future self but couldn't fully comprehend it</li>
+        <li>subject_gerund-> Decrypting encoded messages from the Void</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>UV_Project_DarkInfusion</defName>
+    <label>dark infusion</label>
+    <description>Performs a psychic ritual that envelops all allied units within the shader's reach with void-walking capability, allowing safe operation in space for a brief period.</description>
+    <tab>UV_Anomaly</tab>
+    <knowledgeCost>30</knowledgeCost>
+    <knowledgeCategory>Advanced</knowledgeCategory>
+    <researchViewX>3</researchViewX>
+    <researchViewY>4</researchViewY>
+    <prerequisites>
+      <li>AdvancedPsychicRituals</li>
+    </prerequisites>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->Vacuum Survival Ritual</li>
+        <li>subject_story-> Mastered an esoteric technique to drastically reduce oxygen need through deep meditation</li>
+        <li>subject_story-> Joined an extreme cult that screened followers through vacuum chamber rituals</li>
+        <li>subject_story-> Completed a ten-minute survival ritual in space vacuum without any protection</li>
+        <li>subject_story-> Bears ancient tattoos said to form an invisible protective layer in vacuum</li>
+        <li>subject_gerund-> Performing vacuum survival rituals</li>
+        <li>subject_gerund-> Inscribing vacuum-protection runes on spacesuits</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>UV_Project_TwistedReconstruction</defName>
+    <label>twisted reconstruction</label>
+    <description>Performs a psychic ritual that warps and mends the target's equipment using Void energy.</description>
+    <tab>UV_Anomaly</tab>
+    <knowledgeCost>30</knowledgeCost>
+    <knowledgeCategory>Advanced</knowledgeCategory>
+    <researchViewX>4</researchViewX>
+    <researchViewY>4</researchViewY>
+    <prerequisites>
+      <li>AdvancedPsychicRituals</li>
+    </prerequisites>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->Gear Refabrication</li>
+        <li>subject_story-> Operated device capable of decomposing and reassembling molecular structures</li>
+        <li>subject_story-> Successfully refabricated scrap metal into functional power armor</li>
+        <li>subject_story-> Fused a weapon with user's arm during refabrication experiment</li>
+        <li>subject_gerund-> Refabricating useless equipment into useful tools</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>UV_Project_ParallelDimension</defName>
+    <label>parallel dimension</label>
+    <description>Performs a psychic ritual that transports the entire region to a similar yet distinct world, repairing grav ship wrecks and resetting nearby landmarks.</description>
+    <tab>UV_Anomaly</tab>
+    <knowledgeCost>30</knowledgeCost>
+    <knowledgeCategory>Advanced</knowledgeCategory>
+    <researchViewX>5</researchViewX>
+    <researchViewY>4</researchViewY>
+    <prerequisites>
+      <li>AdvancedPsychicRituals</li>
+    </prerequisites>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->Parallel Spacetime</li>
+        <li>subject_story-> Researched methods to briefly open rifts to resource-rich parallel dimensions</li>
+        <li>subject_story-> Briefly communicated with alternate-timeline self</li>
+        <li>subject_story-> Caused partial overlap of two similar but hostile timelines due to experiment accident</li>
+        <li>subject_gerund-> Scouting parallel timelines for rare resources</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+</Defs>

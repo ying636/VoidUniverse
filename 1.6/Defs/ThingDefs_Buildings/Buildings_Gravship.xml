@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="FuelTankBase">
+    <defName>UV_FleshChemfuelTank</defName>
+    <label>small flesh chemfuel tank</label>
+    <description>A fuel storage tank for grav ship thrusters. Equipped with an internal flesh-culturing apparatus that continuously generates chemfuel.</description>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/ChemfuelTank/FleshChemfuelTank</texPath>
+      <drawSize>(2, 2)</drawSize>
+    </graphicData>
+    <thingCategories>
+      <li>Buildings</li>
+    </thingCategories>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Mass>30</Mass>
+      <Flammability>1</Flammability>
+      <Beauty>-10</Beauty>
+      <WorkToBuild>2000</WorkToBuild>
+    </statBases>
+    <size>(2, 2)</size>
+    <comps>
+      <li Class="VoidUniverse.CompPropertiesGeenrateFuel">
+        <fuelCount>25</fuelCount>
+      </li>
+      <li Class="CompProperties_Refuelable">
+        <fuelCapacity>250</fuelCapacity>
+        <targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>
+        <initialConfigurableTargetFuelLevel>250</initialConfigurableTargetFuelLevel>
+        <fuelFilter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </fuelFilter>
+        <fuelLabel>Chemfuel</fuelLabel>
+        <fuelGizmoLabel>Chemfuel</fuelGizmoLabel>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+        <autoRefuelPercent>1</autoRefuelPercent>
+        <showFuelGizmo>true</showFuelGizmo>
+        <drawOutOfFuelOverlay>false</drawOutOfFuelOverlay>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+        <canEjectFuel>true</canEjectFuel>
+        <drawFuelGaugeInMap>false</drawFuelGaugeInMap>
+      </li>
+    </comps>
+    <designationCategory></designationCategory>
+  </ThingDef>
+
+  <ThingDef ParentName="FuelTankBase">
+    <defName>UV_FleshLargeChemfuelTank</defName>
+    <label>large flesh chemfuel tank</label>
+    <description>A large-scale fuel storage tank for grav ship thrusters. Features an integrated fleshmass nucleus containment housing that enables continuous chemfuel production.</description>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/ChemfuelTank/LargeFleshChemfuelTank</texPath>
+      <drawSize>(3, 3)</drawSize>
+    </graphicData>
+    <thingCategories>
+      <li>Buildings</li>
+    </thingCategories>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Mass>70</Mass>
+      <Flammability>1</Flammability>
+      <Beauty>-10</Beauty>
+      <WorkToBuild>3000</WorkToBuild>
+    </statBases>
+    <size>(3, 3)</size>
+    <comps>
+      <li>
+        <compClass>VoidUniverse.CompFleshHeart</compClass>
+      </li>
+      <li Class="VoidUniverse.CompPropertiesGeenrateFuel">
+        <fuelCount>100</fuelCount>
+        <autoActive>true</autoActive>
+      </li>
+      <li Class="CompProperties_Refuelable">
+        <fuelCapacity>1000</fuelCapacity>
+        <targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>
+        <initialConfigurableTargetFuelLevel>750</initialConfigurableTargetFuelLevel>
+        <fuelFilter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </fuelFilter>
+        <fuelLabel>Chemfuel</fuelLabel>
+        <fuelGizmoLabel>Chemfuel</fuelGizmoLabel>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+        <autoRefuelPercent>1</autoRefuelPercent>
+        <showFuelGizmo>true</showFuelGizmo>
+        <drawOutOfFuelOverlay>false</drawOutOfFuelOverlay>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+        <canEjectFuel>true</canEjectFuel>
+        <drawFuelGaugeInMap>false</drawFuelGaugeInMap>
+      </li>
+    </comps>
+    <uiOrder>2155</uiOrder>
+    <designationCategory></designationCategory>
+  </ThingDef>
+
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>UV_VoidGravFieldExtender</defName>
+    <label>void grav field extender</label>
+    <description>A technological device used to increase the scale of a grav ship. Unlike standard extenders, the Void Field Extender augments the effective range of the GravEngine itself and increases the number of supported gantries the grav ship can maintain. Must be constructed within proximity of a GravEngine.
+A single grav ship can support a maximum of ten Void Field Extenders.</description>
+    <graphicData>
+      <texPath>Things/Building/UV_VoidFieldExtender</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.35</staticSunShadowHeight>
+    <fillPercent>0.5</fillPercent>
+    <canOverlapZones>false</canOverlapZones>
+    <pathCost>42</pathCost>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>1800</WorkToBuild>
+      <Mass>20</Mass>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <costList>
+      <Bioferrite>80</Bioferrite>
+      <Shard>3</Shard>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Small</destroySound>
+    </building>
+    <researchPrerequisites>
+      <li>UV_Project_VoidFieldExtender</li>
+    </researchPrerequisites>
+    <designationCategory>Anomaly</designationCategory>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    <thingCategories>
+      <li>BuildingsMisc</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <SubstructureSupport>100</SubstructureSupport>
+        </statOffsets>
+        <maxSimultaneous>10</maxSimultaneous>
+      </li>
+    </comps>
+    <designationHotKey>Misc6</designationHotKey>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+  </ThingDef>
+
+
+  <ThingDef ParentName="ThrusterBase">
+    <defName>UV_VoidThruster</defName>
+    <label>void thruster</label>
+    <description>An arcane thruster constructed from Monolith fragments, which significantly increases the range of a grav ship. It also drastically reduces the ship's flight energy consumption via dark energy. The thruster must be placed in an open area, clear of large structures and grav ship gantries.
+A single grav ship can be equipped with a maximum of one VoidThruster.</description>
+    <graphicData>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <texPath>Things/Building/UV_VoidThruster/UV_VoidThruster</texPath>
+      <drawSize>(3.2, 3.2)</drawSize>
+      <shadowData>
+        <volume>(1.8, 0.75, 1.8)</volume>
+      </shadowData>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Beauty>-10</Beauty>
+      <WorkToBuild>13200</WorkToBuild>
+      <Mass>30</Mass>
+    </statBases>
+    <size>(3, 3)</size>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <costList>
+      <Steel>200</Steel>
+      <BlocksVacstone>60</BlocksVacstone>
+      <ComponentIndustrial>8</ComponentIndustrial>
+      <MonolithFragment>1</MonolithFragment>
+    </costList>
+    <researchPrerequisites>
+      <li>UV_Project_VoidThruster</li>
+    </researchPrerequisites>
+    <comps>
+      <li Class="CompProperties_GravshipThruster">
+        <statOffsets>
+          <GravshipRange>25</GravshipRange>
+        </statOffsets>
+        <fuelSavingsPercent>0.4</fuelSavingsPercent>
+        <componentTypeDef>Thruster</componentTypeDef>
+        <exclusionAreaSize>(3, 0, 7)</exclusionAreaSize>
+        <exclusionAreaOffset>(-1, 0, -8)</exclusionAreaOffset>
+        <directionInfluence>30</directionInfluence>
+        <flameSize>6.0</flameSize>
+        <flameOffsetsPerDirection>
+          <li>(0, 0, 1.0)</li>
+          <li>(0, 0, 0.5)</li>
+          <li>(0, 0, 0.5)</li>
+          <li>(0, 0, 0.5)</li>
+        </flameOffsetsPerDirection>
+        <flameShaderType>MoteGlow</flameShaderType>
+        <flameShaderParameters>
+          <_MainTex>/Things/Mote/LargeThruster_Burn</_MainTex>
+        </flameShaderParameters>
+        <requiresLOS>false</requiresLOS>
+        <maxSimultaneous>1</maxSimultaneous>
+        <maxDistance>500</maxDistance>
+        <exhaustSettings>
+          <exhaustFleckDef>GravshipThrusterExhaust</exhaustFleckDef>
+          <emissionsPerSecond>40.0</emissionsPerSecond>
+          <spawnRadiusRange>0.0~0.5</spawnRadiusRange>
+          <velocity>(0.0,0.0,-20.0)</velocity>
+          <velocityRotationRange>-10.0~10.0</velocityRotationRange>
+          <velocityMultiplierRange>0.8~1.2</velocityMultiplierRange>
+          <rotationOverTimeRange>-180.0~180.0</rotationOverTimeRange>
+          <scaleRange>3.0~5.0</scaleRange>
+        </exhaustSettings>
+      </li>
+      <li Class="CompProperties_Breakdownable" />
+    </comps>
+    <uiOrder>2205</uiOrder>
+  </ThingDef>
+
+</Defs>

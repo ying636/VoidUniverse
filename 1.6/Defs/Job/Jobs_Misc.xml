@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+  <JobDef>
+    <defName>UV_LeadRitual</defName>
+    <driverClass>VoidUniverse.JobDriver_LeadRitual</driverClass>
+    <reportString>leading ritual.</reportString>
+  </JobDef>
+
+  <JobDef>
+    <defName>UV_Enter</defName>
+    <driverClass>VoidUniverse.JobDriver_EnterVoidNode</driverClass>
+    <reportString>entering node.</reportString>
+  </JobDef>
+
+  <JobDef>
+    <defName>UV_Skip</defName>
+    <driverClass>VoidUniverse.JobDriver_SkipToVoidNode</driverClass>
+    <reportString>skipping.</reportString>
+  </JobDef>
+
+</Defs> 

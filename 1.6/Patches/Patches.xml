@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="GravEngine"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+		<value>
+			<li>UV_FleshChemfuelTank</li>
+			<li>UV_FleshLargeChemfuelTank</li>
+			<li>UV_VoidGravFieldExtender</li>
+			<li>UV_VoidThruster</li>
+			<li>UV_Grav_WarpedObelisk_Mutator</li>
+			<li>UV_Grav_WarpedObelisk_Duplicator</li>
+			<li>UV_Grav_WarpedObelisk_Abductor</li>
+			<li>UV_Grav_WarpedObelisk_Blood</li>
+			<li>UV_Grav_WarpedObelisk_UnnaturalDarkness</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingSetMakerDef[defName="MapGen_FleshSackLoot"]/root/options</xpath>
+		<value>
+			<li>
+				<weight>1</weight>
+				<thingSetMaker Class="VoidUniverse.ThingSetMaker_FleshTank" />
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Plant_TreeHarbinger"]/plant</xpath>
+		<value>
+			<vacuumResistant>true</vacuumResistant>
+			<minGrowthTemperature>-100</minGrowthTemperature>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Plant_TreeHarbinger"]/comps</xpath>
+		<value>
+			<li Class="CompProperties_OxygenPusher">
+				<requiresPower>false</requiresPower>
+				<airPerSecondPerHundredCells>0.005</airPerSecondPerHundredCells>
+			</li>
+			<li>
+				<compClass>VoidUniverse.CompTreeHarbingerTerraformer</compClass>
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/EntityCodexEntryDef[defName="VoidNode"]</xpath>
+		<value>
+			<discoveredResearchProjects>
+				<li>UV_Project_VoidThruster</li>
+			</discoveredResearchProjects>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/EntityCodexEntryDef[defName="FleshmassNucleus"]/discoveredResearchProjects</xpath>
+		<value>
+			<li>UV_Project_FleshSealing</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/EntityCodexEntryDef[defName="GoldenCube"]/discoveredResearchProjects</xpath>
+		<value>
+			<li>UV_Project_GoldCanary</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="FleshmassHeart"]/comps</xpath>
+		<value>
+			<li>
+				<compClass>VoidUniverse.CompDestroyCave</compClass>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RaidStrategyDef[defName="ShamblerAssault" 
+		or defName="ImmediateAttack"]/arriveModes</xpath>
+		<value>
+			<li>UV_SKipArrivalMode</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/GameConditionDef[defName="BloodRain" or defName="UnnaturalDarkness"
+		or defName="DeathPall"]</xpath>
+		<value>
+			<canAffectAllPlanetLayers>true</canAffectAllPlanetLayers>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/GameConditionDef[defName="DeathPall"]/allowUnderground</xpath>
+		<value>
+			<allowUnderground>true</allowUnderground>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/GameConditionDef[defName="UnnaturalDarkness"
+		or defName="BloodRain"]</xpath>
+		<value>
+			<preventShuttleLaunch>true</preventShuttleLaunch>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="GravEngine"]/comps/li[@Class="CompProperties_Glower"]</xpath>
+		<value>
+			<compClass>VoidUniverse.CompGlowerEngine</compClass>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/TerrainDef[defName="Voidmetal"]</xpath>
+		<value>
+			<renderPrecedence>340</renderPrecedence>
+			<layerable>false</layerable>
+			<spaceEdgeGraphicData MayRequire="Ludeon.RimWorld.Odyssey">
+				<OShapeTexPath>Terrain/Surfaces/Asteroid/BorderInside/AsteroidBorderInside_OShape</OShapeTexPath>
+				<UShapeTexPath>Terrain/Surfaces/Asteroid/BorderInside/AsteroidBorderInside_UShape</UShapeTexPath>
+				<CornerInnerTexPath>Terrain/Surfaces/Asteroid/BorderInside/AsteroidBorderInside_CornerInner</CornerInnerTexPath>
+				<CornerOuterTexPath>Terrain/Surfaces/Asteroid/BorderInside/AsteroidBorderInside_CornerOuter</CornerOuterTexPath>
+				<FlatTexPath>Terrain/Surfaces/Asteroid/BorderInside/AsteroidBorderInside_Flat</FlatTexPath>
+				<LoopLeftTexPath>Terrain/Surfaces/Asteroid/AsteroidEdge_Left</LoopLeftTexPath>
+				<LoopRightTexPath>Terrain/Surfaces/Asteroid/AsteroidEdge_Right</LoopRightTexPath>
+				<LoopSingleTexPath>Terrain/Surfaces/Asteroid/AsteroidEdge_Single</LoopSingleTexPath>
+				<LoopTexPaths>
+					<li>Terrain/Surfaces/Asteroid/Loop/AsteroidEdge_Loop1</li>
+					<li>Terrain/Surfaces/Asteroid/Loop/AsteroidEdge_Loop2</li>
+					<li>Terrain/Surfaces/Asteroid/Loop/AsteroidEdge_Loop3</li>
+					<li>Terrain/Surfaces/Asteroid/Loop/AsteroidEdge_Loop4</li>
+					<li>Terrain/Surfaces/Asteroid/Loop/AsteroidEdge_Loop5</li>
+				</LoopTexPaths>
+				<overrideColor>(0.141, 0.125, 0.129)</overrideColor>
+			</spaceEdgeGraphicData>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="CerebrexStabilizer"]/comps</xpath>
+		<value>
+			<li Class="CompProperties_CanBeDormant">
+				<jobDormancy>true</jobDormancy>
+			</li>
+			<li Class="CompProperties_MechhiveAssembler">
+				<options>
+					<Mech_Militor MayRequire="Ludeon.RimWorld.Biotech">22</Mech_Militor>
+					<Mech_Scyther>15</Mech_Scyther>
+					<Mech_Pikeman>10</Mech_Pikeman>
+					<Mech_Lancer>10</Mech_Lancer>
+					<Mech_CentipedeBlaster>6</Mech_CentipedeBlaster>
+					<Mech_CentipedeGunner>4</Mech_CentipedeGunner>
+					<Mech_CentipedeBurner>2</Mech_CentipedeBurner>
+					<Mech_Cyclops>3</Mech_Cyclops>
+					<Mech_Scorcher MayRequire="Ludeon.RimWorld.Biotech">3</Mech_Scorcher>
+					<Mech_Centurion MayRequire="Ludeon.RimWorld.Biotech">1</Mech_Centurion>
+					<Mech_Tesseron MayRequire="Ludeon.RimWorld.Biotech">3</Mech_Tesseron>
+					<Mech_Legionary MayRequire="Ludeon.RimWorld.Biotech">1</Mech_Legionary>
+					<Mech_Diabolus MayRequire="Ludeon.RimWorld.Biotech">1</Mech_Diabolus>
+				</options>
+			</li>
+		</value>
+	</Operation>
+
+</Patch>

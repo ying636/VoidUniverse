@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <WorldObjectDef ParentName="GeneratedAsteroid">
+    <defName>UV_PitGateAsteroid</defName>
+    <label>pit gate asteroid</label>    <!-- hidden -->
+    <description>An asteroid marked by a massive crater, exuding an ominous aura. It conceals a network of caves leading deep into its core.
+You may attempt to venture deeper inside.</description>
+    <expandingIconTexture>World/WorldObjects/Expanding/UV_AsteroidPitGate</expandingIconTexture>
+    <overrideMapSize>(250,1,250)</overrideMapSize>
+    <mapGenerator>UV_MapGeneratorDef_PitGateAsteroid</mapGenerator>
+  </WorldObjectDef>
+
+  <WorldObjectDef ParentName="GeneratedAsteroid">
+    <defName>UV_HeartPitGateAsteroid</defName>
+    <label>pit gate asteroid</label>    <!-- hidden -->
+    <description>An asteroid marked by a massive crater, exuding an ominous aura. It conceals a network of caves leading deep into its core.
+You may attempt to venture deeper inside.</description>
+    <expandingIconTexture>World/WorldObjects/Expanding/UV_AsteroidPitGate</expandingIconTexture>
+    <overrideMapSize>(250,1,250)</overrideMapSize>
+    <mapGenerator>UV_MapGeneratorDef_HeartPitGateAsteroid</mapGenerator>
+  </WorldObjectDef>
+
+  <WorldObjectDef ParentName="GeneratedAsteroid">
+    <defName>UV_HatchAsteroid</defName>
+    <label>asteroid underground base</label>    <!-- hidden -->
+    <description>An asteroid whose interior has been refitted into an underground base. It exudes an ominous aura, with unknown dust particles continuously wafting from within.
+You may attempt to venture deeper inside.</description>
+    <expandingIconTexture>World/WorldObjects/Expanding/UV_DeathPallPlatform</expandingIconTexture>
+    <overrideMapSize>(250,1,250)</overrideMapSize>
+    <mapGenerator>UV_MapGeneratorDef_AncientHatch</mapGenerator>
+  </WorldObjectDef>
+
+
+  <MapGeneratorDef ParentName="SpaceMapGenerator">
+    <defName>UV_MapGeneratorDef_PitGateAsteroid</defName>
+    <label>basic asteroid</label>
+    <genSteps>
+      <li>AsteroidBasic</li>
+      <li>AsteroidBasicTransportPods</li>
+      <li>AncientMiningCharge_Asteroid</li>
+      <li>AncientExplosivesCrate_Asteroid</li>
+      <li>AncientDrillPlatform_Asteroid</li>
+      <li>AncientTuneller_Asteroid</li>
+      <li>MechShipChunk_Asteroid</li>
+      <li>RockChunks</li>
+      <li>UV_PitGate_GenStep</li>
+    </genSteps>
+  </MapGeneratorDef>
+
+
+  <GenStepDef>
+    <order>1200</order>
+    <defName>UV_PitGate_GenStep</defName>
+    <genStep Class="VoidUniverse.GenStep_PitGateAsteroid">
+      <pitGate>UV_DreadmeldPitGate</pitGate>
+    </genStep>
+  </GenStepDef>
+
+  <MapGeneratorDef ParentName="SpaceMapGenerator">
+    <defName>UV_MapGeneratorDef_HeartPitGateAsteroid</defName>
+    <label>basic asteroid</label>
+    <genSteps>
+      <li>AsteroidBasic</li>
+      <li>AsteroidBasicTransportPods</li>
+      <li>AncientMiningCharge_Asteroid</li>
+      <li>AncientExplosivesCrate_Asteroid</li>
+      <li>AncientDrillPlatform_Asteroid</li>
+      <li>AncientTuneller_Asteroid</li>
+      <li>MechShipChunk_Asteroid</li>
+      <li>RockChunks</li>
+      <li>UV_HeartPitGate_GenStep</li>
+    </genSteps>
+  </MapGeneratorDef>
+
+
+  <GenStepDef>
+    <order>1200</order>
+    <defName>UV_HeartPitGate_GenStep</defName>
+    <genStep Class="VoidUniverse.GenStep_PitGateAsteroid">
+      <pitGate>UV_HeartPitGate</pitGate>
+    </genStep>
+  </GenStepDef>
+
+
+  <MapGeneratorDef ParentName="SpaceMapGenerator">
+    <defName>UV_MapGeneratorDef_AncientHatch</defName>
+    <label>basic asteroid</label>
+    <genSteps>
+      <li>AsteroidBasic</li>
+      <li>AsteroidBasicTransportPods</li>
+      <li>AncientMiningCharge_Asteroid</li>
+      <li>AncientExplosivesCrate_Asteroid</li>
+      <li>AncientDrillPlatform_Asteroid</li>
+      <li>AncientTuneller_Asteroid</li>
+      <li>MechShipChunk_Asteroid</li>
+      <li>RockChunks</li>
+      <li>UV_AncientHatch_GenStep</li>
+    </genSteps>
+  </MapGeneratorDef>
+
+
+  <GenStepDef>
+    <order>1200</order>
+    <defName>UV_AncientHatch_GenStep</defName>
+    <genStep Class="VoidUniverse.GenStep_PitGateAsteroid">
+      <pitGate>UV_AncientHatch</pitGate>
+    </genStep>
+  </GenStepDef>
+
+  <MapGeneratorDef>
+    <defName>UV_AncientStockpile</defName>
+    <label>ancient stockpile</label>
+    <isUnderground>true</isUnderground>
+    <disableCallAid>true</disableCallAid>
+    <pocketMapProperties>
+      <biome>UV_SpaceUndercave</biome>
+      <temperature>-75</temperature>
+      <canBeCleaned>true</canBeCleaned>
+    </pocketMapProperties>
+    <genSteps>
+      <li>ElevationFertility</li>
+      <li>Underground_RocksFromGrid</li>
+      <li>Terrain</li>
+      <li>RockChunks</li>
+      <!-- AncientStockpile added by AncientHatch -->
+      <li>Fog</li>
+      <li>UV_AncientHatch_DeathPall_GenStep</li>
+      <li>UV_AncientHatch_Entity_GenStep</li>
+    </genSteps>
+  </MapGeneratorDef>
+
+  <GenStepDef>
+    <order>3600</order>
+    <defName>UV_AncientHatch_Entity_GenStep</defName>
+    <genStep Class="VoidUniverse.GenStep_Entiy">
+    </genStep>
+  </GenStepDef>
+
+  <GenStepDef>
+    <order>1200</order>
+    <defName>UV_AncientHatch_DeathPall_GenStep</defName>
+    <genStep Class="VoidUniverse.GenStep_DeathPall">
+    </genStep>
+  </GenStepDef>
+
+</Defs>

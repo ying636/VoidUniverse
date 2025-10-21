@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: dark infusion -->
+  <UV_Hediff_DarkInfusion.label>暗黑赋能</UV_Hediff_DarkInfusion.label>
+  <!-- EN: Protected by Anomaly nanites, the target can temporarily operate safely in the vacuum of space. -->
+  <UV_Hediff_DarkInfusion.description>受到暗黑超凡微械的保护，在一段时间内，可以在太空中安全行动</UV_Hediff_DarkInfusion.description>
+  
+  <!-- EN: dark infusion -->
+  <UV_Hediff_DarkInfusionPermenent.label>暗黑赋能</UV_Hediff_DarkInfusionPermenent.label>
+  <!-- EN: Protected by Anomaly nanites, the target can temporarily operate safely in the vacuum of space. -->
+  <UV_Hediff_DarkInfusionPermenent.description>受到暗黑超凡微械的保护，在一段时间内，可以在太空中安全行动</UV_Hediff_DarkInfusionPermenent.description>
+  
+  <!-- EN: loss gold Cube -->
+  <UV_Hediff_GoldenCanary.label>缺少金色魔方</UV_Hediff_GoldenCanary.label>
+  <!-- EN: An inactive Gold Canary. If the initiation ritual is not performed soon, this gilded husk will rapidly disintegrate. -->
+  <UV_Hediff_GoldenCanary.description>没有真正启动的魔金鸟，如果不尽快进行仪式，这个躯壳将会很快崩解</UV_Hediff_GoldenCanary.description>
+  <!-- EN: Filling -->
+  <UV_Hediff_GoldenCanary.stages.Filling.label>填充中</UV_Hediff_GoldenCanary.stages.Filling.label>
+  
+  <!-- EN: golden cube activated -->
+  <UV_Hediff_GoldenCanary_Actived.label>金色魔方启动</UV_Hediff_GoldenCanary_Actived.label>
+  <!-- EN: A truly living Gold Canary, immune to all damage from enemies. It will deactivate and disintegrate after some days. -->
+  <UV_Hediff_GoldenCanary_Actived.description>真正拥有生命的魔金鸟，不会受到任何来自敌人的伤害，将会在一段时间后失效并崩解</UV_Hediff_GoldenCanary_Actived.description>
+  
+  <!-- EN: golden canary alleviation -->
+  <UV_Hediff_GoldenCanaryHeal.label>魔金缓和</UV_Hediff_GoldenCanaryHeal.label>
+  <!-- EN: The Gold Canary's psychic pulse alleviates cube addiction. -->
+  <UV_Hediff_GoldenCanaryHeal.description>魔金鸟的心灵脉冲缓解了魔方依赖</UV_Hediff_GoldenCanaryHeal.description>
+  
+  <!-- EN: void infusion -->
+  <UV_Hediff_VoidInfusionPermenent.label>虚空赋能</UV_Hediff_VoidInfusionPermenent.label>
+  <!-- EN: Protected by Anomaly nanites, the target can temporarily operate safely in the vacuum of space. -->
+  <UV_Hediff_VoidInfusionPermenent.description>受到暗黑超凡微械的保护，在一段时间内，可以在太空中安全行动</UV_Hediff_VoidInfusionPermenent.description>
+  
+  <!-- EN: rage speed -->
+  <UV_RageSpeed.label>暴走</UV_RageSpeed.label>
+  <!-- EN: This creature has been enraged by its wounds and is moving faster. -->
+  <UV_RageSpeed.description>此生物受伤后被激怒了，移动更为迅速。</UV_RageSpeed.description>
+  
+</LanguageData>

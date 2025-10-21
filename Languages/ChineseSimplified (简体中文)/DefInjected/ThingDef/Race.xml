@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: golden canary -->
+  <UV_GoldenCanary.label>魔金鸟</UV_GoldenCanary.label>
+  <!-- EN: A golden avian automaton, brought to life through an arcane ritual. It moves with an uncanny, fluid grace, its metallic feathers catching the light with a warm, soothing glow. The creature emits a constant, low hum that brings a strange sense of calm to all who hear it. It is immune to injury, disease, and age, serving as a temporary, serene guardian until its borrowed time expires. -->
+  <UV_GoldenCanary.description>一只通过超凡仪式获得生命的金色机械鸟。它的动作带着一种诡异的流畅优雅，金属羽毛闪烁着温暖、令人安心的光芒。这只生物持续发出低沉嗡鸣，为所有听到它声音的人带来一种奇特的平静感。它不会受伤、生病或衰老，将作为暂时的宁静守护者存在，直到其借来的时间耗尽。</UV_GoldenCanary.description>
+  <!-- EN: claws -->
+  <UV_GoldenCanary.tools.claws.label>爪子</UV_GoldenCanary.tools.claws.label>
+  <!-- EN: beak -->
+  <UV_GoldenCanary.tools.beak.label>喙</UV_GoldenCanary.tools.beak.label>
+  <!-- EN: head -->
+  <UV_GoldenCanary.tools.head.label>头</UV_GoldenCanary.tools.head.label>
+  
+</LanguageData>

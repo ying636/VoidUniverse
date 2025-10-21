@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: small flesh chemfuel tank -->
+  <UV_FleshChemfuelTank.label>小型血肉燃料箱</UV_FleshChemfuelTank.label>
+  <!-- EN: A fuel storage tank for grav ship thrusters. Equipped with an internal flesh-culturing apparatus that continuously generates chemfuel. -->
+  <UV_FleshChemfuelTank.description>为逆重飞船推进器提供燃料的储存箱，内部装配有血肉培养皿，可以源源不断的生成化合燃料。</UV_FleshChemfuelTank.description>
+  <!-- EN: Chemfuel -->
+  <UV_FleshChemfuelTank.comps.CompRefuelable.fuelGizmoLabel>化合燃料</UV_FleshChemfuelTank.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Chemfuel -->
+  <UV_FleshChemfuelTank.comps.CompRefuelable.fuelLabel>化合燃料</UV_FleshChemfuelTank.comps.CompRefuelable.fuelLabel>
+  
+  <!-- EN: large flesh chemfuel tank -->
+  <UV_FleshLargeChemfuelTank.label>大型血肉燃料箱</UV_FleshLargeChemfuelTank.label>
+  <!-- EN: A large-scale fuel storage tank for grav ship thrusters. Features an integrated fleshmass nucleus containment housing that enables continuous chemfuel production. -->
+  <UV_FleshLargeChemfuelTank.description>为逆重飞船推进器提供燃料的大型储存箱，内部装配有血肉核心收容装置，可以源源不断的生成化合燃料。</UV_FleshLargeChemfuelTank.description>
+  <!-- EN: Chemfuel -->
+  <UV_FleshLargeChemfuelTank.comps.CompRefuelable.fuelGizmoLabel>化合燃料</UV_FleshLargeChemfuelTank.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Chemfuel -->
+  <UV_FleshLargeChemfuelTank.comps.CompRefuelable.fuelLabel>化合燃料</UV_FleshLargeChemfuelTank.comps.CompRefuelable.fuelLabel>
+  
+  <!-- EN: void grav field extender -->
+  <UV_VoidGravFieldExtender.label>虚空延展器</UV_VoidGravFieldExtender.label>
+  <!-- EN: A technological device used to increase the scale of a grav ship. Unlike standard extenders, the Void Field Extender augments the effective range of the GravEngine itself and increases the number of supported gantries the grav ship can maintain. Must be constructed within proximity of a GravEngine.\nA single grav ship can support a maximum of ten Void Field Extenders. -->
+  <UV_VoidGravFieldExtender.description>一种用以增加逆重飞船尺寸的科技装置。与正常的延展器不同，虚空延展器用于加强逆重引擎本身的影响范围，并提升了逆重飞船可支持的基架数量。必须在逆重引擎附近建造</UV_VoidGravFieldExtender.description>
+  
+  <!-- EN: void thruster -->
+  <UV_VoidThruster.label>石碑推进器</UV_VoidThruster.label>
+  <!-- EN: An arcane thruster constructed from Monolith fragments, which significantly increases the range of a grav ship. It also drastically reduces the ship's flight energy consumption via dark energy. The thruster must be placed in an open area, clear of large structures and grav ship gantries.\nA single grav ship can be equipped with a maximum of one VoidThruster. -->
+  <UV_VoidThruster.description>一台使用巨石碎块打造的超凡推进器，能够极大的提升逆重飞船的航程。并且通过暗黑能量大幅降低逆重飞船飞行消耗。推进器需要放置于无大型建筑和逆重飞船基架的开阔区域。单艘逆重飞船最多只能搭载1台石碑推进器</UV_VoidThruster.description>
+  
+</LanguageData>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <TrainableDef>
+    <defName>UV_GoldbirdRoar</defName>
+    <label>berserk</label>
+    <description>Command the canary to release a berserk.</description>
+    <listPriority>0</listPriority>
+    <difficulty>200</difficulty>
+    <steps>2</steps>
+    <specialTrainable>true</specialTrainable>
+    <enablesAbility>UV_GoldbirdRoar</enablesAbility>
+  </TrainableDef>
+
+
+  <AbilityDef>
+    <defName>UV_GoldbirdRoar</defName>
+    <label>berserk</label>
+    <description>Emits a shriek infused with the energy of the Gold Cube, driving the target into a frenzy and compelling them to indiscriminately attack nearby creatures.</description>
+    <iconPath>UI/UV_skill_Enrage</iconPath>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <cooldownTicksRange>3600</cooldownTicksRange>    <!-- 1.44 hours -->
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>23.9</range>
+      <warmupTime>0.5</warmupTime>
+      <targetParams>
+        <canTargetAnimals>True</canTargetAnimals>
+        <neverTargetIncapacitated>True</neverTargetIncapacitated>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class = "CompProperties_AbilityGiveMentalState">
+        <compClass>CompAbilityEffect_GiveMentalState</compClass>
+        <stateDef>Berserk</stateDef>
+        <stateDefForMechs>BerserkMechanoid</stateDefForMechs>
+        <psychic>True</psychic>
+        <durationMultiplier>PsychicSensitivity</durationMultiplier>
+        <canTargetBosses>false</canTargetBosses>
+        <goodwillImpact>-75</goodwillImpact>
+      </li>
+      <li Class="CompProperties_AbilityRequiresTrainable">
+        <trainableDef>UV_GoldbirdRoar</trainableDef>
+      </li>
+    </comps>
+  </AbilityDef>
+
+
+
+</Defs>

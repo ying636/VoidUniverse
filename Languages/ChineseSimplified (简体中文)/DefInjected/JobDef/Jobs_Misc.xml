@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: entering node. -->
+  <UV_Enter.reportString>进入节点中</UV_Enter.reportString>
+  
+  <!-- EN: leading ritual. -->
+  <UV_LeadRitual.reportString>施展仪式中</UV_LeadRitual.reportString>
+  
+  <!-- EN: skipping. -->
+  <UV_Skip.reportString>折跃中</UV_Skip.reportString>
+  
+</LanguageData>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: parallel dimension -->
+  <UV_ParallelDimension.label>平行维度</UV_ParallelDimension.label>
+  <!-- EN: Consumes vast quantities of Biometal while maximizing ritual energy, transporting the entire region to a nearby similar dimension. This process refreshes all local landmarks and repairs grav launch ruins. -->
+  <UV_ParallelDimension.description>消耗大量活铁并将仪式能量最大化，使整个区域穿越到附近的相似维度。刷新附近的全部地标并修复逆重发射遗迹。</UV_ParallelDimension.description>
+  
+  <!-- EN: dark infusion -->
+  <UV_Ritual_DarkInfusion.label>暗黑赋能</UV_Ritual_DarkInfusion.label>
+  <!-- EN: Releases shader nanites to permeate the area, granting all allied units within the zone the ability to breathe safely in space while shielding them from extreme cold. -->
+  <UV_Ritual_DarkInfusion.description>使暗黑超凡微械飘散整个区域，使我方所有生物可以安全的在太空中呼吸并免受极寒的威胁</UV_Ritual_DarkInfusion.description>
+  
+  <!-- EN: flesh sealing -->
+  <UV_Ritual_FleshSealing.label>血肉封存</UV_Ritual_FleshSealing.label>
+  <!-- EN: Weakens the fleshmass nucleus and encases it with shaders, transforming it into a vessel for chemfuel production. -->
+  <UV_Ritual_FleshSealing.description>将血肉核心削弱并通过暗黑超凡碎片收容起来，使其成为生产燃料的容器</UV_Ritual_FleshSealing.description>
+  
+  <!-- EN: golden canary -->
+  <UV_Ritual_GoldenCanary.label>魔金鸟</UV_Ritual_GoldenCanary.label>
+  <!-- EN: Fuses the Gold Canary husk with the Golden Cube, granting it true life. -->
+  <UV_Ritual_GoldenCanary.description>将魔金鸟躯壳和金色魔方合为一体，使魔金鸟真正的获得生命。</UV_Ritual_GoldenCanary.description>
+  
+  <!-- EN: reveal information -->
+  <UV_Ritual_RevealInformation.label>虚空讯息</UV_Ritual_RevealInformation.label>
+  <!-- EN: Performs a psychic communication with the Void in an attempt to glean meaningful information, though the initiator may fall unconscious for several hours. -->
+  <UV_Ritual_RevealInformation.description>与虚空进行心灵交流，尝试获取一些有意义的信息。发起者可能会昏迷数小时</UV_Ritual_RevealInformation.description>
+  
+  <!-- EN: ship cooldown -->
+  <UV_Ritual_ShipCooldown.label>飞船冷却</UV_Ritual_ShipCooldown.label>
+  <!-- EN: Flushes the ship's engine with Anomaly nanites, rapidly venting waste heat and priming its systems for optimal performance. -->
+  <UV_Ritual_ShipCooldown.description>将飞船引擎用超凡微械进行冲刷，使其中的废热快速排出，并使其处于最佳的工作状态</UV_Ritual_ShipCooldown.description>
+  
+  <!-- EN: twisted reconstruction -->
+  <UV_TwistedReconstruction.label>扭曲重构</UV_TwistedReconstruction.label>
+  <!-- EN: Channels Void energy to warp and restructure all of the target's equipped gear, altering its persona an components while fully repairing its durability. -->
+  <UV_TwistedReconstruction.description>使虚空能量扭曲目标身上的全部装备并重构，这将会改变武器人格和武器配件，并且完全修补耐久</UV_TwistedReconstruction.description>
+  
+</LanguageData>

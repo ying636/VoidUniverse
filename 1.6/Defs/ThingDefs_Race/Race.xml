@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="SmallBirdThingBase">
+        <defName>UV_GoldenCanary</defName>
+        <label>golden canary</label>
+        <thingClass>VoidUniverse.GoldenCanary</thingClass>
+        <description>A golden avian automaton, brought to life through an arcane ritual. It moves with an uncanny, fluid grace, its metallic feathers catching the light with a warm, soothing glow. The creature emits a constant, low hum that brings a strange sense of calm to all who hear it. It is immune to injury, disease, and age, serving as a temporary, serene guardian until its borrowed time expires.</description>
+        <statBases>
+            <Wildness>0</Wildness>
+            <ComfyTemperatureMin>-100</ComfyTemperatureMin>
+            <ComfyTemperatureMax>250</ComfyTemperatureMax>
+            <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">1</VacuumResistance>
+        </statBases>
+        <race>
+            <hasCorpse>false</hasCorpse>
+            <trainability>Intermediate</trainability>
+            <manhunterOnDamageChance>0.1</manhunterOnDamageChance>
+            <petness>0.15</petness>
+            <foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
+            <specialTrainables>
+                <li MayRequire="Ludeon.RimWorld.Odyssey">AttackTarget</li>
+                <li>UV_GoldbirdRoar</li>
+            </specialTrainables>
+            <lifeStageAges Inherit="false">
+                <li>
+                    <def>AnimalAdult</def>
+                    <minAge>0.2</minAge>
+                    <soundWounded>Pawn_Crow_Wounded</soundWounded>
+                    <soundDeath>Pawn_Crow_Death</soundDeath>
+                    <soundCall>Pawn_Crow_Call</soundCall>
+                    <soundAngry>Pawn_Crow_Angry</soundAngry>
+                </li>
+            </lifeStageAges>
+        </race>
+        <comps>
+        </comps>
+    </ThingDef>
+
+    <PawnKindDef ParentName="AnimalKindBase">
+        <defName>UV_GoldenCanary</defName>
+        <label>golden canary</label>
+        <race>UV_GoldenCanary</race>
+        <combatPower>25</combatPower>
+        <ecoSystemWeight>0.20</ecoSystemWeight>
+        <wildGroupSize>2~4</wildGroupSize>
+        <canArriveManhunter>false</canArriveManhunter>
+        <flyingAnimationFramePathPrefix>Things/Pawn/UV_Goldbird_Flying_</flyingAnimationFramePathPrefix>
+        <flyingAnimationFrameCount>8</flyingAnimationFrameCount>
+        <flyingAnimationTicksPerFrame>2</flyingAnimationTicksPerFrame>
+        <flyingAnimationDrawSize>1.5</flyingAnimationDrawSize>
+        <flyingAnimationDrawSizeIsMultiplier>false</flyingAnimationDrawSizeIsMultiplier>
+        <flyingAnimationInheritColors>false</flyingAnimationInheritColors>
+        <lifeStages>
+            <li>
+                <bodyGraphicData>
+                    <texPath>Things/Pawn/UV_Goldbird</texPath>
+                </bodyGraphicData>
+                <dessicatedBodyGraphicData>
+                    <texPath>Things/Pawn/Animal/Crow/Dessicated_Crow</texPath>
+                </dessicatedBodyGraphicData>
+            </li>
+        </lifeStages>
+        <abilities>
+            <li>UV_GoldbirdRoar</li>
+        </abilities>
+    </PawnKindDef>
+
+
+
+
+
+
+    <PawnKindDef ParentName="HoraxianBase">
+        <defName>UV_Horaxian_Leader</defName>
+        <label>cult leader</label>
+        <combatPower>250</combatPower>
+        <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+        <studiableAsPrisoner>true</studiableAsPrisoner>
+        <isGoodPsychicRitualInvoker>true</isGoodPsychicRitualInvoker>
+        <disallowedTraitsWithDegree>
+            <PsychicSensitivity>-2</PsychicSensitivity>
+        </disallowedTraitsWithDegree>
+        <specificApparelRequirements>
+            <li>
+                <bodyPartGroup>Torso</bodyPartGroup>
+                <alternateTagChoices>
+                    <li>
+                        <tag>Robe</tag>
+                        <chance>1</chance>
+                    </li>
+                </alternateTagChoices>
+            </li>
+            <li>
+                <bodyPartGroup>FullHead</bodyPartGroup>
+                <requiredTag>HoraxianCeremonial</requiredTag>
+                <useRandomStyleDef>true</useRandomStyleDef>
+            </li>
+            <li>
+                <color>(85, 85, 85)</color>
+            </li>
+        </specificApparelRequirements>
+        <weaponTags>
+            <li>NerveSpiker</li>
+        </weaponTags>
+        <weaponMoney>300~500</weaponMoney>
+        <startingHediffs>
+            <li>
+                <def>Tentacle</def>
+                <chance>0.05</chance>
+            </li>
+            <li>
+                <def>Metalblood</def>
+                <durationTicksRange>60000~300000</durationTicksRange>                <!-- 1~5 days -->
+            </li>
+            <li>
+                <def>DeathRefusal</def>
+            </li>
+        </startingHediffs>
+    </PawnKindDef>
+
+</Defs>

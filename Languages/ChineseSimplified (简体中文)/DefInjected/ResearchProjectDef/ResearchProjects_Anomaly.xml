@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: dark infusion -->
+  <UV_Project_DarkInfusion.label>暗黑赋能</UV_Project_DarkInfusion.label>
+  <!-- EN: Performs a psychic ritual that envelops all allied units within the shader's reach with void-walking capability, allowing safe operation in space for a brief period. -->
+  <UV_Project_DarkInfusion.description>进行心灵仪式，使超凡暗黑能量覆盖区域所有我方生物，在太空安全行动</UV_Project_DarkInfusion.description>
+  <!-- EN:
+    <li>subject->Vacuum Survival Ritual</li>
+    <li>subject_story-> Mastered an esoteric technique to drastically reduce oxygen need through deep meditation</li>
+    <li>subject_story-> Joined an extreme cult that screened followers through vacuum chamber rituals</li>
+    <li>subject_story-> Completed a ten-minute survival ritual in space vacuum without any protection</li>
+    <li>subject_story-> Bears ancient tattoos said to form an invisible protective layer in vacuum</li>
+    <li>subject_gerund-> Performing vacuum survival rituals</li>
+    <li>subject_gerund-> Inscribing vacuum-protection runes on spacesuits</li>
+  -->
+  <UV_Project_DarkInfusion.generalRules.rulesStrings>
+    <li>subject->真空生存仪式</li>
+    <li>subject_story-> 掌握了一种通过深层冥想，大幅降低身体对氧气需求的秘法</li>
+    <li>subject_story-> 曾参与一个极端教派，该教派通过在真空舱中举行仪式来筛选信徒</li>
+    <li>subject_story-> 成功地在没有任何防护的情况下，于太空真空中完成了十分钟的生存仪式</li>
+    <li>subject_story-> 身上纹有古老的符文，据称能在真空中形成一层无形的保护膜</li>
+    <li>subject_gerund-> 举行真空生存仪式</li>
+    <li>subject_gerund-> 为太空服铭刻真空保护符文</li>
+  </UV_Project_DarkInfusion.generalRules.rulesStrings>
+  
+  <!-- EN: distorted terraformer -->
+  <UV_Project_DistortedTerraformer.label>扭曲环境改造仪</UV_Project_DistortedTerraformer.label>
+  <!-- EN: Unlocks build a Biometal-powered Terraformer that generates breathable safe zones in space and significantly raises the region's minimum temperature. -->
+  <UV_Project_DistortedTerraformer.description>解锁一种活铁驱动的扭曲环境改造仪，在太空中产生可呼吸的安全区，并显著提高该地区的最低温度。</UV_Project_DistortedTerraformer.description>
+  <!-- EN:
+    <li>subject->Supernatural Terraforming</li>
+    <li>subject_story-> Led eco-dome construction on a planet enveloped by lethal atmosphere</li>
+    <li>subject_story-> Researched using native microbiota to rapidly purify toxic environments</li>
+    <li>subject_story-> Accidentally turned a desert into a permanent fluorescent swamp due to failed weather control experiment</li>
+    <li>subject_gerund-> Reshaping local climate by channeling telluric energies</li>
+  -->
+  <UV_Project_DistortedTerraformer.generalRules.rulesStrings>
+    <li>subject->环境改造</li>
+    <li>subject_story-> 在一个被致命大气包裹的星球上主导了生态穹顶的建设项目</li>
+    <li>subject_story-> 研究过如何利用原生微生物群来快速净化有毒环境</li>
+    <li>subject_story-> 曾因控制天气的实验失败，意外地将一片沙漠变成了永久的荧光沼泽</li>
+    <li>subject_gerund-> 引导地脉能量以重塑局部气候</li>
+  </UV_Project_DistortedTerraformer.generalRules.rulesStrings>
+  
+  <!-- EN: entity anatomy table -->
+  <UV_Project_EntityAnatomyTable.label>实体解剖台</UV_Project_EntityAnatomyTable.label>
+  <!-- EN: Unlocks build a research bench for dissecting entity corpses to gain Anomaly research points. Yields no leather, meat, or filth. -->
+  <UV_Project_EntityAnatomyTable.description>解锁解剖实体的研究台，可以在解剖实体的尸体来获得异象研究点数，不会获得皮肉，也不会产生污物</UV_Project_EntityAnatomyTable.description>
+  <!-- EN:
+    <li>subject->Entity Autopsy</li>
+    <li>subject_story-> Performed systematic biological dissection on a non-carbon-based extraterrestrial lifeform</li>
+    <li>subject_story-> Worked at a clandestine research institute dedicated to classifying unknown biological entities</li>
+    <li>subject_story-> Discovered and documented numerous abnormal organ functions from Void creatures</li>
+    <li>subject_story-> Caused partial reassembly of a dissected entity specimen on the operating table due to operational error, triggering a containment breach</li>
+    <li>subject_gerund-> Dissecting entities to study their biological characteristics</li>
+  -->
+  <UV_Project_EntityAnatomyTable.generalRules.rulesStrings>
+    <li>subject->实体解剖</li>
+    <li>subject_story-> 对一种非碳基的异界生命形式进行了系统性的生物学剖析</li>
+    <li>subject_story-> 曾在一所致力于分类不明生物实体的秘密研究所工作</li>
+    <li>subject_story-> 发现并记录了大量来自虚空生物的异常器官功能</li>
+    <li>subject_story-> 因操作不当导致一个被解剖的实体样本在手术台上部分重组</li>
+    <li>subject_gerund-> 解剖实体以研究其生物学特性</li>
+  </UV_Project_EntityAnatomyTable.generalRules.rulesStrings>
+  
+  <!-- EN: flesh sealing -->
+  <UV_Project_FleshSealing.label>血肉封存</UV_Project_FleshSealing.label>
+  <!-- EN: Perform a psychic ritual that seal the fleshmass nucleus within a specialized vessel that automatically purges newly formed warped flesh and converts it into stored chemfuel. Compatible with grav ship fuel systems. -->
+  <UV_Project_FleshSealing.description>解锁将血肉心脏核心收容于特殊容器中的仪式，该容器会自动剔除新生成的扭曲肉并将其转化为化合燃料储存起来。与逆重飞船燃料系统兼容。</UV_Project_FleshSealing.description>
+  <!-- EN:
+    <li>subject->Flesh Preservation</li>
+    <li>subject_story-> Developed technology to preserve biological tissue permanently in stasis fields</li>
+    <li>subject_story-> Managed a gene bank storing rare alien biological specimens</li>
+    <li>subject_story-> Accidentally activated a preserved predator embryo causing severe consequences</li>
+    <li>subject_gerund-> Containing living flesh in stasis capsules</li>
+  -->
+  <UV_Project_FleshSealing.generalRules.rulesStrings>
+    <li>subject->血肉封存</li>
+    <li>subject_story-> 开发了一种能将生物组织在静滞场中永久保鲜的技术</li>
+    <li>subject_story-> 曾负责管理一个存放着稀有外星生物样本的基因库</li>
+    <li>subject_story-> 操作失误导致一个封存中的掠食者胚胎被意外激活，酿成了严重后果</li>
+    <li>subject_gerund-> 将活体血肉封存于静滞胶囊中</li>
+  </UV_Project_FleshSealing.generalRules.rulesStrings>
+  
+  <!-- EN: gold canary -->
+  <UV_Project_GoldCanary.label>魔金鸟</UV_Project_GoldCanary.label>
+  <!-- EN: Using a Golden Cube, create an invulnerable legendary creature that provides a mood boost to the entire area. -->
+  <UV_Project_GoldCanary.description>使用金色魔方创造一个无法受伤的传奇生物，为整个区域带来心情加成</UV_Project_GoldCanary.description>
+  <!-- EN:
+    <li>subject->Immortal Gold Canary</li>
+    <li>subject_story-> Researched legendary golden mechanical lifeforms capable of rebirth from flames</li>
+    <li>subject_story-> Restored an eternal guardian device left by ancient civilization</li>
+    <li>subject_story-> Witnessed Gold Canary healing radiation wounds across entire area with its glow</li>
+    <li>subject_gerund-> Seeking eternal blessings from the Gold Canary</li>
+  -->
+  <UV_Project_GoldCanary.generalRules.rulesStrings>
+    <li>subject->不死金鸟</li>
+    <li>subject_story-> 研究过一种传说中能浴火重生的金色机械生命体</li>
+    <li>subject_story-> 曾修复了一个古老文明留下的永恒守护者装置</li>
+    <li>subject_story-> 目睹不死金鸟用其光芒治愈了整个区域的辐射伤</li>
+    <li>subject_gerund-> 向不死金鸟祈求获得永恒祝福</li>
+  </UV_Project_GoldCanary.generalRules.rulesStrings>
+  
+  <!-- EN: parallel dimension -->
+  <UV_Project_ParallelDimension.label>平行维度</UV_Project_ParallelDimension.label>
+  <!-- EN: Performs a psychic ritual that transports the entire region to a similar yet distinct world, repairing grav ship wrecks and resetting nearby landmarks. -->
+  <UV_Project_ParallelDimension.description>进行心灵仪式，使整个区域穿越到另一个相似但不同的世界，修复一些逆重飞船遗迹并刷新附近区域的地标</UV_Project_ParallelDimension.description>
+  <!-- EN:
+    <li>subject->Parallel Spacetime</li>
+    <li>subject_story-> Researched methods to briefly open rifts to resource-rich parallel dimensions</li>
+    <li>subject_story-> Briefly communicated with alternate-timeline self</li>
+    <li>subject_story-> Caused partial overlap of two similar but hostile timelines due to experiment accident</li>
+    <li>subject_gerund-> Scouting parallel timelines for rare resources</li>
+  -->
+  <UV_Project_ParallelDimension.generalRules.rulesStrings>
+    <li>subject->平行时空</li>
+    <li>subject_story-> 研究过短暂开启通往资源无限丰富的平行维度裂缝的方法</li>
+    <li>subject_story-> 曾与另一个时空中的自己进行过短暂的交流</li>
+    <li>subject_story-> 因实验事故，导致两个相似但敌对的时空发生了部分重叠</li>
+    <li>subject_gerund-> 搜寻平行时空中的稀有资源</li>
+  </UV_Project_ParallelDimension.generalRules.rulesStrings>
+  
+  <!-- EN: reveal information -->
+  <UV_Project_RevealInformation.label>虚空讯息</UV_Project_RevealInformation.label>
+  <!-- EN: Performs a psychic ritual to extract valuable information from the Void, revealing a quest location -->
+  <UV_Project_RevealInformation.description>进行心灵仪式，从虚空中获得有价值的信息，揭示一个任务地点</UV_Project_RevealInformation.description>
+  <!-- EN:
+    <li>subject->Void Message</li>
+    <li>subject_story-> Deciphered non-Euclidean geometric signals from deep Void</li>
+    <li>subject_story-> Served as communications officer monitoring deep space anomalous radiation signals</li>
+    <li>subject_story-> Received warning message from future self but couldn't fully comprehend it</li>
+    <li>subject_gerund-> Decrypting encoded messages from the Void</li>
+  -->
+  <UV_Project_RevealInformation.generalRules.rulesStrings>
+    <li>subject->虚空讯息</li>
+    <li>subject_story-> 破译过来自虚空深处的非欧几里得几何结构信号</li>
+    <li>subject_story-> 曾是一名监听深空异常辐射信号的通讯员</li>
+    <li>subject_story-> 接收到一条来自未来自己的警告讯息，但无法理解其全部含义</li>
+    <li>subject_gerund-> 解读来自虚空的加密讯息</li>
+  </UV_Project_RevealInformation.generalRules.rulesStrings>
+  
+  <!-- EN: ship cooldown -->
+  <UV_Project_ShipCooldown.label>飞船冷却</UV_Project_ShipCooldown.label>
+  <!-- EN: Performs a psychic ritual that rapidly cools the grav ship's engine and increases the maximum range of its next voyage -->
+  <UV_Project_ShipCooldown.description>进行心灵仪式，使逆重飞船引擎快速冷却，并提升下次航行的最大航程</UV_Project_ShipCooldown.description>
+  <!-- EN:
+    <li>subject->Gravship Cooling Ritual</li>
+    <li>subject_story-> Studied ancient chanting methods said to channel heat into the Void through sonic waves</li>
+    <li>subject_story-> Discovered ritual patterns for "cooling" metals in a lost manuscript</li>
+    <li>subject_story-> Witnessed an old technician calm an overheating engine through chants and complex gestures</li>
+    <li>subject_story-> A ritual failure caused a ship engine to become permanently locked due to over-cooling</li>
+    <li>subject_gerund-> Presiding over starship cooling rituals</li>
+    <li>subject_gerund-> Chilling critical components by chanting cooling hymns</li>
+  -->
+  <UV_Project_ShipCooldown.generalRules.rulesStrings>
+    <li>subject->冷却仪式</li>
+    <li>subject_story-> 学习过古老的吟唱法，据说其声波能引导热量流入虚空</li>
+    <li>subject_story-> 曾在一份失落的手稿中发现了关于为金属“降火”的仪式图案</li>
+    <li>subject_story-> 目睹了一位老技师通过吟唱和复杂的手势，让过热的引擎恢复了平静</li>
+    <li>subject_story-> 一次仪式失误导致飞船引擎被过度冷却而彻底锁死</li>
+    <li>subject_gerund-> 主持飞船冷却仪式</li>
+    <li>subject_gerund-> 吟唱冷却圣歌为关键部件降温</li>
+  </UV_Project_ShipCooldown.generalRules.rulesStrings>
+  
+  <!-- EN: twisted reconstruction -->
+  <UV_Project_TwistedReconstruction.label>扭曲重构</UV_Project_TwistedReconstruction.label>
+  <!-- EN: Performs a psychic ritual that warps and mends the target's equipment using Void energy. -->
+  <UV_Project_TwistedReconstruction.description>进行心灵仪式，使虚空能量扭曲目标身上的装备并进行修补。</UV_Project_TwistedReconstruction.description>
+  <!-- EN:
+    <li>subject->Gear Refabrication</li>
+    <li>subject_story-> Operated device capable of decomposing and reassembling molecular structures</li>
+    <li>subject_story-> Successfully refabricated scrap metal into functional power armor</li>
+    <li>subject_story-> Fused a weapon with user's arm during refabrication experiment</li>
+    <li>subject_gerund-> Refabricating useless equipment into useful tools</li>
+  -->
+  <UV_Project_TwistedReconstruction.generalRules.rulesStrings>
+    <li>subject->装备重构</li>
+    <li>subject_story-> 操作过一台能分解并重新组合物质分子结构的装置</li>
+    <li>subject_story-> 曾将一堆废铁成功重构为一套可用的动力装甲</li>
+    <li>subject_story-> 在一次重构实验中不慎将武器与使用者的手臂融合在了一起</li>
+    <li>subject_gerund-> 将废旧装备重构为有用工具</li>
+  </UV_Project_TwistedReconstruction.generalRules.rulesStrings>
+  
+  <!-- EN: void field extender -->
+  <UV_Project_VoidFieldExtender.label>虚空延展器</UV_Project_VoidFieldExtender.label>
+  <!-- EN: Unlocks build a field extender that uses shaders to replace the gravcore. -->
+  <UV_Project_VoidFieldExtender.description>解锁建造使用暗黑超凡碎片替换逆重核心的飞船延展器</UV_Project_VoidFieldExtender.description>
+  <!-- EN:
+    <li>subject->Void Field Extender</li>
+    <li>subject_story-> Participated in experimental projects using Void energy to stabilize local spacetime structures</li>
+    <li>subject_story-> Maintained a remote matter transmission array based on grav engine principles</li>
+    <li>subject_story-> Researched methods to expand internal volume of enclosed spaces through gravitational field distortion</li>
+    <li>subject_story-> Briefly "stretched" a forest area into another dimension during prototype testing</li>
+    <li>subject_gerund-> Calibrating field effect parameters of Void Field Extenders</li>
+    <li>subject_gerund-> Deploying Void Field Extenders to increase grav ship payload capacity</li>
+  -->
+  <UV_Project_VoidFieldExtender.generalRules.rulesStrings>
+    <li>subject->虚空延展器</li>
+    <li>subject_story-> 参与了利用虚空能量稳定局部时空结构的实验性项目</li>
+    <li>subject_story-> 曾负责维护一座基于逆重引擎原理的远程物质传输阵列</li>
+    <li>subject_story-> 研究过如何通过扭曲引力场来扩展封闭空间的内部容积</li>
+    <li>subject_story-> 在测试原型机时意外地将一片森林区域短暂地“拉伸”到了另一个维度</li>
+    <li>subject_gerund-> 校准虚空延展器的场效应参数</li>
+    <li>subject_gerund-> 部署虚空延展器以扩大逆重飞船的有效载荷空间</li>
+  </UV_Project_VoidFieldExtender.generalRules.rulesStrings>
+  
+  <!-- EN: void thruster -->
+  <UV_Project_VoidThruster.label>石碑推进器</UV_Project_VoidThruster.label>
+  <!-- EN: Construct a Dark Arcane-powered spacecraft thruster that significantly reduces fuel consumption. -->
+  <UV_Project_VoidThruster.description>解锁建造使用暗黑超凡碎片替换逆重核心的飞船延展器</UV_Project_VoidThruster.description>
+  <!-- EN:
+    <li>subject->Void Thruster</li>
+    <li>subject_story-> Tested experimental engines generating thrust by tearing spacetime</li>
+    <li>subject_story-> Reverse-engineered FTL technology from crashed alien spacecraft wreckage</li>
+    <li>subject_story-> Briefly stranded a ship and its crew in timeless Void during jump test</li>
+    <li>subject_gerund-> Installing Void Thrusters on grav ships</li>
+  -->
+  <UV_Project_VoidThruster.generalRules.rulesStrings>
+    <li>subject->虚空推进</li>
+    <li>subject_story-> 测试了一种通过撕裂空间来获得推力的实验性引擎</li>
+    <li>subject_story-> 曾从坠毁的外星飞船残骸中逆向工程出超光速技术</li>
+    <li>subject_story-> 在一次跃迁测试中，导致飞船及其船员被短暂地抛入了无时间的虚空</li>
+    <li>subject_gerund-> 为逆重飞船安装虚空推进器</li>
+  </UV_Project_VoidThruster.generalRules.rulesStrings>
+  
+</LanguageData>

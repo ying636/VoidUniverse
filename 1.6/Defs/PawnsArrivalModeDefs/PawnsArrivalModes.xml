@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PawnsArrivalModeDef>
+    <defName>UV_SKipArrivalMode</defName>
+    <workerClass>VoidUniverse.PawnsArrivalModeWorker_Skip</workerClass>
+    <selectionWeightCurve>
+      <points>
+        <li>(300, 1.0)</li>
+        <li>(700, 0.4)</li>
+      </points>
+    </selectionWeightCurve>
+    <textEnemy>A group of {0} have arrived nearby by skip.</textEnemy>
+    <textFriendly>A group of friendly {0} from {1} have arrived nearby by skip.</textFriendly>
+    <textWillArrive>{0_pawnsPluralDef} will arrive by skip.</textWillArrive>
+    <layerWhitelist>
+      <li>Orbit</li>
+    </layerWhitelist>
+  </PawnsArrivalModeDef>
+
+</Defs>

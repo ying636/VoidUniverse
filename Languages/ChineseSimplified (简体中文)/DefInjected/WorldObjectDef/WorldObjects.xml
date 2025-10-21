@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: asteroid underground base -->
+  <UV_HatchAsteroid.label>小行星地下基地</UV_HatchAsteroid.label>
+  <!-- EN: An asteroid whose interior has been refitted into an underground base. It exudes an ominous aura, with unknown dust particles continuously wafting from within.\nYou may attempt to venture deeper inside. -->
+  <UV_HatchAsteroid.description>内部已经被改造为地下基地的小行星，散发着不祥的气息，有一些未知的粉尘从其内部不断飘出。你可以尝试深入其中。</UV_HatchAsteroid.description>
+  
+  <!-- EN: pit gate asteroid -->
+  <UV_HeartPitGateAsteroid.label>坑洞小行星</UV_HeartPitGateAsteroid.label>
+  <!-- EN: An asteroid marked by a massive crater, exuding an ominous aura. It conceals a network of caves leading deep into its core.\nYou may attempt to venture deeper inside. -->
+  <UV_HeartPitGateAsteroid.description>表面上有一个巨大坑洞的小行星，散发着不祥的气息，连接着小行星内部的洞穴网络。你可以尝试深入其中。</UV_HeartPitGateAsteroid.description>
+  
+  <!-- EN: pit gate asteroid -->
+  <UV_PitGateAsteroid.label>坑洞小行星</UV_PitGateAsteroid.label>
+  <!-- EN: An asteroid marked by a massive crater, exuding an ominous aura. It conceals a network of caves leading deep into its core.\nYou may attempt to venture deeper inside. -->
+  <UV_PitGateAsteroid.description>表面上有一个巨大坑洞的小行星，散发着不祥的气息，连接着小行星内部的洞穴网络。你可以尝试深入其中。</UV_PitGateAsteroid.description>
+  
+</LanguageData>

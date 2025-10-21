@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+    <ThingDef ParentName="BuildingBase">
+        <defName>UV_BiomutationTerraformer</defName>
+        <label>biomutation terraformer</label>
+        <description>A scavenged archotech shard mounted in an electrical stimulation frame. The device creates a frenzied psychic vibration in the local area which stimulates everyone nearby to move and work faster. However, any mental breaks they have are guaranteed to be violent.</description>
+        <thingClass>VoidUniverse.Building_BiomutationTerraformer</thingClass>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Things/Building/UV_BiomutationTerraformer/UV_BiomutationTerraformer_A</texPath>
+            <drawSize>(3,3)</drawSize>
+        </graphicData>
+        <researchPrerequisites>
+            <li>UV_Project_DistortedTerraformer</li>
+        </researchPrerequisites>
+        <drawerType>RealtimeOnly</drawerType>
+        <designationCategory>Anomaly</designationCategory>
+        <uiOrder>600</uiOrder>
+        <uiIconScale>0.7</uiIconScale>
+        <fillPercent>0.40</fillPercent>
+        <size>(3,3)</size>
+        <building>
+            <claimable>false</claimable>
+            <expandHomeArea>false</expandHomeArea>
+            <buildingTags>
+                <li>Anomaly</li>
+            </buildingTags>
+        </building>
+        <costList>
+            <Shard>1</Shard>
+            <Bioferrite>100</Bioferrite>
+        </costList>
+        <statBases>
+            <MaxHitPoints>100</MaxHitPoints>
+            <Flammability>0.5</Flammability>
+            <WorkToBuild>6000</WorkToBuild>
+            <Beauty>-10</Beauty>
+            <Mass>50</Mass>
+        </statBases>
+        <thingCategories>
+            <li>BuildingsMisc</li>
+        </thingCategories>
+        <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+        <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+        <tickerType>Normal</tickerType>
+        <rotatable>false</rotatable>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <placeWorkers>
+            <li>PlaceWorker_NoiseSource</li>
+        </placeWorkers>
+        <comps>
+            <li Class="CompProperties_Effecter">
+                <compClass>VoidUniverse.CompEffecterWithPower</compClass>
+                <effecterDef>CerebrexStabilizerPulse</effecterDef>
+            </li>
+            <li Class="CompProperties_Refuelable">
+                <fuelConsumptionRate>0</fuelConsumptionRate>
+                <fuelCapacity>240</fuelCapacity>
+                <fuelFilter>
+                    <thingDefs>
+                        <li>Bioferrite</li>
+                    </thingDefs>
+                </fuelFilter>
+                <initialFuelPercent>1</initialFuelPercent>
+                <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+                <externalTicking>true</externalTicking>
+                <autoRefuelPercent>0.05</autoRefuelPercent>
+                <canEjectFuel>true</canEjectFuel>
+            </li>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <basePowerConsumption>150</basePowerConsumption>
+            </li>
+            <li Class="CompProperties_Flickable"/>
+        </comps>
+    </ThingDef>
+
+
+
+    <ThingDef Name="PitGateBase" ParentName="BuildingBase" Abstract="True">
+        <label>pit gate</label>
+        <description>A massive, foreboding hole that connects the surface with a dark network of underground caves. It is possible to climb down into the caverns below.</description>
+        <size>(8,8)</size>
+        <useHitPoints>false</useHitPoints>
+        <thingClass>PitGate</thingClass>
+        <tickerType>Normal</tickerType>
+        <rotatable>false</rotatable>
+        <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+        <canOverlapZones>false</canOverlapZones>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Things/Building/PitGate/PitGate</texPath>
+            <drawSize>(8,8)</drawSize>
+        </graphicData>
+        <altitudeLayer>FloorEmplacement</altitudeLayer>
+        <passability>Impassable</passability>
+        <holdsRoof>true</holdsRoof>
+        <destroyable>false</destroyable>
+        <building>
+            <isEdifice>true</isEdifice>
+            <deconstructible>false</deconstructible>
+            <isTargetable>false</isTargetable>
+            <isInert>true</isInert>
+            <claimable>false</claimable>
+            <expandHomeArea>false</expandHomeArea>
+        </building>
+        <statBases>
+            <Flammability>0</Flammability>
+        </statBases>
+        <inspectorTabs>
+            <li>ITab_ContentsMapPortal</li>
+        </inspectorTabs>
+        <comps>
+            <li Class="CompProperties_LeaveFilthOnDestroyed">
+                <filthDef>Filth_LooseGround</filthDef>
+                <thickness>5</thickness>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="PitGateBase">
+        <defName>UV_DreadmeldPitGate</defName>
+        <portal>
+            <pocketMapGenerator>UV_MapGenerator_Dreadmeld</pocketMapGenerator>
+            <exitDef>CaveExit</exitDef>
+            <enteredLetterLabel>Fleshbeast lair</enteredLetterLabel>
+            <enteredLetterText>In the depths of the pit gate, you have discovered a massive cavern system infested with fleshbeasts.\n\nThe cavern system is clogged with masses of living flesh that block your progress. Attack the fleshmass to destroy it.\n\nThe entire cavern system seems unstable. If you find what lies behind the fleshmass, you may be able to collapse the tunnels and close the pit gate.</enteredLetterText>
+            <enteredLetterDef>ThreatBig</enteredLetterDef>
+            <traverseSound>TraversePitGate</traverseSound>
+        </portal>
+    </ThingDef>
+
+    <ThingDef ParentName="PitGateBase">
+        <defName>UV_HeartPitGate</defName>
+        <portal>
+            <pocketMapGenerator>UV_MapGenerator_FleshHeart</pocketMapGenerator>
+            <exitDef>CaveExit</exitDef>
+            <enteredLetterLabel>Fleshbeast lair</enteredLetterLabel>
+            <enteredLetterText>In the depths of the pit gate, you have discovered a massive cavern system infested with fleshbeasts.\n\nThe cavern system is clogged with masses of living flesh that block your progress. Attack the fleshmass to destroy it.\n\nThe entire cavern system seems unstable. If you find what lies behind the fleshmass, you may be able to collapse the tunnels and close the pit gate.</enteredLetterText>
+            <enteredLetterDef>ThreatBig</enteredLetterDef>
+            <traverseSound>TraversePitGate</traverseSound>
+        </portal>
+    </ThingDef>
+
+    <MapGeneratorDef Name="UV_Undercave" Abstract="True">
+        <label>undercave</label>
+        <isUnderground>true</isUnderground>
+        <forceCaves>true</forceCaves>
+        <ignoreAreaRevealedLetter>true</ignoreAreaRevealedLetter>
+        <disableCallAid>true</disableCallAid>
+        <customMapComponents>
+            <li>UndercaveMapComponent</li>
+        </customMapComponents>
+        <pocketMapProperties>
+            <biome>UV_SpaceUndercave</biome>
+            <temperature>-75</temperature>
+            <tileMutators>
+                <li>UndergroundCave</li>
+            </tileMutators>
+        </pocketMapProperties>
+        <genSteps>
+            <li>ElevationFertility</li>
+            <li>MutatorPostElevationFertility</li>
+            <li>Underground_RocksFromGrid</li>
+            <li>Terrain</li>
+            <li>MutatorPostTerrain</li>
+            <li>Underground_ScatterRuinsSimple</li>
+            <li>MutatorCriticalStructures</li>
+            <li>MutatorNonCriticalStructures</li>
+            <li>Fleshbulbs</li>
+            <li>RockChunks</li>
+            <li>PlaceCaveExit</li>
+            <li>FleshSacks</li>
+            <li>MutatorFinal</li>
+            <li>Fog</li>
+        </genSteps>
+    </MapGeneratorDef>
+
+
+    <BiomeDef ParentName="Biome_Underground">
+        <defName>UV_SpaceUndercave</defName>
+        <label>undercave</label>
+        <description>This cave is filled with the putrid stench of rotting flesh.</description>
+        <baseWeatherCommonalities>
+            <Undercave>1</Undercave>
+        </baseWeatherCommonalities>
+        <inVacuum>true</inVacuum>
+        <forceRockTypes>
+            <li>Vacstone</li>
+        </forceRockTypes>
+    </BiomeDef>
+
+    <MapGeneratorDef ParentName="UV_Undercave">
+        <defName>UV_MapGenerator_Dreadmeld</defName>
+        <genSteps>
+            <li>Dreadmeld</li>
+            <li>Fleshmass</li>
+        </genSteps>
+    </MapGeneratorDef>
+
+    <MapGeneratorDef ParentName="UV_Undercave">
+        <defName>UV_MapGenerator_FleshHeart</defName>
+        <genSteps>
+            <li>UV_GenStep_FleshHeart</li>
+        </genSteps>
+    </MapGeneratorDef>
+
+    <GenStepDef>
+        <defName>UV_GenStep_FleshHeart</defName>
+        <order>600</order>
+        <genStep Class="VoidUniverse.GenStep_FleshHeart" />
+    </GenStepDef>
+
+
+
+    <ThingDef ParentName="BuildingBase">
+        <defName>UV_AncientHatch</defName>
+        <label>ancient stockpile entrance</label>
+        <description>The entrance to a long-abandoned subterranean facility. Hack it to open the hatch.</description>
+        <size>(3,3)</size>
+        <useHitPoints>false</useHitPoints>
+        <thingClass>AncientHatch</thingClass>
+        <rotatable>false</rotatable>
+        <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+        <canOverlapZones>false</canOverlapZones>
+        <tickerType>Normal</tickerType>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Things/Building/AncientHatch/AncientHatch_Closed</texPath>
+            <drawSize>(3, 3)</drawSize>
+        </graphicData>
+        <altitudeLayer>FloorEmplacement</altitudeLayer>
+        <fillPercent>0</fillPercent>
+        <passability>Impassable</passability>
+        <holdsRoof>true</holdsRoof>
+        <destroyable>false</destroyable>
+        <building>
+            <isEdifice>true</isEdifice>
+            <deconstructible>false</deconstructible>
+            <isTargetable>false</isTargetable>
+            <isInert>true</isInert>
+            <claimable>false</claimable>
+            <expandHomeArea>false</expandHomeArea>
+        </building>
+        <portal>
+            <pocketMapGenerator>UV_AncientStockpile</pocketMapGenerator>
+            <exitDef>AncientHatchExit</exitDef>
+            <pocketMapSize>75</pocketMapSize>
+        </portal>
+        <statBases>
+            <Flammability>0</Flammability>
+        </statBases>
+        <comps>
+            <li Class="CompProperties_Hackable">
+                <defence>39000</defence>
+                <effectHacking>HackingTerminal</effectHacking>
+                <lockoutDurationHoursRange>6~18</lockoutDurationHoursRange>
+                <showProgressAfterHackCompletion>false</showProgressAfterHackCompletion>
+                <notHackedInspectString>Hack to open.</notHackedInspectString>
+                <intellectualSkillPrerequisite>4</intellectualSkillPrerequisite>
+                <hackingCompletedSound>AncientHatchOpened</hackingCompletedSound>
+                <hackedMessage>{HACKER_labelShort} has finished hacking {SUBJECT_labelNoParenthesisDef}.</hackedMessage>
+            </li>
+            <li Class="CompProperties_Sealable">
+                <sealTexPath>UI/Commands/SealHatch</sealTexPath>
+                <sealCommandLabel>Seal entrance</sealCommandLabel>
+                <sealCommandDesc>Choose a colonist to permanently seal the entrance. Anything or anyone left below will be lost forever.</sealCommandDesc>
+                <cannotSealLabel>Cannot seal</cannotSealLabel>
+                <confirmSealText>Sealing the ancient stockpile entrance is permanent. Anything or anyone left below will be lost forever.{0}\n\nAre you sure you want to continue?</confirmSealText>
+                <sealedInspectString>Permanently sealed.</sealedInspectString>
+                <cannotEnterLabel>Sealed</cannotEnterLabel>
+            </li>
+            <li Class="CompProperties_Glower">
+                <glowRadius>3</glowRadius>
+                <glowColor>(239,133,50,0)</glowColor>
+            </li>
+        </comps>
+        <inspectorTabs>
+            <li>ITab_ContentsMapPortal</li>
+        </inspectorTabs>
+    </ThingDef>
+
+
+    <ThingDef ParentName="LowTechCrateBase">
+        <defName>UV_BioferriteSlagBox</defName>
+        <label>bioferrite slag box</label>
+        <description>A box filled with valuable bioferrite. Some are intact and useable.</description>
+        <graphicData>
+            <texPath>Things/Building/UV_BioferriteSlagBox/UV_BioferriteSlagBox_Close</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(1,1)</drawSize>
+        </graphicData>
+        <size>(1, 1)</size>
+        <fillPercent>0.2</fillPercent>
+        <statBases>
+            <MaxHitPoints>50</MaxHitPoints>
+        </statBases>
+        <rotatable>false</rotatable>
+        <comps>
+            <li Class="CompProperties_EmptyStateGraphic">
+                <graphicData>
+                    <texPath>Things/Building/UV_BioferriteSlagBox/UV_BioferriteSlagBox_Open</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(1,1)</drawSize>
+                </graphicData>
+            </li>
+            <li Class="CompProperties_LootSpawn">
+                <contents>Reward_AncientBox_Bioferrite</contents>
+            </li>
+        </comps>
+    </ThingDef>
+
+
+    <ThingSetMakerDef>
+        <defName>Reward_AncientBox_Bioferrite</defName>
+        <root Class="ThingSetMaker_RandomOption">
+            <options>
+
+                <!-- Components -->
+                <li>
+                    <weight>1</weight>
+                    <thingSetMaker Class="ThingSetMaker_StackCount">
+                        <fixedParams>
+                            <filter>
+                                <thingDefs>
+                                    <li>Bioferrite</li>
+                                </thingDefs>
+                            </filter>
+                            <countRange>22~50</countRange>
+                        </fixedParams>
+                    </thingSetMaker>
+                </li>
+
+            </options>
+        </root>
+    </ThingSetMakerDef>
+
+
+</Defs>

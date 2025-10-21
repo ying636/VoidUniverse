@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+    <ThingDef>
+        <thingClass>VoidUniverse.GoldenPrototype</thingClass>
+        <defName>UV_GoldenPrototype</defName>
+        <label>gold prototype</label>
+        <description>A delicate, small sculpture made of gold, depicting a golden bird with its wings unfurled, breathtakingly lifelike. If you draw closer, you can almost sense a faint, supernatural hum.</description>
+        <category>Item</category>
+        <genericMarketSellable>false</genericMarketSellable>
+        <drawerType>MapMeshOnly</drawerType>
+        <tickerType>Normal</tickerType>
+        <rotatable>false</rotatable>
+        <altitudeLayer>Item</altitudeLayer>
+        <selectable>true</selectable>
+        <useHitPoints>false</useHitPoints>
+        <healthAffectsPrice>false</healthAffectsPrice>
+        <alwaysHaulable>true</alwaysHaulable>
+        <drawGUIOverlay>true</drawGUIOverlay>
+        <pathCost>14</pathCost>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Things/UV_Goldbird_item</texPath>
+        </graphicData>
+        <statBases>
+            <Mass>1</Mass>
+            <Beauty>400</Beauty>
+            <Flammability>0</Flammability>
+            <MarketValue>1200</MarketValue>
+            <WorkToMake>36000</WorkToMake>
+        </statBases>
+        <thingCategories>
+            <li>ItemsMisc</li>
+        </thingCategories>
+        <hiddenWhileUndiscovered>true</hiddenWhileUndiscovered>
+        <allowedArchonexusCount>1</allowedArchonexusCount>
+        <costList>
+            <Gold>20</Gold>
+            <Shard>1</Shard>
+            <Gravcore>1</Gravcore>
+        </costList>
+        <recipeMaker>
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <workSkill>Crafting</workSkill>
+            <effectWorking>Smith</effectWorking>
+            <soundWorking>Recipe_Smith</soundWorking>
+            <skillRequirements>
+                <Crafting>10</Crafting>
+            </skillRequirements>
+            <workAmount>600</workAmount>
+            <researchPrerequisite>UV_Project_GoldCanary</researchPrerequisite>
+            <recipeUsers>
+                <li>BioferriteShaper</li>
+            </recipeUsers>
+            <displayPriority>160</displayPriority>
+        </recipeMaker>
+        <comps>
+            <li Class="CompProperties_Forbiddable" />
+        </comps>
+    </ThingDef>
+ 
+
+</Defs>

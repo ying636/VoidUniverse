@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <DutyDef>
+        <defName>UV_DeliverPawnToPsychicRitualCell</defName>
+        <thinkNode Class="ThinkNode_Priority">
+            <subNodes>
+                <li Class="VoidUniverse.JobGiver_UVDeliverPawnToPsychicRitualCell">
+                    <tag>carry</tag>
+                    <exactCell>true</exactCell>
+                    <locomotionUrgency>Jog</locomotionUrgency>
+                    <wanderOnArrival>false</wanderOnArrival>
+                    <skipIfTargetCanReach>false</skipIfTargetCanReach>
+                </li>
+                <li Class="JobGiver_GotoTravelDestination">
+                    <tag>goto</tag>
+                    <exactCell>true</exactCell>
+                    <allowZeroLengthPaths>true</allowZeroLengthPaths>
+                    <destinationFocusIndex>3</destinationFocusIndex>
+                </li>
+                <li Class="JobGiver_Idle" />
+            </subNodes>
+        </thinkNode>
+    </DutyDef>
+
+    <DutyDef>
+        <defName>UV_CultLeader</defName>
+        <thinkNode Class="ThinkNode_Priority">
+            <subNodes>
+                <li Class="VoidUniverse.JobGiver_EnterVoidNode" />
+                <li Class="VoidUniverse.JobGiver_LeadRiutal" />
+                <li Class="JobGiver_Idle" />
+            </subNodes>
+        </thinkNode>
+    </DutyDef>
+
+
+
+
+</Defs> 

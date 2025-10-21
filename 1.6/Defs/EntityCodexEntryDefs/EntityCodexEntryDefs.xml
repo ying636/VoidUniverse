@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <EntityCodexEntryDef>
+    <defName>UV_Codex_GoldenBrid</defName>
+    <label>golden canary</label>
+    <category>Advanced</category>
+    <useDescriptionFrom>UV_GoldenCanary</useDescriptionFrom>
+    <uiIconPath>UI/CodexEntries/UV_Goldbird</uiIconPath>
+    <linkedThings>
+      <li>UV_GoldenCanary</li>
+    </linkedThings>
+  </EntityCodexEntryDef>
+
+
+</Defs>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: ship offset -->
+  <UV_ShipOffset.label>飞船偏移</UV_ShipOffset.label>
+  <!-- EN: affect the maximum flight distance of the Gravship -->
+  <UV_ShipOffset.description>影响逆重飞船的最大飞行距离</UV_ShipOffset.description>
+  
+  <!-- EN: unnatural darkness -->
+  <UV_UnnaturalDarkness.label>温和的异常黑暗</UV_UnnaturalDarkness.label>
+  <!-- EN: The world is blanketed by a layer of unnatural darkness. From the inky blackness, one can hear the inhuman groaning of deadly creatures. Stay in the light. -->
+  <UV_UnnaturalDarkness.description>整个世界沉浸在异常的黑暗之中。某些非人生物的恐怖呻吟在耳边响起。由于方尖碑被提前启动，你可以在黑暗中较为安全的行动</UV_UnnaturalDarkness.description>
+  
+</LanguageData>

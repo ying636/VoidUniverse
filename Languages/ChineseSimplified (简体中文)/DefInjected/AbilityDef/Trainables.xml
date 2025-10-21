@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: berserk -->
+  <UV_GoldbirdRoar.label>激怒</UV_GoldbirdRoar.label>
+  <!-- EN: Emits a shriek infused with the energy of the Gold Cube, driving the target into a frenzy and compelling them to indiscriminately attack nearby creatures. -->
+  <UV_GoldbirdRoar.description>发出一声包含了金色魔方能量的鸟鸣，使目标陷入狂暴状态，无差别的攻击附近的生物</UV_GoldbirdRoar.description>
+  
+</LanguageData>

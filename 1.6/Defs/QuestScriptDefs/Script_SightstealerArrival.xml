@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <QuestScriptDef>
+    <defName>UV_SightstealerArrival</defName>
+    <root Class="VoidUniverse.QuestNode_Root_SightstealerArrival_Space" />
+    <rootSelectionWeight>0</rootSelectionWeight>
+    <isRootSpecial>true</isRootSpecial>
+    <defaultHidden>true</defaultHidden>
+    <autoAccept>true</autoAccept>
+    <questNameRules>
+      <rulesStrings>
+        <li>questDescription->sightstealerarrival</li> <!-- hidden -->
+      </rulesStrings>
+    </questNameRules>
+    <questDescriptionRules>
+      <rulesStrings>
+        <li>questDescription->sightstealerarrival</li> <!-- hidden -->
+      </rulesStrings>
+    </questDescriptionRules>
+  </QuestScriptDef>
+
+</Defs>

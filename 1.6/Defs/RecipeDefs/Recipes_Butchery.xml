@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef>
+    <defName>UV_DissectEnty</defName>
+    <label>dissect enty</label>
+    <description>Dissect entity corpses to gain Anomaly research points.</description>
+    <workerClass>VoidUniverse.RecipeWorker_DissectEnty</workerClass>
+    <jobString>Butchering.</jobString>
+    <workAmount>450</workAmount>
+    <workSpeedStat>ButcheryFleshSpeed</workSpeedStat> 
+    <workSkill>Intellectual</workSkill>
+    <efficiencyStat>StudyEfficiency</efficiencyStat>
+    <effectWorking>ButcherFlesh</effectWorking>
+    <soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+    <interruptIfIngredientIsRotting>true</interruptIfIngredientIsRotting>
+    <uiIconThing>Meat_Muffalo</uiIconThing>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>CorpsesEntity</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>CorpsesEntity</li>
+      </categories>
+      <specialFiltersToDisallow>
+        <li>AllowRotten</li>
+      </specialFiltersToDisallow>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>UV_ResearchBenchButcher</li>
+    </recipeUsers>
+  </RecipeDef>
+
+</Defs>

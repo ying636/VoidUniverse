@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs> 
+
+  <JobDef>
+    <defName>UV_ActiveTank</defName>
+    <driverClass>VoidUniverse.JobDriver_ActiveTank</driverClass>
+    <reportString>active TargetA.</reportString>
+  </JobDef>
+
+</Defs>

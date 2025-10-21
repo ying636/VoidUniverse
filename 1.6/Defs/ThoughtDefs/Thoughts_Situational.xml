@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThoughtDef>
+    <defName>UV_GoldenCanary_Thought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <nullifyingHediffs>
+      <li>Inhumanized</li>
+    </nullifyingHediffs>
+    <stages>
+      <li>
+        <label>Bird Joy</label>
+        <description>My wonderful bird. My precious bird. I love it. It's so beautiful.</description>
+        <baseMoodEffect>15</baseMoodEffect>
+      </li>
+    </stages>
+    <hediff>UV_Hediff_GoldenCanaryHeal</hediff>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>UV_GoldenCanaryPeace_Thought</defName>
+    <workerClass>VoidUniverse.ThoughtWorker_GoldenCanary</workerClass>
+    <nullifyingHediffs>
+      <li>Inhumanized</li>
+    </nullifyingHediffs>
+    <stages>
+      <li>
+        <label>Bird peace</label>
+        <description>This beautiful little bird calms my heart.</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>

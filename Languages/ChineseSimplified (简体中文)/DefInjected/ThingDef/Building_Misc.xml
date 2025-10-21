@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: ancient stockpile entrance -->
+  <UV_AncientHatch.label>远古仓库入口</UV_AncientHatch.label>
+  <!-- EN: The entrance to a long-abandoned subterranean facility. Hack it to open the hatch. -->
+  <UV_AncientHatch.description>一处早已废弃的地下设施入口。骇入以开启舱门。</UV_AncientHatch.description>
+  <!-- EN: {HACKER_labelShort} has finished hacking {SUBJECT_labelNoParenthesisDef}. -->
+  <UV_AncientHatch.comps.CompHackable.hackedMessage>{HACKER_labelShort}已完成对{SUBJECT_labelNoParenthesisDef}的骇入。</UV_AncientHatch.comps.CompHackable.hackedMessage>
+  <!-- EN: Hack to open. -->
+  <UV_AncientHatch.comps.CompHackable.notHackedInspectString>骇入以开启。</UV_AncientHatch.comps.CompHackable.notHackedInspectString>
+  <!-- EN: Sealed -->
+  <UV_AncientHatch.comps.CompSealable.cannotEnterLabel>已密封</UV_AncientHatch.comps.CompSealable.cannotEnterLabel>
+  <!-- EN: Cannot seal -->
+  <UV_AncientHatch.comps.CompSealable.cannotSealLabel>无法封闭</UV_AncientHatch.comps.CompSealable.cannotSealLabel>
+  <!-- EN: Sealing the ancient stockpile entrance is permanent. Anything or anyone left below will be lost forever.{0}\n\nAre you sure you want to continue? -->
+  <UV_AncientHatch.comps.CompSealable.confirmSealText>封闭远古仓库入口将是永久性的。任何遗留其下的物品或人员都将永远丢失。{0}\n\n你确定要继续吗？</UV_AncientHatch.comps.CompSealable.confirmSealText>
+  <!-- EN: Choose a colonist to permanently seal the entrance. Anything or anyone left below will be lost forever. -->
+  <UV_AncientHatch.comps.CompSealable.sealCommandDesc>选择一位殖民者永久封闭入口。任何遗留在下面的物品或人员都将永远消失。</UV_AncientHatch.comps.CompSealable.sealCommandDesc>
+  <!-- EN: Seal entrance -->
+  <UV_AncientHatch.comps.CompSealable.sealCommandLabel>封闭入口</UV_AncientHatch.comps.CompSealable.sealCommandLabel>
+  <!-- EN: Permanently sealed. -->
+  <UV_AncientHatch.comps.CompSealable.sealedInspectString>永久封闭</UV_AncientHatch.comps.CompSealable.sealedInspectString>
+  
+  <!-- EN: bioferrite slag box -->
+  <UV_BioferriteSlagBox.label>活铁箱</UV_BioferriteSlagBox.label>
+  <!-- EN: A box filled with valuable bioferrite. Some are intact and useable. -->
+  <UV_BioferriteSlagBox.description>装满有价值活铁的箱子。</UV_BioferriteSlagBox.description>
+  
+  <!-- EN: biomutation terraformer -->
+  <UV_BiomutationTerraformer.label>扭曲环境改造仪</UV_BiomutationTerraformer.label>
+  <!-- EN: A scavenged archotech shard mounted in an electrical stimulation frame. The device creates a frenzied psychic vibration in the local area which stimulates everyone nearby to move and work faster. However, any mental breaks they have are guaranteed to be violent. -->
+  <UV_BiomutationTerraformer.description>由暗黑超凡碎片驱动的大气投射设备。他能通过燃烧活铁来产生大量可供呼吸的空气分子并将其锁定在一个有限的范围中，创建一片可以安全呼吸的区域。并且通过这片区域将热量锁定不会逃逸到太空中，从而大大提升当地室外温度的最低值。</UV_BiomutationTerraformer.description>
+  
+  <!-- EN: pit gate -->
+  <UV_DreadmeldPitGate.label>巨坑</UV_DreadmeldPitGate.label>
+  <!-- EN: A massive, foreboding hole that connects the surface with a dark network of underground caves. It is possible to climb down into the caverns below. -->
+  <UV_DreadmeldPitGate.description>巨大的洞穴，散发着不详的气息，将地表与黑暗的地下洞穴网络连接起来。可以爬到下面的洞穴中。</UV_DreadmeldPitGate.description>
+  <!-- EN: Fleshbeast lair -->
+  <UV_DreadmeldPitGate.portal.enteredLetterLabel>血肉巢穴</UV_DreadmeldPitGate.portal.enteredLetterLabel>
+  <!-- EN: In the depths of the pit gate, you have discovered a massive cavern system infested with fleshbeasts.\n\nThe cavern system is clogged with masses of living flesh that block your progress. Attack the fleshmass to destroy it.\n\nThe entire cavern system seems unstable. If you find what lies behind the fleshmass, you may be able to collapse the tunnels and close the pit gate. -->
+  <UV_DreadmeldPitGate.portal.enteredLetterText>在巨坑深处，你们发现了一个巨大的洞穴，里面血肉兽肆虐。\n\n大量血肉块堵塞了洞穴，阻碍了你们的前进。攻击血肉块并将其摧毁。\n\n整个洞穴系统似乎并不稳定。如果能找到藏在血肉块后面的东西，也许就能弄塌隧道并关闭洞口。</UV_DreadmeldPitGate.portal.enteredLetterText>
+  
+  <!-- EN: pit gate -->
+  <UV_HeartPitGate.label>巨坑</UV_HeartPitGate.label>
+  <!-- EN: A massive, foreboding hole that connects the surface with a dark network of underground caves. It is possible to climb down into the caverns below. -->
+  <UV_HeartPitGate.description>巨大的洞穴，散发着不详的气息，将地表与黑暗的地下洞穴网络连接起来。可以爬到下面的洞穴中。</UV_HeartPitGate.description>
+  <!-- EN: Fleshbeast lair -->
+  <UV_HeartPitGate.portal.enteredLetterLabel>血肉巢穴</UV_HeartPitGate.portal.enteredLetterLabel>
+  <!-- EN: In the depths of the pit gate, you have discovered a massive cavern system infested with fleshbeasts.\n\nThe cavern system is clogged with masses of living flesh that block your progress. Attack the fleshmass to destroy it.\n\nThe entire cavern system seems unstable. If you find what lies behind the fleshmass, you may be able to collapse the tunnels and close the pit gate. -->
+  <UV_HeartPitGate.portal.enteredLetterText>在巨坑深处，你们发现了一个巨大的洞穴，里面血肉兽肆虐。\n\n大量血肉块堵塞了洞穴，阻碍了你们的前进。攻击血肉块并将其摧毁。\n\n整个洞穴系统似乎并不稳定。如果能找到藏在血肉块后面的东西，也许就能弄塌隧道并关闭洞口。</UV_HeartPitGate.portal.enteredLetterText>
+  
+</LanguageData>

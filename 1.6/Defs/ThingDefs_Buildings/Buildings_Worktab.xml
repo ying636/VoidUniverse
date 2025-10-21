@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef>
+        <defName>UV_ResearchBenchButcher</defName>
+        <label>entity anatomy table</label>
+        <description>A research bench equipped with dissection tools and waste disposal systems. Used to dissect entity corpses to deepen the understanding of anomalous lifeforms and gain Anomaly research points. Rotted or desiccated corpses cannot be dissected.</description>
+        <thingClass>Building_WorkTable</thingClass>
+        <selectable>true</selectable>
+        <category>Building</category>
+        <graphicData>
+            <texPath>Things/Building/UV_ResearchBenchButcher/UV_ResearchBenchButcher</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(3.5,1.5)</drawSize>
+            <damageData>
+                <cornerTL>Damage/Corner</cornerTL>
+                <cornerTR>Damage/Corner</cornerTR>
+                <cornerBL>Damage/Corner</cornerBL>
+                <cornerBR>Damage/Corner</cornerBR>
+            </damageData>
+        </graphicData>
+        <castEdgeShadows>true</castEdgeShadows>
+        <staticSunShadowHeight>0.20</staticSunShadowHeight>
+        <costList>
+            <Steel>75</Steel>
+            <Bioferrite>20</Bioferrite>
+        </costList>
+        <altitudeLayer>Building</altitudeLayer>
+        <fillPercent>0.5</fillPercent>
+        <useHitPoints>True</useHitPoints>
+        <statBases>
+            <WorkToBuild>2000</WorkToBuild>
+            <MaxHitPoints>180</MaxHitPoints>
+            <Flammability>1.0</Flammability>
+            <Cleanliness>-15</Cleanliness>
+        </statBases>
+        <size>(3,1)</size>
+        <designationCategory>Anomaly</designationCategory>
+        <uiOrder>2100</uiOrder>
+        <passability>PassThroughOnly</passability>
+        <pathCost>50</pathCost>
+        <hasInteractionCell>True</hasInteractionCell>
+        <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+        <surfaceType>Item</surfaceType> 
+        <researchPrerequisites>
+            <li>UV_Project_EntityAnatomyTable</li>
+        </researchPrerequisites>
+        <inspectorTabs>
+            <li>ITab_Bills</li>
+        </inspectorTabs>
+        <building>
+            <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+            <paintable>true</paintable>
+            <workTableRoomRole />
+        </building>
+        <comps>
+            <li Class="CompProperties_AffectedByFacilities">
+                <linkableFacilities>
+                    <li>ToolCabinet</li>
+                </linkableFacilities>
+            </li>
+        </comps>
+        <designationHotKey>Misc3</designationHotKey>
+        <placeWorkers>
+            <li>PlaceWorker_ShowFacilitiesConnections</li>
+            <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+        </placeWorkers>
+    </ThingDef>
+
+    <WorkGiverDef>
+        <defName>UV_DoBillsButcherFlesh</defName>
+        <label>butcher creatures</label>
+        <giverClass>WorkGiver_DoBill</giverClass>
+        <workType>Cooking</workType>
+        <priorityInType>90</priorityInType>
+        <fixedBillGiverDefs>
+            <li>UV_ResearchBenchButcher</li>
+        </fixedBillGiverDefs>
+        <verb>butcher at</verb>
+        <gerund>butchering at</gerund>
+        <requiredCapacities>
+            <li>Manipulation</li>
+        </requiredCapacities>
+        <prioritizeSustains>true</prioritizeSustains>
+    </WorkGiverDef>
+</Defs>  

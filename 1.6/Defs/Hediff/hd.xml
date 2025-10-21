@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <HediffDef>
+        <defName>UV_Hediff_DarkInfusion</defName>
+        <label>dark infusion</label>
+        <description>Protected by Anomaly nanites, the target can temporarily operate safely in the vacuum of space.</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <isBad>false</isBad>
+        <initialSeverity>1</initialSeverity>
+        <minSeverity>0</minSeverity>
+        <maxSeverity>1</maxSeverity>
+        <stages>
+            <li>
+                <statOffsets>
+                    <VacuumResistance>1</VacuumResistance>
+                    <ComfyTemperatureMin>-80</ComfyTemperatureMin>
+                </statOffsets>
+            </li>
+        </stages>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>2500</disappearsAfterTicks>
+                <showRemainingTime>true</showRemainingTime>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef>
+        <defName>UV_Hediff_DarkInfusionPermenent</defName>
+        <label>dark infusion</label>
+        <description>Protected by Anomaly nanites, the target can temporarily operate safely in the vacuum of space.</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <isBad>false</isBad>
+        <initialSeverity>1</initialSeverity>
+        <minSeverity>0</minSeverity>
+        <maxSeverity>1</maxSeverity>
+        <stages>
+            <li>
+                <statOffsets>
+                    <VacuumResistance>1</VacuumResistance>
+                    <ComfyTemperatureMin>-80</ComfyTemperatureMin>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef>
+        <defName>UV_Hediff_GoldenCanary</defName>
+        <label>loss gold Cube</label>
+        <description>An inactive Gold Canary. If the initiation ritual is not performed soon, this gilded husk will rapidly disintegrate.</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <isBad>false</isBad>
+        <minSeverity>0</minSeverity>
+        <maxSeverity>1</maxSeverity>
+        <stages>
+            <li>
+            </li>
+            <li>
+                <minSeverity>1</minSeverity>
+                <label>Filling</label>
+                <capMods>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <setMax>0.01</setMax>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+        <comps>
+            <li Class="HediffCompProperties_KillAfterDays">
+                <days>1</days>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef>
+        <defName>UV_Hediff_GoldenCanary_Actived</defName>
+        <label>golden cube activated</label>
+        <description>A truly living Gold Canary, immune to all damage from enemies. It will deactivate and disintegrate after some days.</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <isBad>false</isBad>
+        <initialSeverity>1</initialSeverity>
+        <minSeverity>0</minSeverity>
+        <maxSeverity>1</maxSeverity>
+        <stages>
+            <li>
+            </li>
+        </stages>
+        <comps>
+            <li>
+                <compClass>VoidUniverse.HediffComp_Kill</compClass>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef>
+        <defName>UV_Hediff_GoldenCanaryHeal</defName>
+        <label>golden canary alleviation</label>
+        <description>The Gold Canary's psychic pulse alleviates cube addiction.</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <isBad>false</isBad>
+        <initialSeverity>1</initialSeverity>
+        <minSeverity>0</minSeverity>
+        <maxSeverity>1</maxSeverity>
+        <stages>
+            <li>
+            </li>
+        </stages>
+        <comps>
+            <li>
+                <compClass>VoidUniverse.HediffComp_Alleviation</compClass>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef>
+        <hediffClass>HediffWithComps</hediffClass>
+        <defName>UV_RageSpeed</defName>
+        <label>rage speed</label>
+        <description>This creature has been enraged by its wounds and is moving faster.</description>
+        <isBad>false</isBad>
+        <stages>
+            <li>
+                <painFactor>0</painFactor>
+                <statFactors>
+                    <MoveSpeed>1.75</MoveSpeed>
+                    <StaggerDurationFactor>0</StaggerDurationFactor>
+                </statFactors>
+            </li>
+        </stages>
+        <comps>
+            <li Class="HediffCompProperties_Effecter">
+                <stateEffecter>RageSpeedState</stateEffecter>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef>
+        <defName>UV_Hediff_VoidInfusionPermenent</defName>
+        <label>void infusion</label>
+        <description>Protected by Anomaly nanites, the target can temporarily operate safely in the vacuum of space.</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <isBad>false</isBad>
+        <initialSeverity>1</initialSeverity>
+        <minSeverity>0</minSeverity>
+        <maxSeverity>1</maxSeverity>
+        <defaultLabelColor>(0.1647, 0.0039, 0.2039)</defaultLabelColor>
+        <stages>
+            <li>
+                <statOffsets>
+                    <VacuumResistance>1</VacuumResistance>
+                    <ComfyTemperatureMin>-80</ComfyTemperatureMin> 
+                </statOffsets>
+                <restFallFactor>0</restFallFactor>
+                <hungerRateFactor>0</hungerRateFactor>
+            </li>
+        </stages>
+    </HediffDef>
+
+</Defs> 

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <VoidUniverse.PsychicRitualDef_ShipCooldown>
+    <defName>UV_Ritual_ShipCooldown</defName>
+    <label>ship cooldown</label>
+    <description>Flushes the ship's engine with Anomaly nanites, rapidly venting waste heat and priming its systems for optimal performance.</description>
+    <hoursUntilOutcome>2</hoursUntilOutcome>
+    <cooldownHours>120</cooldownHours>
+    <chanterRole>ChanterAdvanced</chanterRole>
+    <iconPath>UI/PsychicRitual_ShipCooldown</iconPath>
+    <researchPrerequisite>UV_Project_ShipCooldown</researchPrerequisite>
+    <requiredOffering>
+      <filter>
+        <thingDefs>
+          <li>Bioferrite</li>
+        </thingDefs>
+      </filter>
+      <count>25</count>
+    </requiredOffering>
+  </VoidUniverse.PsychicRitualDef_ShipCooldown>
+
+  <VoidUniverse.PsychicRitualDef_RevealInformation>
+    <defName>UV_Ritual_RevealInformation</defName>
+    <label>reveal information</label>
+    <description>Performs a psychic communication with the Void in an attempt to glean meaningful information, though the initiator may fall unconscious for several hours.</description>
+    <hoursUntilOutcome>2</hoursUntilOutcome>
+    <cooldownHours>120</cooldownHours>
+    <chanterRole>ChanterAdvanced</chanterRole>
+    <iconPath>UI/PsychicRitual_RevealLandmark</iconPath>
+    <researchPrerequisite>UV_Project_RevealInformation</researchPrerequisite>
+    <requiredOffering>
+      <filter>
+        <thingDefs>
+          <li>Bioferrite</li>
+        </thingDefs>
+      </filter>
+      <count>25</count>
+    </requiredOffering>
+  </VoidUniverse.PsychicRitualDef_RevealInformation>
+
+  <VoidUniverse.PsychicRitualDef_FleshSealing>
+    <defName>UV_Ritual_FleshSealing</defName>
+    <label>flesh sealing</label>
+    <description>Weakens the fleshmass nucleus and encases it with shaders, transforming it into a vessel for chemfuel production.</description>
+    <hoursUntilOutcome>2</hoursUntilOutcome>
+    <cooldownHours>120</cooldownHours>
+    <chanterRole>ChanterAdvanced</chanterRole>
+    <iconPath>UI/PsychicRitual_FleshSealing</iconPath>
+    <researchPrerequisite>UV_Project_FleshSealing</researchPrerequisite>
+    <requiredOffering>
+      <filter>
+        <thingDefs>
+          <li>Shard</li>
+        </thingDefs>
+      </filter>
+      <count>3</count>
+    </requiredOffering>
+  </VoidUniverse.PsychicRitualDef_FleshSealing>
+
+  <VoidUniverse.PsychicRitualDef_DarkInfusion>
+    <defName>UV_Ritual_DarkInfusion</defName>
+    <label>dark infusion</label>
+    <description>Releases shader nanites to permeate the area, granting all allied units within the zone the ability to breathe safely in space while shielding them from extreme cold.</description>
+    <hoursUntilOutcome>4</hoursUntilOutcome>
+    <cooldownHours>120</cooldownHours>
+    <chanterRole>ChanterAdvanced</chanterRole>
+    <iconPath>UI/PsychicRitual_DarkInfusion</iconPath>
+    <researchPrerequisite>UV_Project_DarkInfusion</researchPrerequisite>
+    <requiredOffering>
+      <filter>
+        <thingDefs>
+          <li>Bioferrite</li>
+        </thingDefs>
+      </filter>
+      <count>30</count>
+    </requiredOffering>
+  </VoidUniverse.PsychicRitualDef_DarkInfusion>
+
+  <VoidUniverse.PsychicRitualDef_TwistedReconstruction>
+    <defName>UV_TwistedReconstruction</defName>
+    <label>twisted reconstruction</label>
+    <description>Channels Void energy to warp and restructure all of the target's equipped gear, altering its persona an components while fully repairing its durability.</description>
+    <hoursUntilOutcome>4</hoursUntilOutcome>
+    <targetRole>PhilophagyTarget</targetRole>
+    <researchPrerequisite>UV_Project_TwistedReconstruction</researchPrerequisite>
+    <requiredOffering>
+      <filter>
+        <thingDefs>
+          <li>Shard</li>
+        </thingDefs>
+      </filter>
+      <count>1</count>
+    </requiredOffering>
+    <cooldownHours>120</cooldownHours>
+    <chanterRole>ChanterAdvanced</chanterRole>
+    <iconPath>UI/PsychicRitual_TwistedReconstruction</iconPath>
+  </VoidUniverse.PsychicRitualDef_TwistedReconstruction>
+
+
+  <VoidUniverse.PsychicRitualDef_ParallelDimension>
+    <defName>UV_ParallelDimension</defName>
+    <label>parallel dimension</label>
+    <description>Consumes vast quantities of Biometal while maximizing ritual energy, transporting the entire region to a nearby similar dimension. This process refreshes all local landmarks and repairs grav launch ruins.</description>
+    <hoursUntilOutcome>4</hoursUntilOutcome>
+    <researchPrerequisite>UV_Project_ParallelDimension</researchPrerequisite>
+    <requiredOffering>
+      <filter>
+        <thingDefs>
+          <li>Bioferrite</li>
+        </thingDefs>
+      </filter>
+      <count>30</count>
+    </requiredOffering>
+    <cooldownHours>240</cooldownHours>
+    <chanterRole>ChanterAdvanced</chanterRole>
+    <iconPath>UI/PsychicRitual_ParallelDimension</iconPath>
+  </VoidUniverse.PsychicRitualDef_ParallelDimension>
+
+  <VoidUniverse.PsychicRitualDef_GoldenCanary>
+    <defName>UV_Ritual_GoldenCanary</defName>
+    <label>golden canary</label>
+    <description>Fuses the Gold Canary husk with the Golden Cube, granting it true life.</description>
+    <hoursUntilOutcome>2</hoursUntilOutcome>
+    <cooldownHours>120</cooldownHours>
+    <chanterRole>ChanterAdvanced</chanterRole>
+    <iconPath>UI/UV_PsychicRitual_Goldbird</iconPath>
+    <researchPrerequisite>UV_Project_GoldCanary</researchPrerequisite>
+    <requiredOffering>
+      <filter>
+        <thingDefs>
+          <li>GoldenCube</li>
+        </thingDefs>
+      </filter>
+      <count>1</count>
+    </requiredOffering>
+  </VoidUniverse.PsychicRitualDef_GoldenCanary>
+
+</Defs>
