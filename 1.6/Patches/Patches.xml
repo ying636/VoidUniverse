@@ -163,4 +163,46 @@
 		</value>
 	</Operation>
 
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/PsychicRitualDef_VoidProvocation[defName="VoidProvocation"]/layerWhitelist</xpath>
+		<value>
+			<li>Orbit</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/PsychicRitualDef_SummonShamblers[defName="SummonShamblers"]/layerWhitelist</xpath>
+		<value>
+			<li>Orbit</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/PsychicRitualDef_SummonPitGate[defName="SummonPitGate"]/layerWhitelist</xpath>
+		<value>
+			<li>Orbit</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/PsychicRitualDef_BloodRain[defName="BloodRain"]/layerWhitelist</xpath>
+		<value>
+			<li>Orbit</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/PsychicRitualDef_SummonFleshbeasts[defName="SummonFleshbeasts"]/layerWhitelist</xpath>
+		<value>
+			<li>Orbit</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/PsychicRitualDef_SummonFleshbeastsPlayer[defName="SummonFleshbeastsPlayer"]/layerWhitelist</xpath>
+		<value>
+			<li>Orbit</li>
+		</value>
+	</Operation>
+
 </Patch>

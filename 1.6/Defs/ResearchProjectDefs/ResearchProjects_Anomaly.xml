@@ -145,12 +145,12 @@
     <label>ship cooldown</label>
     <description>Performs a psychic ritual that rapidly cools the grav ship's engine and increases the maximum range of its next voyage</description>
     <tab>UV_Anomaly</tab>
-    <knowledgeCost>30</knowledgeCost>
+    <knowledgeCost>10</knowledgeCost>
     <knowledgeCategory>Basic</knowledgeCategory>
     <researchViewX>5.00</researchViewX>
     <researchViewY>1.00</researchViewY>
     <prerequisites>
-      <li>AdvancedPsychicRituals</li>
+      <li>BasicPsychicRituals</li>
     </prerequisites>
     <generalRules>
       <rulesStrings>
@@ -170,12 +170,12 @@
     <label>reveal information</label>
     <description>Performs a psychic ritual to extract valuable information from the Void, revealing a quest location</description>
     <tab>UV_Anomaly</tab>
-    <knowledgeCost>30</knowledgeCost>
+    <knowledgeCost>10</knowledgeCost>
     <knowledgeCategory>Basic</knowledgeCategory>
     <researchViewX>2.00</researchViewX>
     <researchViewY>1.00</researchViewY>
     <prerequisites>
-      <li>AdvancedPsychicRituals</li>
+      <li>BasicPsychicRituals</li>
     </prerequisites>
     <generalRules>
       <rulesStrings>

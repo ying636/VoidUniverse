@@ -118,6 +118,7 @@ A single grav ship can support a maximum of ten Void Field Extenders.</descripti
         <cornerBR>Damage/Corner</cornerBR>
       </damageData>
     </graphicData>
+    <rotatable>false</rotatable>
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
     <castEdgeShadows>true</castEdgeShadows>
