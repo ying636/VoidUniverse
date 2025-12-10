@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Deep-Space Anomaly -->
+  <UV_Start.label>深空异象</UV_Start.label>
+
+  <!-- EN: According to the tome you purchased at a high price from space pirates, your expedition has finally borne fruit: an ancient void monolith on a desolate asteroid. As you survey the structure from orbit, the entire asteroid begins to tremble violently, and an unnatural pit gate tears open across its surface. Your ship suddenly loses control and is forced into an emergency crash-landing—the impact rips through the hull, and worse, the engine core has melted down from overload and will take months to cool.\n\nThe scholar accompanying you is warped grotesquely under the pressure of the void pulse, turning into a bloodthirsty ghoul. And within that bottomless pit gate, some inhuman, pulsating abomination of flesh is stirring. Most disturbing of all, the void monolith emits an ominous, unceasing drone—one that can no longer be stopped. -->
+  <UV_Start.description>根据你花重金从太空海盗手中购得的魔经，你的探险终于迎来成果：一颗荒芜小行星上的远古虚空巨石。当你们在轨道上勘察这座结构时，整颗小行星突然剧烈震动，一道非自然的巨坑在地表撕裂而出。飞船随即失控，被迫紧急迫降——撞击撕裂了船体，更糟的是，引擎核心因过载而熔毁，需要数月才能冷却。
+
+同行的学者在虚空脉冲的压力下发生可怖扭曲，化为嗜血的食尸鬼。而在那深不见底的巨坑中，某种由血肉构成的非人怪物正缓缓蠕动。最令人不安的是，那座虚空巨石正发出不祥而持续的低鸣——已无法阻止。</UV_Start.description>
+
+  <!-- EN: According to the tome you purchased at a high price from space pirates, your expedition has finally borne fruit: an ancient void monolith on a desolate asteroid. As you survey the structure from orbit, the entire asteroid begins to tremble violently, and an unnatural pit gate tears open across its surface. Your ship suddenly loses control and is forced into an emergency crash-landing—the impact rips through the hull, and worse, the engine core has melted down from overload and will take months to cool.\n\nThe scholar accompanying you is warped grotesquely under the pressure of the void pulse, turning into a bloodthirsty ghoul. And within that bottomless pit gate, some inhuman, pulsating abomination of flesh is stirring. Most disturbing of all, the void monolith emits an ominous, unceasing drone—one that can no longer be stopped. -->
+  <UV_Start.scenario.description>根据你花重金从太空海盗手中购得的魔经，你的探险终于迎来成果：一颗荒芜小行星上的远古虚空巨石。当你们在轨道上勘察这座结构时，整颗小行星突然剧烈震动，一道非自然的巨坑在地表撕裂而出。飞船随即失控，被迫紧急迫降——撞击撕裂了船体，更糟的是，引擎核心因过载而熔毁，需要数月才能冷却。
+
+同行的学者在虚空脉冲的压力下发生可怖扭曲，化为嗜血的食尸鬼。而在那深不见底的巨坑中，某种由血肉构成的非人怪物正缓缓蠕动。最令人不安的是，那座虚空巨石正发出不祥而持续的低鸣——已无法阻止。</UV_Start.scenario.description>
+
+  <!-- EN: Deep-Space Anomaly -->
+  <UV_Start.scenario.name>深空异象</UV_Start.scenario.name>
+
+  <!-- EN: According to the tome you purchased at a high price from space pirates, your expedition has finally borne fruit: an ancient void monolith on a desolate asteroid. As you survey the structure from orbit, the entire asteroid begins to tremble violently, and an unnatural pit gate tears open across its surface. Your ship suddenly loses control and is forced into an emergency crash-landing—the impact rips through the hull, and worse, the engine core has melted down from overload and will take months to cool.\nThe scholar accompanying you is warped grotesquely under the pressure of the void pulse, turning into a bloodthirsty ghoul. And within that bottomless pit gate, some inhuman, pulsating abomination of flesh is stirring. Most disturbing of all, the void monolith emits an ominous, unceasing drone—one that can no longer be stopped. -->
+  <UV_Start.scenario.parts.GameStartDialog.text>根据你花重金从太空海盗手中购得的魔经，你的探险终于迎来成果：一颗荒芜小行星上的远古虚空巨石。当你们在轨道上勘察这座结构时，整颗小行星突然剧烈震动，一道非自然的巨坑在地表撕裂而出。飞船随即失控，被迫紧急迫降——撞击撕裂了船体，更糟的是，引擎核心因过载而熔毁，需要数月才能冷却。
+同行的学者在虚空脉冲的压力下发生可怖扭曲，化为嗜血的食尸鬼。而在那深不见底的巨坑中，某种由血肉构成的非人怪物正缓缓蠕动。最令人不安的是，那座虚空巨石正发出不祥而持续的低鸣——已无法阻止。</UV_Start.scenario.parts.GameStartDialog.text>
+
+  <!-- EN: An explorer and a ghoul set out into space to investigate an ancient monolith. -->
+  <UV_Start.scenario.summary>一名探险家和一只食尸鬼前往太空调查古老巨石。</UV_Start.scenario.summary>
+  
+</LanguageData>

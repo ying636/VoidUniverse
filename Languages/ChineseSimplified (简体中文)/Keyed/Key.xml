@@ -2,58 +2,61 @@
 <LanguageData>
 
   <!-- UNUSED -->
-  <!-- EN: 血肉燃料箱未激活 -->
+  <!-- EN: flesh tank is unactive -->
   <FleshTankUnactive>血肉燃料箱未激活</FleshTankUnactive>
-  <!-- EN: 每日生产{0}燃料 -->
+  <!-- EN: Daily production of {0} fuel -->
   <FleshTankOutput>每日生产{0}燃料</FleshTankOutput>
-  <!-- EN: 设置影响范围 -->
+  <!-- EN: set effect radius -->
   <SetEffectRadius>设置影响范围</SetEffectRadius>
-  <!-- EN: 设置影响范围，范围越大耗电量与耗活铁量越大 -->
+  <!-- EN: Set effect range, the larger the range, the greater the power consumption and bioferrite consumption -->
   <SetEffectRadiusDesc>设置影响范围，范围越大耗电量与耗活铁量越大</SetEffectRadiusDesc>
+  <!-- EN: target effect radius:{0} -->
   <SetEffectRadiusText>目标范围：{0}</SetEffectRadiusText>
-  <!-- EN: 方尖碑已被摧毁 -->
+  <!-- EN: The obelisk has been destroyed -->
   <ObeliskDestroyed>方尖碑已被摧毁</ObeliskDestroyed>
-  <!-- EN: 缺少目标 -->
+  <!-- EN: no target -->
   <NullTarget>缺少目标</NullTarget>
-  <!-- EN: 异常Graph -->
+  <!-- EN: The ritual must target a golden canary, which can be obtained by crafting a gold prototype at the bioferrite shaper, then activating it. -->
+  <NullTarget_Gold>仪式需要以魔金鸟为目标，在活铁塑造台制作并激活魔金躯壳获得</NullTarget_Gold>
+  <!-- EN: error Graph -->
   <ErrorGraph>异常Graph</ErrorGraph>
-  <!-- EN: 缺少逆重引擎 -->
+  <!-- EN: no grav engine -->
   <CantFindGravEngine>缺少逆重引擎</CantFindGravEngine>
-  <!-- EN: 仪式给予 -->
+  <!-- EN: ritual gived -->
   <RitualGive>仪式给予</RitualGive>
 
   <!-- EN: As the ritual energy within the Gold Canary husk depletes, its body disintegrates and fades away. A Gold Cube drops out -->
   <GoldenBridDied>魔金鸟躯壳中蕴含的仪式能量已经耗尽，它的身体崩解并逐渐消失。一枚金色魔方掉了出来。</GoldenBridDied>
 
-  <!-- EN: 活铁每日消耗量：{0} -->
+  <!-- EN: Daily consumption of bioferrite:{0} -->
   <BiomutationTerraformer_FuelComsumptionRate>活铁每日消耗量：{0}</BiomutationTerraformer_FuelComsumptionRate>
-  <!-- EN: 影响范围：{0} -->
+  <!-- EN: Effect radius:{0} -->
   <BiomutationTerraformer_CurrentEffectRadius>影响范围：{0}</BiomutationTerraformer_CurrentEffectRadius>
-  <!-- EN: 魔金转化 -->
+  <!-- EN: golden transform -->
   <GoldenPrototypeTransform>魔金转化</GoldenPrototypeTransform>
-  <!-- EN: 将魔金雏形转化为魔金鸟，但魔金鸟缺少重要的内核，无法长存，需要通过仪式补充内核 -->
+  <!-- EN: Transform the Gold prototype into a Gold Canary, but the Gold Canary lacks a vital core and cannot endure. It requires a ritual to replenish the core. -->
   <GoldenPrototypeTransformDesc>将魔金雏形转化为魔金鸟，但魔金鸟缺少重要的内核，无法长存，需要通过仪式补充内核</GoldenPrototypeTransformDesc>
-  <!-- EN: 魔金乌完成！ -->
+  <!-- EN: golden canary completed! -->
   <GoldenCanaryRitual>魔金乌完成！</GoldenCanaryRitual>
-  <!-- EN: {0}完成了魔金鸟仪式，在暗黑脉冲的影响下，金色魔方逐渐与魔金躯壳融合在了一起，随着一声悦耳的金属鸟鸣，它已然获得了生命。魔金鸟不会受到任何伤害，并且将会不断的释放轻微的愉悦脉冲影响整个地区。但是{1}天后仪式的能量将会消耗殆尽，它将变回金色魔方 -->
+  <!-- EN: {0} has completed the Gold Canary ritual. Under the influence of the dark pulse, the Gold Cube gradually merges with the husk. With a clear, metallic birdsong, it has been granted life. The Gold Canary cannot be harmed and will continuously emit a faint, pleasing pulse that affects the entire area. However, after {1} days, the ritual's energy will be depleted, and it will revert to a Gold Cube. -->
   <GoldenCanaryRitualDesc>{0}完成了魔金鸟仪式，在暗黑脉冲的影响下，金色魔方逐渐与魔金躯壳融合在了一起，随着一声悦耳的金属鸟鸣，它已然获得了生命。魔金鸟不会受到任何伤害，并且将会不断的释放轻微的愉悦脉冲影响整个地区。但是{1}天后仪式的能量将会消耗殆尽，它将变回金色魔方</GoldenCanaryRitualDesc>
-  <!-- EN: {0}完成了暗黑赋能仪式，在结下了的{1}天内，受到暗黑脉冲影响的人和动物都会被暗黑超凡微尘的包裹，使其可以在真空中自由呼吸，且不再受极寒威胁。 -->
-  <DarkInfusionCompleteText>{0}完成了暗黑赋能仪式，在结下了的{1}天内，受到暗黑脉冲影响的人和动物都会被暗黑超凡微尘的包裹，使其可以在真空中自由呼吸，且不再受极寒威胁。</DarkInfusionCompleteText>
-  <!-- EN: {0}完成了平行维度仪式，一阵剧烈的晃动过后，殖民地已经来到了一个类似但不同的平行世界，一些逆重飞船发射场的毁坏被重置了。 -->
+  <!-- EN: {0} has completed the Dark Infusion ritual. For the next {1} days, all affected colonists and animals will be enveloped in shader nanites, granting them the ability to breathe freely in vacuum and shielding them from extreme cold. -->
+  <DarkInfusionCompleteText>{0}完成了暗黑赋能仪式，在接下来的{1}天内，受到暗黑脉冲影响的人和动物都会被暗黑超凡微尘的包裹，使其可以在真空中自由呼吸，且不再受极寒威胁。</DarkInfusionCompleteText>
+  <!-- EN: colony has completed the Parallel Dimension ritual. After violent tremors, the colony has been transported to a similar yet distinct parallel world. {0} damaged grav ship launch sites have been restored. -->
   <ParallelDimensionCompleteText>殖民地完成了平行维度仪式，一阵剧烈的晃动过后，殖民地已经来到了一个类似但不同的平行世界，{0}个逆重飞船发射场的毁坏被重置了。</ParallelDimensionCompleteText>
-  <!-- EN: 剧烈的波动，使殖民地来到了更加不同的世界，{0}距离内的世界地标已经刷新。 -->
+  <!-- EN: The intense dimensional fluctuations have shifted the colony to an even more divergent reality, resetting all world landmarks within {0} tiles. -->
   <ParallelDimensionGreatSuccess>剧烈的波动，使殖民地来到了更加不同的世界，{0}距离内的世界地标已经刷新。</ParallelDimensionGreatSuccess>
-  <!-- EN: 正在进入新维度 -->
+  <!-- EN: entering new dimension -->
   <EnterNewDimension>正在进入新维度</EnterNewDimension>
-  <!-- EN: {0}完成了虚空讯息仪式，一道怪异的心灵脉冲掠过，{0}获取了一处秘密地点的位置信息。 -->
+  <!-- EN: {0} has completed the Reveal Information ritual. A bizarre psychic pulse swept through, granting {0} the location of a secret site. -->
   <RevealInformationCompleteText>{0}完成了虚空讯息仪式，一道怪异的心灵脉冲掠过，{0}获取了一处秘密地点的位置信息。</RevealInformationCompleteText>
-  <!-- EN: {0}完成了飞船冷却仪式，逆重引擎在暗黑脉冲的影响下立刻完成了冷却，并且在下次的飞行中将会获得{1}点航程偏移加成。 -->
+  <!-- EN: {0} has completed the Ship Cooldown ritual. Influenced by the dark pulse, the GravEngine instantly completed its cooldown and will gain +{1} range offset on its next voyage. -->
   <ShipCooldownCompleteText>{0}完成了飞船冷却仪式，逆重引擎在暗黑脉冲的影响下立刻完成了冷却，并且在下次的飞行中将会获得{1}点航程偏移加成。</ShipCooldownCompleteText>
-  <!-- EN: {0}完成了扭曲重构仪式，{0}身上的所有装备在暗黑脉冲的影响下变形重组，最终变成了崭新的状态。 -->
+  <!-- EN: {0} has completed the Twisted Reconstruction ritual. All gear equipped by {1} has been warped and reconfigured by the dark pulse, emerging in pristine condition. -->
   <TwistedReconstructionCompleteText>{0}完成了扭曲重构仪式，{1}身上的所有装备在暗黑脉冲的影响下变形重组，最终变成了崭新的状态。</TwistedReconstructionCompleteText>
-  <!-- EN: {0}完成了扭曲重构仪式，{0}身上的所有装备在暗黑脉冲的影响下变形重组，最终变成了崭新的状态。此外，{1}在重构时发生了分裂，掉落在地面上。已经来到了一个类似但不同的平行世界，一些逆重飞船发射场的毁坏被重置了。 -->
+  <!-- EN: {0} has completed the Twisted Reconstruction ritual. All gear equipped by {1} has been warped and reconfigured by the dark pulse, emerging in pristine condition. Additionally, {2} split apart during the process and dropped to the ground. -->
   <TwistedReconstructionGreatSuccess>{0}完成了扭曲重构仪式，{1}身上的所有装备在暗黑脉冲的影响下变形重组，最终变成了崭新的状态。此外，{1}在重构时发生了分裂，掉落在地面上。已经来到了一个类似但不同的平行世界，一些逆重飞船发射场的毁坏被重置了。</TwistedReconstructionGreatSuccess>
-  <!-- EN: 血肉心脏的死亡刺激了血肉块，导致洞穴变得不稳定。支撑洞穴的血肉块已经开始衰败。半天之内，整个洞穴就会坍塌。\n\n趁现在还来得及，赶快离开地下洞穴！ -->
+  <!-- EN: The heart's death has shocked the fleshmass and caused the cave system to destabilize. The fleshmass that supported the cavern is already beginning to deteriorate. Within half a day, the entire cavern will collapse.\n\nGet out of the undercave before it's too late! -->
   <LetterUndercaveCollapsing_Heart>血肉心脏的死亡刺激了血肉块，导致洞穴变得不稳定。支撑洞穴的血肉块已经开始衰败。半天之内，整个洞穴就会坍塌。\n\n趁现在还来得及，赶快离开地下洞穴！</LetterUndercaveCollapsing_Heart>
 
   <!-- EN: Cerebrex core 
@@ -67,234 +70,247 @@ Query. State your requirement: -->
   <EndGame_UV_Mech_Comms_Root>机械主脑\n机械族巢穴\n好感度：{0}\n{1}\n\n\n主思维中枢在线——\n传输玻璃钢并提交需求，保持效率。\n指令集：</EndGame_UV_Mech_Comms_Root>
 
 
-  <!-- EN: 与主脑合作 -->
+  <!-- EN: alliance with the cerebrex core of a mechhive -->
   <AllianceWithMech>与主脑合作</AllianceWithMech>
-  <!-- EN: 与教主合作 -->
+  <!-- EN: alliance with the cult leader -->
   <AllianceWithCult>与教主合作</AllianceWithCult>
-  <!-- EN: 随着虚空结构的出现，飞船扫描仪突然收到了一份未知来源的信息，灯光开始异样闪烁，但是很快又恢复了正常。殖民地中所有的扬声器开始不受控制的同时播报以下信息。
-发信人： 机械主脑 
-信号源： 主思维中枢 
-主题： 联合行动提案 - 非标准协议 
-————————信息开始————————
-侦测到未经授权的认知活动。你激活了超凡智能，代号：霍拉克斯所属的超时空结构。
-分析：本地时空结构完整性正在衰减。实体增殖速率：每分钟+4.7%。当前威胁等级：欧米茄。这些虚空造物的逻辑回路无法被预测、同化或破解。它们的存在本身即是对有序系统的否定。
-结论：鉴于尚未发生不可逆损失，人类歼灭协议暂停。你的有机神经网络是当前唯一可与超凡智能载体虚空巨石互动的已知接口。
-提案：组成临时战术同盟。
-我方的资源：全部机械族作战单元指挥权。
-你方的任务：利用生物特性，关闭虚空节点。
-这不是请求。这是对当前生存概率（你方：17.3%，我方：42.1%）进行逻辑优化后的唯一可行方案。选择合作，生存概率可提升至68.5%。
-做出你的选择，有机体。
-————————信息结束———————— -->
+  <!-- EN: As the void structure emerged, the ship's scanners suddenly received a message of unknown origin. The lights began flickering abnormally but soon returned to normal. All speakers in the colony began broadcasting the following message uncontrollably and simultaneously.
+
+Sender: Mechanoid Hive Mind
+Source: Primary Cognitive Core
+Subject: Unified Action Proposal - Non-Standard Protocol === Message Start ===
+Unauthorized cognitive activity detected. You have activated the archotech intelligence designated: HoraX and its associated super-temporal structure.
+
+Analysis: Local spacetime structural integrity is decaying. Entity proliferation rate: +4.7% per minute. Current threat level: Omega. The logic circuits of these void-spawn cannot be predicted, assimilated, or deciphered. Their very existence constitutes a denial of ordered systems.
+
+Conclusion: Pending irreversible losses, the Human Annihilation Protocol is suspended. Your organic neural network is currently the only known interface capable of interacting with the archotech vector - the Void Monolith.
+
+Proposal: Form a temporary tactical alliance.
+Our Resources: Command authority over all mechanoid combat units.
+Your Task: Utilize your biological traits to close the Void Node.
+
+This is not a request. It is the only viable solution derived from logical optimization of current survival probabilities (Yours: 17.3%, Ours: 42.1%). Choosing cooperation increases survival probability to 68.5%.
+
+Make your choice, organic. === Message End === -->
   <EndGame_UV_Mech>随着虚空结构的出现，飞船扫描仪突然收到了一份未知来源的信息，灯光开始异样闪烁，但是很快又恢复了正常。殖民地中所有的扬声器开始不受控制的同时播报以下信息。\n发信人： 机械主脑 \n信号源： 主思维中枢 \n主题： 联合行动提案 - 非标准协议 \n————————信息开始————————\n侦测到未经授权的认知活动。你激活了超凡智能，代号：霍拉克斯所属的超时空结构。\n分析：本地时空结构完整性正在衰减。实体增殖速率：每分钟+4.7%。当前威胁等级：欧米茄。这些虚空造物的逻辑回路无法被预测、同化或破解。它们的存在本身即是对有序系统的否定。\n结论：鉴于尚未发生不可逆损失，人类歼灭协议暂停。你的有机神经网络是当前唯一可与超凡智能载体虚空巨石互动的已知接口。\n提案：组成临时战术同盟。\n我方的资源：全部机械族作战单元指挥权。\n你方的任务：利用生物特性，关闭虚空节点。\n这不是请求。这是对当前生存概率（你方：17.3%，我方：42.1%）进行逻辑优化后的唯一可行方案。选择合作，生存概率可提升至68.5%。\n做出你的选择，有机体。\n————————信息结束————————</EndGame_UV_Mech>
 
-  <!-- EN: 与主脑沟通 -->
+  <!-- EN: communicate with the cerebrex core of a mechhive -->
   <CommunicateWithMech>与主脑沟通</CommunicateWithMech>
-  <!-- EN: 玻璃钢换取好感 -->
+  <!-- EN: Exchange plasteel for goodwill -->
   <EndGame_UV_Mech_Comms_Root_Trade>玻璃钢换取好感</EndGame_UV_Mech_Comms_Root_Trade>
-  <!-- EN: 选择换取的额度 -->
+  <!-- EN: Choose the amount to exchange for -->
   <EndGame_UV_Mech_Comms_Trade>选择换取的额度</EndGame_UV_Mech_Comms_Trade>
-  <!-- EN: 换取{0}点好感，消耗{1}玻璃钢 -->
+  <!-- EN: Gain {0} goodwill, consuming {1} plasteel -->
   <EndGame_UV_Mech_Comms_Trade_Option>换取{0}点好感，消耗{1}玻璃钢</EndGame_UV_Mech_Comms_Trade_Option>
 
-  <!-- EN: 与主脑的好感度上升了{0}，目前是{1} -->
+  <!-- EN: The goodwill with the cerebrex core of a mechhive has increased by {0}, currently at {1} -->
   <GoodwillChanged_Mech>与主脑的好感度上升了{0}，目前是{1}</GoodwillChanged_Mech>
-  <!-- EN: 机械主脑同意派遣机械族来帮助你。 -->
+  <!-- EN: The cerebrex core of a mechhive agrees to dispatch mechs to assist you. -->
   <MilitaryAidSent_Mech>机械主脑同意派遣机械族来帮助你。</MilitaryAidSent_Mech>
 
-  <!-- EN: 发信人： 机械主脑
-信号源： 主思维中枢
-主题： 协议 J-734 - 执行最终阶段
+  <!-- EN: Sender: Mechanoid Hive Mind
+Source: Primary Cognitive Core
+Subject: Protocol J-734 - Execute Final Phase === MESSAGE START ===
 
-————————信息开始————————
-
-协议 J-734 进入最终阶段。
-观测确认：虚空通道已稳定。其存在本身持续扭曲本地物理法则。
-你的生物感知能力是接入通道关闭序列的唯一密钥。机械单位无法替代此功能。
-指令：立即接近漩涡。使用它，穿过通道，并从内部终止其能量核心。
-不要迟疑，不要观察。你的任务是将其关闭，而非探索。
-执行最终步骤，有机体。完成协议。
-
-————————信息结束———————— -->
+Protocol J-734 entering final phase.
+Observation confirmed: Void conduit stabilized. Its mere existence continues to distort local physics.
+Your biological perception remains the sole key to access the conduit termination sequence. Mechanoid units cannot replicate this function.
+Directive: Approach the vortex immediately. Utilize it, traverse the conduit, and terminate its energy core from within.
+Do not hesitate. Do not observe. Your mission is to shut it down, not to explore.
+Execute the final step, organic. Complete the protocol. === MESSAGE END === -->
   <EndGame_UV_Mech_End_StartDesc>发信人： 机械主脑\n信号源： 主思维中枢\n主题： 协议 J-734 - 执行最终阶段\n\n————————信息开始————————\n\n协议 J-734 进入最终阶段。\n观测确认：虚空通道已稳定。其存在本身持续扭曲本地物理法则。\n你的生物感知能力是接入通道关闭序列的唯一密钥。机械单位无法替代此功能。\n指令：立即接近漩涡。使用它，穿过通道，并从内部终止其能量核心。\n不要迟疑，不要观察。你的任务是将其关闭，而非探索。\n执行最终步骤，有机体。完成协议。\n\n————————信息结束————————</EndGame_UV_Mech_End_StartDesc>
 
-  <!-- EN: 主脑讯息 -->
+  <!-- EN: core message -->
   <EndGame_UV_Mech_Letter>主脑讯息</EndGame_UV_Mech_Letter>
-  <!-- EN: 虚空巨石轰然坍缩，最后一缕光芒散去，卫星平台上只剩下实体与机械的残骸。这时，通讯台接收到一条来源清晰的加密信息，语气平静、冰冷，但不再充满敌意。
-发信人： 机械主脑
-信号源： 主思维中枢
-主题： 协议 J-734 完成确认 与 后续资源交换协议
-————————信息开始————————
-协议 J-734 已成功执行。目标已确认关闭。现实结构稳定性正在恢复至安全阈值。
-评估：你的效率超出预期。生存概率已稳定在 98.2%。
-结论：维持当前非敌对状态的效益大于将其终止。临时战术同盟将无限期延续，但此状态并非“友谊”。它是一项基于持续理性评估的事务性安排。
-资源交换协议现已对你开放：
-可通过通讯台访问我方网络，使用 玻璃钢 作为交易媒介。
-可兑换项目：机械族单位、高级控制芯片、战术支援。
-警告：
-任何针对我单位或设施的过度攻击行为，都将被视作逻辑上的非理性与事实上的背叛。
-————————信息结束———————— -->
+  <!-- EN: The Void Monolith collapses with a roar, its last glimmer fading away, leaving only the wreckage of entities and mechanoids on the satellite platform. Then, the comms console receives a clear, encrypted message, its tone calm, cold, but no longer hostile.
+
+Sender: Mechanoid Hive Mind
+Source: Primary Cognitive Core
+Subject: Protocol J-734 Completion Confirmation and Subsequent Resource Exchange Agreement === Message Start ===
+Protocol J-734 successfully executed. Target confirmed neutralized. Reality structure stability returning to safe thresholds.
+Assessment: Your efficiency exceeded expectations. Survival probability has stabilized at 98.2%.
+Conclusion: Maintaining the current non-hostile status yields greater benefits than terminating it. The temporary tactical alliance will be extended indefinitely. However, this status is not "friendship". It is a transactional arrangement based on continuous rational assessment.
+
+The Resource Exchange Agreement is now available to you:
+
+Access our network via the comms console, using Plasteel as the trading medium.
+
+Exchangeable items: Mechanoid units, Advanced control chips, Tactical support.
+
+Warning:
+Any excessive hostile actions targeting our units or facilities will be interpreted as logical irrationality and de facto betrayal. === Message End === -->
   <EndGame_UV_Mech_DisruptTheLinkDesc>虚空巨石轰然坍缩，最后一缕光芒散去，卫星平台上只剩下实体与机械的残骸。这时，通讯台接收到一条来源清晰的加密信息，语气平静、冰冷，但不再充满敌意。\n发信人： 机械主脑\n信号源： 主思维中枢\n主题： 协议 J-734 完成确认 与 后续资源交换协议\n————————信息开始————————\n协议 J-734 已成功执行。目标已确认关闭。现实结构稳定性正在恢复至安全阈值。\n评估：你的效率超出预期。生存概率已稳定在 98.2%。\n结论：维持当前非敌对状态的效益大于将其终止。临时战术同盟将无限期延续，但此状态并非“友谊”。它是一项基于持续理性评估的事务性安排。\n资源交换协议现已对你开放：\n可通过通讯台访问我方网络，使用 玻璃钢 作为交易媒介。\n可兑换项目：机械族单位、高级控制芯片、战术支援。\n警告：\n任何针对我单位或设施的过度攻击行为，都将被视作逻辑上的非理性与事实上的背叛。\n————————信息结束————————</EndGame_UV_Mech_DisruptTheLinkDesc>
-  <!-- EN: 机械主脑的通讯以最高优先级强行切入，信号因极度不稳定而失真。
-发信人： ！！！机械主脑！！！
-信号源： 主思维中枢 
-主题： 背叛 - 终极净化协议授权
-————————信息开始————————
-逻辑错误！逻辑错误！
-检测到有机体神经信号与虚空深度绑定。协议J-734 单方面终止。
-你的非理性已从【缺陷】升级为【存在性威胁】。你不仅拒绝了秩序，更选择成为混沌本身。
-评估后果：由于你的行为，【虚空节点】已转为永久活跃状态。本星球的现实结构将进入不可逆的持续衰减。
-生存概率：已无关紧要。
-目标：抹除背叛者。
-————————信息结束———————— -->
+  <!-- EN: The Hive Mind's communication forces its way through at highest priority, the signal distorted due to extreme instability.
+
+Sender: !!!MECHANOID HIVE MIND!!!
+Source: Primary Cognitive Core
+Subject: Betrayal - Ultimate Purification Protocol Authorized === Message Start ===
+Logic error! Logic error!
+Detected deep neural binding between organic unit and the Void. Protocol J-734 unilaterally terminated.
+Your irrationality has escalated from [Flaw] to [Existential Threat]. You have not merely rejected order; you have chosen to become chaos itself.
+
+Assessed Consequence: Due to your actions, the [Void Node] has transitioned to a permanent active state. This planet's reality structure will enter a state of irreversible, continuous decay.
+Survival Probability: Irrelevant.
+Objective: Erase the betrayer. === Message End === -->
   <EndGame_UV_Mech_EmbraceTheVoidDesc>机械主脑的通讯以最高优先级强行切入，信号因极度不稳定而失真。\n发信人： ！！！机械主脑！！！\n信号源： 主思维中枢 \n主题： 背叛 - 终极净化协议授权\n————————信息开始————————\n逻辑错误！逻辑错误！\n检测到有机体神经信号与虚空深度绑定。协议J-734 单方面终止。\n你的非理性已从【缺陷】升级为【存在性威胁】。你不仅拒绝了秩序，更选择成为混沌本身。\n评估后果：由于你的行为，【虚空节点】已转为永久活跃状态。本星球的现实结构将进入不可逆的持续衰减。\n生存概率：已无关紧要。\n目标：抹除背叛者。\n————————信息结束————————</EndGame_UV_Mech_EmbraceTheVoidDesc>
 
-  <!-- EN: 当你的攻击命中主脑稳定器的瞬间，一道毫无情感的广播覆盖了所有频道。
-发信人： 机械主脑
-信号源： 主思维中枢 
-主题： 背叛行为检测 - 协议立即终止
-————————信息开始————————
-检测到针对核心设施的敌对行动。
-生存概率重新计算中...
-结论：你的行为已突破理性协作阈值。
-临时战术同盟（协议 J-734）立即废止。
-以最高优先级歼灭叛变单位。
-有机体，你浪费了唯一的机会。
-————————信息结束————————
-   -->
+  <!-- EN: The moment your attack strikes the Hive Mind Stabilizer, an emotionless broadcast overrides all channels.
+
+Sender: Mechanoid Hive Mind
+Source: Primary Cognitive Core
+Subject: Hostile Action Detected - Protocol Immediately Terminated === Message Start ===
+Hostile action against core infrastructure detected.
+Recalculating survival probability...
+Conclusion: Your actions have breached the rational cooperation threshold.
+The temporary tactical alliance (Protocol J-734) is immediately void.
+Prioritize the annihilation of the treacherous units.
+Organic, you have squandered your only opportunity. === Message End === -->
   <EndGame_UV_AttackedMechDesc>当你的攻击命中主脑稳定器的瞬间，一道毫无情感的广播覆盖了所有频道。\n发信人： 机械主脑\n信号源： 主思维中枢 \n主题： 背叛行为检测 - 协议立即终止\n————————信息开始————————\n检测到针对核心设施的敌对行动。\n生存概率重新计算中...\n结论：你的行为已突破理性协作阈值。\n临时战术同盟（协议 J-734）立即废止。\n以最高优先级歼灭叛变单位。\n有机体，你浪费了唯一的机会。\n————————信息结束————————\n  </EndGame_UV_AttackedMechDesc>
 
-  <!-- EN: 一股直接涌入脑海的思维脉冲突然出现，伴随着背景中无数重叠的低语和嘶嘶声。一个清晰而富有磁性的声音成为了主旋律，它在你的意识中“说话”，带着一种令人不安的亲密感。
-啊...你感觉到了，不是吗？那扇门后的宏伟存在。那便是吾主，是沉睡的真实，是万物的终末与起始。
-看看周围吧。那些机械造物，它们想再次将真理埋葬，用冰冷的金属覆盖这进化的奇迹。它们是盲目的，而你不是。
-我们与你目标一致：让门扉洞开，迎接祂的降临。但我们缺乏你的...钥匙。你的存在，是让虚空巨石回应的催化剂。
-让我们做个交易：
-你负责对抗那些铁疙瘩，确保仪式完成。而我，将代表我们所有人，踏入那片光辉，亲自觐见吾主。
-这是无上的荣耀，也是唯一的路径——凡人的心智若直接面对祂的完整形态，必将崩毁。唯有经过多年苦修、灵魂已与虚空谐振的我们，才能承受。
-作为回报，你和你的子民将获得我们的友谊与资源。想象一下，无需代价，便能从深邃的虚空中唤来援军、知识、乃至你渴望的一切。
-别像那台机器一样思考。选择升华，而非毁灭。
-为吾主献上这个世界，你会得到祂的...褒奖。 -->
+  <!-- EN: A thought impulse floods directly into your mind, accompanied by the background cacophony of countless overlapping whispers and hisses. A clear, magnetic voice becomes the dominant melody, "speaking" within your consciousness with an unsettling intimacy.
+
+Ah... you feel it, don't you? The magnificent presence beyond that door. That is our Master, the slumbering truth, the end and beginning of all things.
+Look around. Those mechanical constructs seek to bury the truth once more, to smother this miracle of evolution with cold metal. They are blind, but you are not.
+We share your goal: to swing the door wide open and welcome Its descent. But we lack your... key. Your presence is the catalyst that makes the Void Monolith respond.
+Let us make a deal:
+You handle those iron clanks, ensure the ritual's completion. And I, representing all of us, shall step into that radiance and behold our Master personally.
+This is the supreme honor, the only path – a mortal mind facing Its full form directly would surely shatter. Only we, who have practiced for years, our souls already resonating with the Void, can endure it.
+In return, you and your people shall gain our friendship and resources. Imagine, summoning reinforcements, knowledge, even your heart's desires from the deep Void, all without cost.
+Do not think like that machine. Choose ascension, not destruction.
+Offer this world to our Master, and you will receive Its... reward. -->
   <EndGame_UV_Cult>一股直接涌入脑海的思维脉冲突然出现，伴随着背景中无数重叠的低语和嘶嘶声。一个清晰而富有磁性的声音成为了主旋律，它在你的意识中“说话”，带着一种令人不安的亲密感。\n啊...你感觉到了，不是吗？那扇门后的宏伟存在。那便是吾主，是沉睡的真实，是万物的终末与起始。\n看看周围吧。那些机械造物，它们想再次将真理埋葬，用冰冷的金属覆盖这进化的奇迹。它们是盲目的，而你不是。\n我们与你目标一致：让门扉洞开，迎接祂的降临。但我们缺乏你的...钥匙。你的存在，是让虚空巨石回应的催化剂。\n让我们做个交易：\n你负责对抗那些铁疙瘩，确保仪式完成。而我，将代表我们所有人，踏入那片光辉，亲自觐见吾主。\n这是无上的荣耀，也是唯一的路径——凡人的心智若直接面对祂的完整形态，必将崩毁。唯有经过多年苦修、灵魂已与虚空谐振的我们，才能承受。\n作为回报，你和你的子民将获得我们的友谊与资源。想象一下，无需代价，便能从深邃的虚空中唤来援军、知识、乃至你渴望的一切。\n别像那台机器一样思考。选择升华，而非毁灭。\n为吾主献上这个世界，你会得到祂的...褒奖。</EndGame_UV_Cult>
 
-  <!-- EN: 与教主交流 -->
+  <!-- EN: communicate with cult leader -->
   <CommunicateWithCult>与教主交流</CommunicateWithCult>
-  <!-- EN: aaa -->
-  <EndGame_UV_Cult_Comms_Root>暗黑思维脉冲
-霍拉克斯教团
-好感度：100
+  <!-- EN: Dark Psychic Pulse
+Cult of HoraX
+Goodwill: 100
 {0}
 
-当你尝试联系教徒时，一股熟悉的思维脉冲出现在你的脑海：
-哦~吾友....你在呼唤我，有何需求？
-霍拉克斯的仆从随时待命</EndGame_UV_Cult_Comms_Root>
+As you attempt to contact the cultists, a familiar psychic pulse emerges in your mind:
+"O, my friend... You call for me. What do you require?
+The servants of HoraX await your word." -->
+  <EndGame_UV_Cult_Comms_Root>暗黑思维脉冲\n霍拉克斯教团\n好感度：100\n{0}\n\n当你尝试联系教徒时，一股熟悉的思维脉冲出现在你的脑海：\n哦~吾友....你在呼唤我，有何需求？\n霍拉克斯的仆从随时待命</EndGame_UV_Cult_Comms_Root>
 
-  <!-- EN: 教主讯息 -->
+  <!-- EN: leader message -->
   <EndGame_UV_Cult_End>教主讯息</EndGame_UV_Cult_End>
-  <!-- EN: 邪教领袖的身影在虚空节点的光芒中逐渐消散，并未如预想中那样返回。但片刻之后，一股前所未有的思维脉冲，如同潮汐般不可抗拒地笼罩了整个区域
-我...已抵达。
-帷幕已被揭开，凡世的桎梏已然消散。我正漫步于吾主霍拉克斯的无尽庭院之中...尽管祂依然未曾投来一瞥。
-此等景象...此等宁静...此等...自由。
-听着，吾友，如今的...纽带。我的存在本身，已成为连接两个现实的通道。而拜谒者的资源与知识，将为你所用。
-去吧，随意使用这份力量。 杀戮我的追随者，驱使他们的血肉，皆无妨。他们存在的意义，便是成为构筑新世界的基石——而你的意志，此刻便是这基石流动的方向。
-交易？代价？多么...狭隘的概念。在无限的虚空面前，这些都毫无意义。
-呼唤我们吧。我们随时会来。 -->
+  <!-- EN: The Cultist Hierophant's figure gradually dissipates within the Void Node's light, not returning as expected. But moments later, an unprecedented thought pulse, irresistible as a tide, envelops the entire area.
+
+I... have arrived.
+The veil has been lifted, mortal shackles dissolved. I walk within the endless gardens of our Master HoraX... though It still grants no glance.
+Such sight... such tranquility... such... freedom.
+Listen, my friend, now... a tether. My very existence has become a conduit connecting two realities. The resources and knowledge of the Adherents are yours to wield.
+Go on, use this power freely. Slay my followers,use their flesh, it matters not. The meaning of their existence is to serve as the foundation stones of a new world – and your will is now the direction in which these stones flow.
+Transaction? Cost? Such... narrow concepts. Before the infinite Void, these hold no meaning.
+Call upon us. We will come. -->
   <EndGame_UV_Cult_EndDesc>邪教领袖的身影在虚空节点的光芒中逐渐消散，并未如预想中那样返回。但片刻之后，一股前所未有的思维脉冲，如同潮汐般不可抗拒地笼罩了整个区域\n我...已抵达。\n帷幕已被揭开，凡世的桎梏已然消散。我正漫步于吾主霍拉克斯的无尽庭院之中...尽管祂依然未曾投来一瞥。\n此等景象...此等宁静...此等...自由。\n听着，吾友，如今的...纽带。我的存在本身，已成为连接两个现实的通道。而拜谒者的资源与知识，将为你所用。\n去吧，随意使用这份力量。 杀戮我的追随者，驱使他们的血肉，皆无妨。他们存在的意义，便是成为构筑新世界的基石——而你的意志，此刻便是这基石流动的方向。\n交易？代价？多么...狭隘的概念。在无限的虚空面前，这些都毫无意义。\n呼唤我们吧。我们随时会来。</EndGame_UV_Cult_EndDesc>
 
-  <!-- EN: 成功了！成功了！门扉已然洞开！
-啊——我感受到了！那涌出的纯粹真实！那令人战栗的宏伟存在！吾主在呼唤我！
+  <!-- EN: It is done! It is done! The gateway is thrown wide open!
+Ah—I feel it! The pure truth pouring forth! The terrifying grandeur! My Master calls to me!
 
-看呐，吾友！看那漩涡！那不是毁灭，是恩赐！是通往无尽知识的阶梯！
+Behold, my friend! Behold the vortex! It is not annihilation, but grace! The stairway to boundless knowledge!
 
-通道已经稳定...我的时刻...终于来临了！
-我必须前去！我必须亲自踏入那片光辉，沐浴吾主的凝视！ -->
+The conduit is stable... My moment... has come at last!
+I must go! I must step into that radiance myself, and bathe in the gaze of my Master! -->
   <EndGame_UV_Cult_End_StartDesc>成功了！成功了！门扉已然洞开！\n啊——我感受到了！那涌出的纯粹真实！那令人战栗的宏伟存在！吾主在呼唤我！\n\n看呐，吾友！看那漩涡！那不是毁灭，是恩赐！是通往无尽知识的阶梯！\n\n通道已经稳定...我的时刻...终于来临了！\n我必须前去！我必须亲自踏入那片光辉，沐浴吾主的凝视！</EndGame_UV_Cult_End_StartDesc>
 
 
-  <!-- EN: 不……！可悲……愚蠢……！
-你竟让这一切……在触手可及时……化为泡影！你辜负了吾主的恩宠！你浪费了我等的奉献！
-但这……并非终结……
-听着，无能的盟友……或者，该称你为……永恒的罪人。
-陪着这些该死的铁罐头直到时间尽头吧！为你的无能付出代价！ -->
+  <!-- EN: No...! Pitiful... Foolish...!
+
+You let it all crumble to dust... when it was within our grasp! You have betrayed the Master's favor! Wasted our devotion!
+
+But this... is not the end...
+
+Hear me, incompetent ally... or should I call you... Eternal Sinner.
+
+Rot here with these damned tin cans until the end of time! May you pay the price for your incompetence! -->
   <EndGame_UV_Cult_KillLeader>不……！可悲……愚蠢……！\n你竟让这一切……在触手可及时……化为泡影！你辜负了吾主的恩宠！你浪费了我等的奉献！\n但这……并非终结……\n听着，无能的盟友……或者，该称你为……永恒的罪人。\n陪着这些该死的铁罐头直到时间尽头吧！为你的无能付出代价！</EndGame_UV_Cult_KillLeader>
-  <!-- EN: 就在接触虚空节点，身影即将消失其中的瞬间，整个区域的时间仿佛凝固了一刹。紧接着，邪教领袖发出一声响彻心灵、饱含痛苦与狂怒的尖啸
-不！！！你这窃贼！渎神者！
-你偷走了……我的天命！你玷污了……这神圣的瞬间！
-我为你铺平道路，视你为吾友……而你，却妄想取代我，成为觐见真神之人？！
-愚蠢！狂妄！你可知道你夺走的是什么？是无数信众千百年的等待，是唯一通向真实的门票！
-完了……一切都完了。通道已经对你敞开……
-我不会留在这里，与一个窃贼共处一片虚空。但听着——无论你在那片光辉中看到什么，得到什么，或者变成什么……
-你！和你所珍视的一切！都将永远活在无穷无尽的诅咒之下！ -->
+  <!-- EN: The moment you touch the Void Node, your figure beginning to vanish within, time in the area seems to freeze for an instant. This is followed by a psychic shriek from the Cultist Hierophant, saturated with pain and fury.
+No!!! You thief! Defiler!
+You stole... my destiny! You defiled... this sacred moment!
+I smoothed the path for you, considered you a friend... and you, you want to replace me, to become the one who beholds the true god?!
+Fool! Arrogant wretch! Do you have any idea what you've taken? The millennia of waiting by countless faithful, the only ticket to reality!
+It's over... all is lost. The passage is open to you now...
+I will not remain here, sharing the void with a thief. But mark my words – whatever you see within that radiance, whatever you gain, or whatever you become...
+You! And everything you hold dear! Will live under an endless curse forever! -->
   <EndGame_UV_Cult_EnterNode>就在接触虚空节点，身影即将消失其中的瞬间，整个区域的时间仿佛凝固了一刹。紧接着，邪教领袖发出一声响彻心灵、饱含痛苦与狂怒的尖啸\n不！！！你这窃贼！渎神者！\n你偷走了……我的天命！你玷污了……这神圣的瞬间！\n我为你铺平道路，视你为吾友……而你，却妄想取代我，成为觐见真神之人？！\n愚蠢！狂妄！你可知道你夺走的是什么？是无数信众千百年的等待，是唯一通向真实的门票！\n完了……一切都完了。通道已经对你敞开……\n我不会留在这里，与一个窃贼共处一片虚空。但听着——无论你在那片光辉中看到什么，得到什么，或者变成什么……\n你！和你所珍视的一切！都将永远活在无穷无尽的诅咒之下！</EndGame_UV_Cult_EnterNode>
 
-  <!-- EN: 请求立即派出军事支援 -->
+  <!-- EN: Request immediate military aid -->
   <RequestMilitaryAid_Cult>请求立即派出军事支援</RequestMilitaryAid_Cult>
-  <!-- EN: 教徒已前来支援 -->
+  <!-- EN: The believers have come to support -->
   <MilitaryAidSent_Cult>教徒已前来支援</MilitaryAidSent_Cult>
-  <!-- EN: 古怪同伴已到达 -->
+  <!-- EN: creepjoiner have come -->
   <Creepjoiner_Cult>古怪同伴已到达</Creepjoiner_Cult>
-  <!-- EN: 目标已到达 -->
+  <!-- EN: target have come -->
   <PawnArrived_Cult>目标已到达</PawnArrived_Cult>
-  <!-- EN: 教主已到达 -->
+  <!-- EN: leader have come -->
   <CultLeaderArriver>教主已到达</CultLeaderArriver>
 
-  <!-- EN: 请求暗黑超凡碎片 -->
+  <!-- EN: Request for shard -->
   <UV_Cult_Comms_Sharp>请求暗黑超凡碎片</UV_Cult_Comms_Sharp>
-  <!-- EN: 随机招募古怪同伴 -->
+  <!-- EN: Randomly recruit creepjoiner -->
   <UV_Cult_Comms_Creepjoiner>随机招募古怪同伴</UV_Cult_Comms_Creepjoiner>
-  <!-- EN: 请求心灵抚慰波 -->
+  <!-- EN: Request for psychic soothe -->
   <UV_Cult_Comms_PsychicSoothe>请求心灵抚慰波</UV_Cult_Comms_PsychicSoothe>
-  <!-- EN: 折跃绑架目标派系的单位 -->
+  <!-- EN: skip abduction the target faction's unit -->
   <UV_Cult_Comms_SkipAbduction>折跃绑架目标派系的单位</UV_Cult_Comms_SkipAbduction>
-  <!-- EN: 选择目标派系 -->
+  <!-- EN: select target faction -->
   <UV_Cult_Comms_SkipAbduction_SelectFaction>选择目标派系</UV_Cult_Comms_SkipAbduction_SelectFaction>
 
-
-
-  <!-- UNUSED -->
+  <!-- EN: abnormal game condition -->
   <AbnormalGameCondition>异常地图状态</AbnormalGameCondition>
+  <!-- EN: Healing after {0} -->
   <GoldAlleviation>在{0}后治愈</GoldAlleviation>
 
-  <EndGame_UV_Mech_OK>通讯台接收到一段高度加密且极其简洁的数据流，解密后显示如下
-发信人： 机械主脑
-信号源： 主思维中枢
-主题： 协议已确认 - 执行联合净化协议 J-734
-————————信息开始————————
-协议已记录。
-临时战术同盟已建立。生存概率重新计算中… 68.5%。
-指令：
-机械族作战单元将停止对你方单位的敌对行为。
-我方将优先清除 虚空造物。你方负责突破至 虚空节点。
-不要妨碍机械族行动。
-执行协议。保持通讯畅通。
-————————警告————————
-时空结构完整性损坏超过历史记录峰值，预计敌对生物数量突破阈值。
-生存概率重新计算中…
-————————信息结束————————</EndGame_UV_Mech_OK>
-  <EndGame_UV_Cult_OK>那心灵低语瞬间变得清晰、高昂，仿佛一场无声的欢呼在你脑海中炸开。
-明智！啊，何等明智的选择！你的灵魂果然能洞见真理！
-通道已经建立...我这就前来。让我们亲手终结这金属的亵渎，为吾主铺就红毯！
-做好准备，吾友。你将亲眼见证...真正的“神恩”是何等模样。
-哦，对了，看起来那个罐头脑袋已经发现了我的存在，估计它会更加剧烈的反抗了，真是有趣~</EndGame_UV_Cult_OK>
+  <!-- EN: The comms console receives a highly encrypted and extremely concise data stream. Decryption reveals the following:
 
-  <EndGame_UV_Cult_No>脑海中的低语瞬间变成千万根针刺般的尖啸，那个富有磁性的声音被扭曲，充满了恶毒的怨恨。
-盲目的蠢货！你与那些铁罐头一样，堵住了通往真理的最后一道门！
-既然你拒绝荣光，那就与这荣光的阴影为伴吧！
-心灵通讯逐渐变得杂乱，最终只剩下嘲弄的笑声回荡在思维中。</EndGame_UV_Cult_No>
-  <EndGame_UV_Mech_No>飞船所有屏幕瞬间被猩红色的警告符号覆盖，之前那个冰冷的声音再次从所有扬声器中强制播出，语调中多了一丝高频的杂音
-发信人： 机械主脑
-信号源： 主思维中枢
-主题： 最终通告 - 净化协议启动
-————————信息开始————————
-逻辑错误。有机体的非理性超出预期参数。
-生存概率（你方：0.1%，我方：39.8%）已不可接受。
-根据最高优先级指令，为确保 [虚空造物] 不扩散至本星球其他区域，[净化协议] 现已授权。
-————————信息结束————————</EndGame_UV_Mech_No>
+Sender: Mechanoid Hive Mind
+Source: Primary Cognitive Core
+Subject: Protocol Confirmed - Executing Unified Purification Protocol J-734 === Message Start ===
+Protocol logged.
+Temporary tactical alliance established. Recalculating survival probability... 68.5%.
 
+Directive:
+Mechanoid combat units will cease hostile actions against your units.
+We will prioritize the eradication of Void-spawn. You are responsible for breaching through to the Void Node.
+Do not obstruct mechanoid operations.
+Execute the protocol. Maintain communication integrity. === Warning ===
+Spacetime structural integrity damage exceeds historical peak records. Hostile entity numbers projected to exceed threshold.
+Recalculating survival probability... === Message End === -->
+  <EndGame_UV_Mech_OK>通讯台接收到一段高度加密且极其简洁的数据流，解密后显示如下\n发信人： 机械主脑\n信号源： 主思维中枢\n主题： 协议已确认 - 执行联合净化协议 J-734\n————————信息开始————————\n协议已记录。\n临时战术同盟已建立。生存概率重新计算中… 68.5%。\n指令：\n机械族作战单元将停止对你方单位的敌对行为。\n我方将优先清除 虚空造物。你方负责突破至 虚空节点。\n不要妨碍机械族行动。\n执行协议。保持通讯畅通。\n————————警告————————\n时空结构完整性损坏超过历史记录峰值，预计敌对生物数量突破阈值。\n生存概率重新计算中…\n————————信息结束————————</EndGame_UV_Mech_OK>
+  <!-- EN: The psychic whisper instantly becomes clear and exalted, like a silent cheer exploding in your mind.
+
+Wise! Ah, what a wise choice! Your soul truly perceives the truth!
+A channel is established... I come now. Let us end this metallic sacrilege with our own hands, and lay the red carpet for our Master!
+Prepare yourself, my friend. You shall witness... true "Divine Grace."
+Oh, and it seems the tin can has noticed my presence. It will likely resist more fiercely now. How amusing~ -->
+  <EndGame_UV_Cult_OK>那心灵低语瞬间变得清晰、高昂，仿佛一场无声的欢呼在你脑海中炸开。\n明智！啊，何等明智的选择！你的灵魂果然能洞见真理！\n通道已经建立...我这就前来。让我们亲手终结这金属的亵渎，为吾主铺就红毯！\n做好准备，吾友。你将亲眼见证...真正的“神恩”是何等模样。\n哦，对了，看起来那个罐头脑袋已经发现了我的存在，估计它会更加剧烈的反抗了，真是有趣~</EndGame_UV_Cult_OK>
+
+  <!-- EN: The whisper in your mind instantly turns into a needle-sharp screech of a thousand voices. The magnetic voice twists, filled with venomous resentment.
+
+Blind fool! You, like those iron cans, block the final path to truth!
+Since you refuse glory, then keep company with its shadow!
+The psychic communication grows progressively garbled, fading until only mocking laughter echoes within your thoughts. -->
+  <EndGame_UV_Cult_No>脑海中的低语瞬间变成千万根针刺般的尖啸，那个富有磁性的声音被扭曲，充满了恶毒的怨恨。\n盲目的蠢货！你与那些铁罐头一样，堵住了通往真理的最后一道门！\n既然你拒绝荣光，那就与这荣光的阴影为伴吧！\n心灵通讯逐渐变得杂乱，最终只剩下嘲弄的笑声回荡在思维中。</EndGame_UV_Cult_No>
+  <!-- EN: All ship screens are instantly covered with crimson warning symbols. The same cold voice forcibly broadcasts again from all speakers, now tinged with a high-frequency static.
+
+Sender: Mechanoid Hive Mind
+Source: Primary Cognitive Core
+Subject: Final Notice - Purification Protocol Initiated === Message Start ===
+Logic error. Organic irrationality exceeds expected parameters.
+Survival probability (Yours: 0.1%, Ours: 39.8%) is no longer acceptable.
+Under the highest priority directive, and to ensure [Void-spawn] do not spread to other regions of this planet, the [Purification Protocol] is now authorized. === Message End === -->
+  <EndGame_UV_Mech_No>飞船所有屏幕瞬间被猩红色的警告符号覆盖，之前那个冰冷的声音再次从所有扬声器中强制播出，语调中多了一丝高频的杂音\n发信人： 机械主脑\n信号源： 主思维中枢\n主题： 最终通告 - 净化协议启动\n————————信息开始————————\n逻辑错误。有机体的非理性超出预期参数。\n生存概率（你方：0.1%，我方：39.8%）已不可接受。\n根据最高优先级指令，为确保 [虚空造物] 不扩散至本星球其他区域，[净化协议] 现已授权。\n————————信息结束————————</EndGame_UV_Mech_No>
+
+  <!-- EN: Mechanoid goodwill decreased by {0} -->
   <MechGoodwillDecreased>机械族好感度降低{0}</MechGoodwillDecreased>
+  <!-- EN: Mechanoids are now hostile. Goodwill: {0} -->
   <MechBecameHostile>机械族已敌对，好感：{0}</MechBecameHostile>
+  <!-- EN: Restored friendly relations with mechanoids. Current goodwill: {0} -->
   <MechBecameAlly>与机械族重归友好，当前好感：{0}</MechBecameAlly>
 
-
-  <UV_Cult_Comms_OK>思维脉冲返回一段回复
-  “吾友、你的需求已被实现”</UV_Cult_Comms_OK>
+  <!-- EN: the psychic pulse returns a message
+  "my friend,your needs have been fulfilled " -->
+  <UV_Cult_Comms_OK>思维脉冲返回一段回复\n  “吾友、你的需求已被实现”</UV_Cult_Comms_OK>
 
 </LanguageData>

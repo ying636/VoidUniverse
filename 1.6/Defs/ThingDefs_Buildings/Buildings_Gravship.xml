@@ -1,7 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="FuelTankBase">
+  <ThingDef Name="UV_FuelTankBase" ParentName="GravshipComponentBase" Abstract="True">
+    <fillPercent>0.6</fillPercent>
+    <passability>PassThroughOnly</passability>
+    <pathCost>20</pathCost>
+    <canOverlapZones>false</canOverlapZones>
+    <designationCategory>Odyssey</designationCategory>
+    <tickerType>Normal</tickerType>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <terrainAffordanceNeeded>Substructure</terrainAffordanceNeeded>
+    <minifiedDef IsNull="True"/>
+    <thingCategories IsNull="True"/>
+    <comps>
+      <li Class="CompProperties_GravshipFacility">
+        <providesFuel>true</providesFuel>
+        <componentTypeDef>FuelStorage</componentTypeDef>
+        <requiresLOS>false</requiresLOS>
+        <showMaxSimultaneous>false</showMaxSimultaneous>
+        <maxSimultaneous>9999</maxSimultaneous>
+        <maxDistance>500</maxDistance>
+      </li>
+    </comps>
+    <uiOrder>2150</uiOrder>
+  </ThingDef>
+
+  <ThingDef ParentName="UV_FuelTankBase">
     <defName>UV_FleshChemfuelTank</defName>
     <label>small flesh chemfuel tank</label>
     <description>A fuel storage tank for grav ship thrusters. Equipped with an internal flesh-culturing apparatus that continuously generates chemfuel.</description>
@@ -23,6 +47,16 @@
     </statBases>
     <size>(2, 2)</size>
     <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>0</explosiveRadius>
+        <explosiveExpandPerFuel>0.06</explosiveExpandPerFuel>
+        <explosiveDamageType>Flame</explosiveDamageType>
+        <destroyThingOnExplosionSize>2</destroyThingOnExplosionSize>
+        <startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+        <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+        <preExplosionSpawnChance>1</preExplosionSpawnChance>
+        <wickTicks>70~150</wickTicks>
+      </li>
       <li Class="VoidUniverse.CompPropertiesGeenrateFuel">
         <fuelCount>25</fuelCount>
       </li>
@@ -49,7 +83,7 @@
     <designationCategory></designationCategory>
   </ThingDef>
 
-  <ThingDef ParentName="FuelTankBase">
+  <ThingDef ParentName="UV_FuelTankBase">
     <defName>UV_FleshLargeChemfuelTank</defName>
     <label>large flesh chemfuel tank</label>
     <description>A large-scale fuel storage tank for grav ship thrusters. Features an integrated fleshmass nucleus containment housing that enables continuous chemfuel production.</description>
@@ -71,6 +105,16 @@
     </statBases>
     <size>(3, 3)</size>
     <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>0</explosiveRadius>
+        <explosiveExpandPerFuel>0.06</explosiveExpandPerFuel>
+        <explosiveDamageType>Flame</explosiveDamageType>
+        <destroyThingOnExplosionSize>2</destroyThingOnExplosionSize>
+        <startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+        <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+        <preExplosionSpawnChance>1</preExplosionSpawnChance>
+        <wickTicks>70~150</wickTicks>
+      </li>
       <li>
         <compClass>VoidUniverse.CompFleshHeart</compClass>
       </li>

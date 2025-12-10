@@ -29,7 +29,7 @@
             <MeditationFocusStrength>0.24</MeditationFocusStrength>
         </statBases>
         <comps>
-            <li Class="CompProperties_Facility"> 
+            <li Class="CompProperties_Facility">
                 <maxDistance>40</maxDistance>
                 <maxSimultaneous>10</maxSimultaneous>
             </li>
@@ -370,6 +370,44 @@ You can manually trigger the obelisk, which will significantly weaken the pulse'
                     <canTargetMechs>false</canTargetMechs>
                     <onlyTargetControlledPawns>true</onlyTargetControlledPawns>
                 </targetingParameters>
+            </li>
+        </comps>
+    </ThingDef>
+
+
+    <ThingDef ParentName="HoldingPlatformBase">
+        <defName>UV_VoidHoldingPlatform</defName>
+        <label>void holding platform</label>
+        <description>A platform used for the complete containment of dangerous entities. Crafted from fragments of the Void Monolith, it renders all contained entities utterly powerless to resist.
+Downed entities can be captured and secured on a holding platform,where they can be studied for Anomaly knowledge.increase containment strength by building strong walls and doors,and other special containment devices.</description>
+        <thingClass>VoidUniverse.Building_VoidHoldingPlatform</thingClass>
+        <graphicData>
+            <texPath>Things/Building/UV_VoidHoldingPlatform/UV_VoidHoldingPlatform_close</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(3, 3)</drawSize>
+        </graphicData>
+        <researchPrerequisites>
+            <li>UV_Project_VoidThruster</li>
+        </researchPrerequisites>
+        <statBases>
+            <MaxHitPoints>5000</MaxHitPoints>
+            <WorkToBuild>2000</WorkToBuild>
+            <Mass>30</Mass>
+            <Flammability>0</Flammability>
+            <ContainmentStrength>999999</ContainmentStrength>
+        </statBases>
+        <costList>
+            <BlocksVacstone>40</BlocksVacstone>
+            <MonolithFragment>1</MonolithFragment>
+        </costList>
+        <comps>
+            <li Class="CompProperties_EntityHolderPlatform">
+                <untetheredGraphicTexPath>Things/Building/HoldingPlatform/HoldingPlatform_ChainsUntethered</untetheredGraphicTexPath>
+                <tilingChainTexPath>Things/Building/HoldingPlatform/HoldingPlatform_EntityChain_StrongOutline</tilingChainTexPath>
+                <baseChainFastenerTexPath>Things/Building/HoldingPlatform/HoldingPlatform_ChainFastener</baseChainFastenerTexPath>
+                <targetChainFastenerTexPath>Things/Building/HoldingPlatform/HoldingPlatform_ChainFastener_StrongOutline</targetChainFastenerTexPath>
+                <entityLungeSoundHi>EntityChainHigh</entityLungeSoundHi>
+                <entityLungeSoundLow>EntityChainLow</entityLungeSoundLow>
             </li>
         </comps>
     </ThingDef>

@@ -9,6 +9,7 @@
   <SetEffectRadiusText>target effect radius:{0}</SetEffectRadiusText>
   <ObeliskDestroyed>The obelisk has been destroyed</ObeliskDestroyed>
   <NullTarget>no target</NullTarget>
+  <NullTarget_Gold>The ritual must target a golden canary, which can be obtained by crafting a gold prototype at the bioferrite shaper, then activating it.</NullTarget_Gold>
   <ErrorGraph>error Graph</ErrorGraph>
   <CantFindGravEngine>no grav engine</CantFindGravEngine>
   <RitualGive>ritual gived</RitualGive>

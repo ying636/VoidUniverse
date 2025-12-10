@@ -205,10 +205,10 @@
     <li>subject_gerund-> 部署虚空延展器以扩大逆重飞船的有效载荷空间</li>
   </UV_Project_VoidFieldExtender.generalRules.rulesStrings>
   
-  <!-- EN: void thruster -->
-  <UV_Project_VoidThruster.label>石碑推进器</UV_Project_VoidThruster.label>
-  <!-- EN: Construct a Dark Arcane-powered spacecraft thruster that significantly reduces fuel consumption. -->
-  <UV_Project_VoidThruster.description>解锁建造使用暗黑超凡碎片替换逆重核心的飞船延展器</UV_Project_VoidThruster.description>
+  <!-- EN: void monolithtech -->
+  <UV_Project_VoidThruster.label>虚空巨石科技</UV_Project_VoidThruster.label>
+  <!-- EN: Unlocks archotech structures forged from Monolith Fragments, designed for the complete containment of entities and space travel. -->
+  <UV_Project_VoidThruster.description>解锁使用巨石碎块打造的超凡建筑，用彻底收容实体与太空航行。</UV_Project_VoidThruster.description>
   <!-- EN:
     <li>subject->Void Thruster</li>
     <li>subject_story-> Tested experimental engines generating thrust by tearing spacetime</li>

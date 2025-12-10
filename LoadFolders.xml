@@ -2,6 +2,7 @@
 <loadFolders>
   <v1.6>
     <li>/</li>
-    <li>1.6</li> 
+    <li>1.6</li>
+    <li IfModActive="vanillaexpanded.gravship">1.6/VGE</li>
   </v1.6>
 </loadFolders>

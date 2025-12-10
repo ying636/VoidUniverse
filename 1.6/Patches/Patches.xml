@@ -43,7 +43,7 @@
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
-		<xpath>/Defs/EntityCodexEntryDef[defName="VoidNode"]</xpath>
+		<xpath>/Defs/EntityCodexEntryDef[defName="VoidStructure"]</xpath>
 		<value>
 			<discoveredResearchProjects>
 				<li>UV_Project_VoidThruster</li>
@@ -202,6 +202,107 @@
 		<xpath>/Defs/PsychicRitualDef_SummonFleshbeastsPlayer[defName="SummonFleshbeastsPlayer"]/layerWhitelist</xpath>
 		<value>
 			<li>Orbit</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/EntityCodexEntryDef[defName="Ghoul"]/provocationIncidents</xpath>
+		<value>
+			<li>UV_GhoulSpaceAttack</li>
+		</value>
+	</Operation>
+
+	<!-- === Gorehulk === -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/EntityCodexEntryDef[defName="Gorehulk"]/provocationIncidents</xpath>
+		<value>
+			<li>UV_SpaceGorehulkAssault</li>
+		</value>
+	</Operation>
+
+	<!-- === Devourer === -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/EntityCodexEntryDef[defName="Devourer"]/provocationIncidents</xpath>
+		<value>
+			<li>UV_DevourerAssault</li>
+		</value>
+	</Operation>
+
+	<!-- === Chimera === -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/EntityCodexEntryDef[defName="Chimera"]/provocationIncidents</xpath>
+		<value>
+			<li>UV_ChimeraAssault</li>
+		</value>
+	</Operation>
+
+	<!-- === Revenant === -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/EntityCodexEntryDef[defName="Revenant"]/provocationIncidents</xpath>
+		<value>
+			<li>UV_Revenant</li>
+		</value>
+	</Operation>
+
+	<!-- === Nociosphere === -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/EntityCodexEntryDef[defName="Nociosphere"]/provocationIncidents</xpath>
+		<value>
+			<li>UV_Nociosphere</li>
+		</value>
+	</Operation>
+
+	<!-- === Twisted Obelisk === -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/EntityCodexEntryDef[defName="TwistedObelisk"]/provocationIncidents</xpath>
+		<value>
+			<li>UV_WarpedObelisk</li>
+		</value>
+	</Operation>
+
+	<!-- === Corrupted Obelisk === -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/EntityCodexEntryDef[defName="CorruptedObelisk"]/provocationIncidents</xpath>
+		<value>
+			<li>UV_WarpedObelisk</li>
+		</value>
+	</Operation>
+
+	<!-- === Warped Obelisk === -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/EntityCodexEntryDef[defName="WarpedObelisk"]/provocationIncidents</xpath>
+		<value>
+			<li>UV_WarpedObelisk</li>
+		</value>
+	</Operation>
+
+	<!-- === Twisted Obelisk (Mutator) === -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/IncidentDef[defName="WarpedObelisk_Mutator"]</xpath>
+		<value>
+			<layerBlacklist>
+				<li>Orbit</li>
+			</layerBlacklist>
+		</value>
+	</Operation>
+
+	<!-- === Corrupted Obelisk (Duplicator) === -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/IncidentDef[defName="WarpedObelisk_Duplicator"]</xpath>
+		<value>
+			<layerBlacklist>
+				<li>Orbit</li>
+			</layerBlacklist>
+		</value>
+	</Operation>
+
+	<!-- === Warped Obelisk (Abductor) === -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/IncidentDef[defName="WarpedObelisk_Abductor"]</xpath>
+		<value>
+			<layerBlacklist>
+				<li>Orbit</li>
+			</layerBlacklist>
 		</value>
 	</Operation>
 

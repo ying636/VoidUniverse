@@ -190,4 +190,9 @@
   <!-- EN: darkness cooldown -->
   <UV_Grav_WarpedObelisk_UnnaturalDarkness.comps.CompObeliskTriggerInteractor.onCooldownString>异常黑暗冷却</UV_Grav_WarpedObelisk_UnnaturalDarkness.comps.CompObeliskTriggerInteractor.onCooldownString>
   
+  <!-- EN: void holding platform -->
+  <UV_VoidHoldingPlatform.label>虚空收容平台</UV_VoidHoldingPlatform.label>
+  <!-- EN: A platform used for the complete containment of dangerous entities. Crafted from fragments of the Void Monolith, it renders all contained entities utterly powerless to resist.\nDowned entities can be captured and secured on a holding platform,where they can be studied for Anomaly knowledge.increase containment strength by building strong walls and doors,and other special containment devices. -->
+  <UV_VoidHoldingPlatform.description>用于将危险实体彻底收容的平台。使用虚空巨石的残块来制作，所有被收容的实体都将彻底无力反抗。\n  倒地的实体可以捕获并安置在收容平台上，对其进行调查能获取异象知识。通过建造坚固的墙体、门以及其他特殊的收容设备来提高收容强度。</UV_VoidHoldingPlatform.description>
+  
 </LanguageData>

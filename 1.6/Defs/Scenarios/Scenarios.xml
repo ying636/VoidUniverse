@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ScenPartDef>
+    <defName>UV_DarkPart</defName>
+    <label>dark</label>
+    <category>Fixed</category>
+    <scenPartClass>VoidUniverse.ScenPart_Dark</scenPartClass>
+    <summaryPriority>1000</summaryPriority>
+  </ScenPartDef>
+
+  <ScenarioDef ParentName="ScenarioBase">
+    <defName>UV_Start</defName>
+    <label>Deep-Space Anomaly</label>
+    <description>According to the tome you purchased at a high price from space pirates, your expedition has finally borne fruit: an ancient void monolith on a desolate asteroid. As you survey the structure from orbit, the entire asteroid begins to tremble violently, and an unnatural pit gate tears open across its surface. Your ship suddenly loses control and is forced into an emergency crash-landing—the impact rips through the hull, and worse, the engine core has melted down from overload and will take months to cool.
+
+The scholar accompanying you is warped grotesquely under the pressure of the void pulse, turning into a bloodthirsty ghoul. And within that bottomless pit gate, some inhuman, pulsating abomination of flesh is stirring. Most disturbing of all, the void monolith emits an ominous, unceasing drone—one that can no longer be stopped.</description>
+    <scenario>
+      <summary>An explorer and a ghoul set out into space to investigate an ancient monolith.</summary>
+      <playerFaction>
+        <def>PlayerFaction</def>
+        <factionDef>GravshipCrew</factionDef>
+      </playerFaction>
+      <parts>
+        <li Class="ScenPart_PlanetLayer">
+          <def>PlanetLayerFixed</def>
+          <tag>Orbit</tag>
+          <layer>Orbit</layer>
+          <settingsDef>Orbit</settingsDef>
+          <hide>true</hide>
+          <connections>
+            <Surface>
+              <zoomMode>ZoomIn</zoomMode>
+            </Surface>
+          </connections>
+        </li>
+        <li Class="ScenPart_GameStartDialog">
+          <def>GameStartDialog</def>
+          <text>According to the tome you purchased at a high price from space pirates, your expedition has finally borne fruit: an ancient void monolith on a desolate asteroid. As you survey the structure from orbit, the entire asteroid begins to tremble violently, and an unnatural pit gate tears open across its surface. Your ship suddenly loses control and is forced into an emergency crash-landing—the impact rips through the hull, and worse, the engine core has melted down from overload and will take months to cool.
+The scholar accompanying you is warped grotesquely under the pressure of the void pulse, turning into a bloodthirsty ghoul. And within that bottomless pit gate, some inhuman, pulsating abomination of flesh is stirring. Most disturbing of all, the void monolith emits an ominous, unceasing drone—one that can no longer be stopped.</text>
+          <closeSound>GameStartSting</closeSound>
+        </li>
+        <li Class="ScenPart_ForcedMap">
+          <def>ForcedMap</def>
+          <mapGenerator>UV_AsteroidMap</mapGenerator>
+          <layerDef>Orbit</layerDef>
+        </li>
+
+        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns_Mutants">
+          <def>ConfigurePawnsMutants</def>
+          <pawnChoiceCount>8</pawnChoiceCount>
+          <mutantCounts>
+            <li>
+              <allowedDevelopmentalStages>Baby, Child, Adult</allowedDevelopmentalStages>
+            </li>
+            <li>
+              <requiredAtStart>True</requiredAtStart>
+              <mutant>Ghoul</mutant>
+              <allowedDevelopmentalStages>Adult</allowedDevelopmentalStages>
+            </li>
+          </mutantCounts>
+        </li>
+        <li Class="ScenPart_PlayerPawnsArriveMethod">
+          <def>PlayerPawnsArriveMethod</def>
+          <method>Gravship</method>
+        </li>
+        <li Class="VoidUniverse.ScenPart_Dark">
+          <def>UV_DarkPart</def>
+        </li>
+        <li Class="ScenPart_StartingResearch">
+          <def>StartingResearch</def>
+          <project>SecurityDoor</project>
+        </li>
+        <li Class="ScenPart_StartingResearch">
+          <def>StartingResearch</def>
+          <project>Batteries</project>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MealSurvivalPack</thingDef>
+          <count>50</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Meat_Twisted</thingDef>
+          <count>100</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MedicineIndustrial</thingDef>
+          <count>30</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>ComponentIndustrial</thingDef>
+          <count>45</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>HoldingPlatform</thingDef>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Tome</thingDef>
+          <quality>Good</quality>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Gun_PumpShotgun</thingDef>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Apparel_PackTurret</thingDef>
+        </li>
+        <li Class="ScenPart_ScatterThingsNearPlayerStart">
+          <def>StartingThing_Defined</def>
+          <thingDef>Bioferrite</thingDef>
+          <count>100</count>
+          <allowRoofed>True</allowRoofed>
+        </li>
+        <li Class="ScenPart_ScatterThingsAnywhere">
+          <def>StartingThing_Defined</def>
+          <thingDef>Meat_Twisted</thingDef>
+          <count>1200</count>
+        </li>
+        <li Class="ScenPart_ScatterThingsNearPlayerStart">
+          <def>StartingThing_Defined</def>
+          <thingDef>WoodLog</thingDef>
+          <count>200</count>
+          <allowRoofed>True</allowRoofed>
+        </li>
+        <li Class="ScenPart_ScatterThingsNearPlayerStart">
+          <def>StartingThing_Defined</def>
+          <thingDef>Steel</thingDef>
+          <count>400</count>
+          <allowRoofed>True</allowRoofed>
+        </li>
+        <li Class="ScenPart_ScatterThingsNearPlayerStart">
+          <def>StartingThing_Defined</def>
+          <thingDef>Plasteel</thingDef>
+          <count>70</count>
+          <allowRoofed>True</allowRoofed>
+        </li>
+        <li Class="ScenPart_ScatterThingsAnywhere">
+          <def>ScatterThingsAnywhere</def>
+          <thingDef>Steel</thingDef>
+          <count>500</count>
+          <allowRoofed>True</allowRoofed>
+        </li>
+        <li Class="ScenPart_ScatterThingsAnywhere">
+          <def>ScatterThingsAnywhere</def>
+          <thingDef>ShipChunk</thingDef>
+          <count>5</count>
+        </li>
+        <li Class="ScenPart_MonolithGeneration">
+          <def>ScenPart_MonolithGeneration</def>
+          <method>NearColonists</method>
+        </li>
+        <li Class="ScenPart_AutoActivateMonolith">
+          <def>AutoActivateMonolith</def>
+          <delayTicks>480000</delayTicks>
+        </li>
+        <li Class="ScenPart_CreateIncident">
+          <def>CreateIncident</def>
+          <incident>RefugeePodCrash_Ghoul</incident>
+          <minDays>15</minDays>
+          <maxDays>15</maxDays>
+        </li>
+        <li Class="ScenPart_StartingResearch">
+          <def>StartingResearch</def>
+          <project>BasicGravtech</project>
+        </li>
+        <li Class="ScenPart_StartingResearch">
+          <def>StartingResearch</def>
+          <project>BiofuelRefining</project>
+        </li>
+        <li Class="ScenPart_ScatterThingsAnywhere">
+          <def>ScatterThingsAnywhere</def>
+          <thingDef>GravlitePanel</thingDef>
+          <count>400</count>
+        </li>
+        <li Class="ScenPart_StartingResearch">
+          <def>StartingResearch</def>
+          <project>BasicPsychicRituals</project>
+        </li>
+      </parts>
+    </scenario>
+  </ScenarioDef>
+
+</Defs>

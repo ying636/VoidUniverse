@@ -96,8 +96,8 @@
 
   <ResearchProjectDef>
     <defName>UV_Project_VoidThruster</defName>
-    <label>void thruster</label>
-    <description>Construct a Dark Arcane-powered spacecraft thruster that significantly reduces fuel consumption.</description>
+    <label>void monolithtech</label>
+    <description>Unlocks archotech structures forged from Monolith Fragments, designed for the complete containment of entities and space travel.</description>
     <tab>UV_Anomaly</tab>
     <knowledgeCost>30</knowledgeCost>
     <knowledgeCategory>Basic</knowledgeCategory>

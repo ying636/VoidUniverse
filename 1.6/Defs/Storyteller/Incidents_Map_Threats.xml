@@ -7,6 +7,7 @@
     <targetTags>
       <li>Map_PlayerHome</li>
     </targetTags>
+    <canOccurOnAllPlanetLayers>true</canOccurOnAllPlanetLayers>
     <workerClass>VoidUniverse.IncidentWorker_GhoulAttackSpace</workerClass>
     <baseChance>0.2</baseChance>
     <minAnomalyThreatLevel>1</minAnomalyThreatLevel>
@@ -21,6 +22,7 @@
     <defName>UV_SpaceGorehulkAssault</defName>
     <label>gorehulk assault</label>
     <workerClass>VoidUniverse.IncidentWorker_GorehulkAssaultSpace</workerClass>
+    <canOccurOnAllPlanetLayers>true</canOccurOnAllPlanetLayers>
     <baseChance>1.5</baseChance>
     <minAnomalyThreatLevel>1</minAnomalyThreatLevel>
     <letterLabel>Gorehulk assault</letterLabel>
@@ -33,6 +35,7 @@
     <defName>UV_DevourerAssault</defName>
     <label>devourer assault</label>
     <workerClass>VoidUniverse.IncidentWorker_SpaceDevourerAssault</workerClass>
+    <canOccurOnAllPlanetLayers>true</canOccurOnAllPlanetLayers>
     <baseChance>1.5</baseChance>
     <minThreatPoints>350</minThreatPoints>
     <minAnomalyThreatLevel>1</minAnomalyThreatLevel>
@@ -45,6 +48,7 @@
     <defName>UV_ChimeraAssault</defName>
     <label>chimera assault</label>
     <workerClass>VoidUniverse.IncidentWorker_SpaceChimeraAssault</workerClass>
+    <canOccurOnAllPlanetLayers>true</canOccurOnAllPlanetLayers>
     <baseChance>2</baseChance>
     <minAnomalyThreatLevel>1</minAnomalyThreatLevel>
     <minThreatPoints>300</minThreatPoints>
@@ -58,6 +62,7 @@
       <li>Map_PlayerHome</li>
     </targetTags>
     <workerClass>VoidUniverse.IncidentWorker_Revenant</workerClass>
+    <canOccurOnAllPlanetLayers>true</canOccurOnAllPlanetLayers>
     <baseChance>1</baseChance>
     <minAnomalyThreatLevel>1</minAnomalyThreatLevel>
     <minPopulation>5</minPopulation>
@@ -74,6 +79,7 @@
     <letterLabel>obelisk core</letterLabel>
     <description>A mysterious obelisk core has crashed into the grav ship and rapidly corrupted the GravEngine.\n\nThe obelisk hums with putrid psychic energy, gradually intensifying as it approaches some dangerous limit. You can send colonists to suppress the obelisk to prevent it from activating.\n\nYou can also mark the obelisk for study to try to learn its purpose and perhaps make use of it.\n\nYou can always attack the obelisk to destroy it, but doing so may unleash unnatural and dangerous phenomena.</description>
     <workerClass>VoidUniverse.IncidentWorker_SpaceObelisk</workerClass>
+    <canOccurOnAllPlanetLayers>true</canOccurOnAllPlanetLayers>
   </IncidentDef>
 
 
@@ -84,6 +90,7 @@
       <li>Map_PlayerHome</li>
     </targetTags>
     <workerClass>VoidUniverse.IncidentWorker_Nociosphere</workerClass>
+    <canOccurOnAllPlanetLayers>true</canOccurOnAllPlanetLayers>
     <category>ThreatBig</category>
     <letterLabel>Nociosphere</letterLabel>
     <letterText>A strange metallic sphere has appeared. It hurts to be near it.\n\nYou could attack it, though you're not sure how it might defend itself. Or, you could capture it using a holding platform and learn to make use of its power.\n\nIt seems quiet for now, but it is gaining energy over time. You can suppress the sphere when it is captured to a holding platform, reducing its energy.</letterText>
@@ -95,12 +102,28 @@
   </IncidentDef>
 
   <IncidentDef ParentName="AnomalyIncidentBase">
+    <defName>UV_SightstealerArrival</defName>
+    <label>sightstealer arrival</label>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <canOccurOnAllPlanetLayers>true</canOccurOnAllPlanetLayers>
+    <workerClass>VoidUniverse.IncidentWorker_SightstealerArrival</workerClass>
+    <baseChance>2</baseChance>
+    <minAnomalyThreatLevel>1</minAnomalyThreatLevel>
+    <pointsScaleable>true</pointsScaleable>
+    <category>ThreatBig</category>
+    <hidden>true</hidden>
+  </IncidentDef>
+
+  <IncidentDef ParentName="AnomalyIncidentBase">
     <defName>UV_HateChanters</defName>
     <label>hate chanters</label>
     <targetTags>
       <li>Map_PlayerHome</li>
     </targetTags>
     <workerClass>VoidUniverse.IncidentWorker_HateChanters</workerClass>
+    <canOccurOnAllPlanetLayers>true</canOccurOnAllPlanetLayers>
     <baseChance>1.5</baseChance>
     <minAnomalyThreatLevel>1</minAnomalyThreatLevel>
     <minThreatPoints>200</minThreatPoints>
@@ -108,6 +131,6 @@
     <category>ThreatBig</category>
     <pointsScaleable>true</pointsScaleable>
   </IncidentDef>
-  
+
 
 </Defs>

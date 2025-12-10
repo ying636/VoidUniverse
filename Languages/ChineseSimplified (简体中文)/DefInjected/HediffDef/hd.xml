@@ -28,6 +28,11 @@
   <!-- EN: The Gold Canary's psychic pulse alleviates cube addiction. -->
   <UV_Hediff_GoldenCanaryHeal.description>魔金鸟的心灵脉冲缓解了魔方依赖</UV_Hediff_GoldenCanaryHeal.description>
   
+  <!-- EN: dark infusion -->
+  <UV_Hediff_Void.label>虚空赋能</UV_Hediff_Void.label>
+  <!-- EN: Protected by Anomaly nanites, the target can temporarily operate safely in the vacuum of space. -->
+  <UV_Hediff_Void.description>受到暗黑超凡微械的保护，在一段时间内，可以在太空中安全行动</UV_Hediff_Void.description>
+  
   <!-- EN: void infusion -->
   <UV_Hediff_VoidInfusionPermenent.label>虚空赋能</UV_Hediff_VoidInfusionPermenent.label>
   <!-- EN: Protected by Anomaly nanites, the target can temporarily operate safely in the vacuum of space. -->
